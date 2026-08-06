@@ -128,7 +128,7 @@ export const faqCategories: FAQCategory[] = [
       {
         question: 'How do we communicate?',
         answer:
-          "I primarily communicate through WhatsApp and email, with video calls when needed. WhatsApp is for conversation only — sensitive tax documents must be uploaded through the secure Encyro portal. Response time varies with filing volume and urgency.",
+          "I primarily communicate through email, with video calls when needed. Sensitive tax documents must be uploaded through the secure Encyro portal. Response time varies with filing volume and urgency.",
       },
       {
         question: 'What documents will I need?',
@@ -196,6 +196,6 @@ export const homepageFaqs: FAQ[] = [
   {
     question: 'How do we communicate and work together?',
     answer:
-      "I communicate via WhatsApp, email, and video calls across time zones. WhatsApp is for conversation, not sensitive tax documents; accepted clients receive secure Encyro upload instructions.",
+      "I communicate via email and video calls across time zones. Accepted clients receive secure Encyro upload instructions.",
   },
 ];

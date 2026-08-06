@@ -6,13 +6,12 @@ import {
   CheckCircle2,
   AlertTriangle,
   Mail,
-  Phone,
 } from "@/components/icons";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { trackConversionEvent } from "@/components/analytics/ConversionTracking";
 import { captureAttribution, getAttributionFields } from "@/lib/attribution";
-import { WHATSAPP_NUMBER, WHATSAPP_DISPLAY } from "@/lib/constants";
+
 import type { Locale } from "@/lib/i18n/config";
 import { localizedPageCopy } from "@/lib/i18n/localized-page-copy";
 
@@ -22,7 +21,6 @@ type FormData = {
   firstName: string;
   lastName: string;
   email: string;
-  whatsapp: string;
   country: string;
   lastState: string;
   citizenStatus: string;
@@ -68,7 +66,6 @@ const initialFormData: FormData = {
   firstName: "",
   lastName: "",
   email: "",
-  whatsapp: "",
   country: "",
   lastState: "",
   citizenStatus: "",
@@ -171,9 +168,16 @@ function readAffiliateReferralPartner() {
 
 export default function IntakeFormPage({ referralPartner, locale = "en" }: IntakePageProps) {
   const copy = localizedPageCopy[locale].intake;
-  const [formData, setFormData] = useState<FormData>(initialFormData);
+  const [formData, setFormData] = useState<FormData>(() => {
+    try {
+      const saved = localStorage.getItem('fa-intake-draft');
+      if (saved) return { ...initialFormData, ...JSON.parse(saved) };
+    } catch {}
+    return initialFormData;
+  });
   const [storedReferralPartner, setStoredReferralPartner] = useState<ReferralPartner>();
   const [formStatus, setFormStatus] = useState<"" | "sending" | "success" | "error">("");
+  const [errorMessage, setErrorMessage] = useState<string>("");
   const [validationErrors, setValidationErrors] = useState<string[]>([]);
   const [privacyConsent, setPrivacyConsent] = useState(false);
   const [botcheck, setBotcheck] = useState("");
@@ -212,7 +216,11 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
   }, []);
 
   const update = (field: keyof FormData, value: string) => {
-    setFormData((prev) => ({ ...prev, [field]: value }));
+    setFormData((prev) => {
+      const next = { ...prev, [field]: value };
+      try { localStorage.setItem('fa-intake-draft', JSON.stringify(next)); } catch {}
+      return next;
+    });
     if (validationErrors.length > 0) setValidationErrors([]);
   };
 
@@ -220,7 +228,9 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
     setFormData((prev) => {
       const current = prev.services;
       const updated = current.includes(service) ? current.filter((s) => s !== service) : [...current, service];
-      return { ...prev, services: updated };
+      const next = { ...prev, services: updated };
+      try { localStorage.setItem('fa-intake-draft', JSON.stringify(next)); } catch {}
+      return next;
     });
     if (validationErrors.length > 0) setValidationErrors([]);
   };
@@ -281,7 +291,6 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
       "First Name": formData.firstName,
       "Last Name": formData.lastName,
       Email: formData.email,
-      "WhatsApp Number": formData.whatsapp,
       "Country of Residence": formData.country,
       "U.S. State of Last Residence": formData.lastState,
       "Citizenship Status": formData.citizenStatus,
@@ -343,6 +352,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
       return;
     }
     setValidationErrors([]);
+    setErrorMessage("");
     setFormStatus("sending");
     const submissionData = buildSubmissionData();
     try {
@@ -354,6 +364,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
       const result = await response.json();
       if (response.ok && result.success) {
         setFormStatus("success");
+        try { localStorage.removeItem('fa-intake-draft'); } catch {}
         trackConversionEvent("intake_submit", { site: "fileabroad", service_count: formData.services.length });
         trackConversionEvent("generate_lead", {
           site: "fileabroad",
@@ -361,10 +372,12 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
         });
       } else {
         console.error("Form error:", result);
+        setErrorMessage(result.error || "Server returned an error. Please try again.");
         setFormStatus("error");
       }
     } catch (error) {
       console.error("Fetch error:", error);
+      setErrorMessage("Network error. Please check your connection and try again.");
       setFormStatus("error");
     }
   };
@@ -388,18 +401,19 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
         <AlertTriangle className="w-7 h-7 text-red-600" />
       </div>
       <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground mb-3">Something went wrong</h2>
-      <p className="text-base text-muted-foreground max-w-md mx-auto mb-6">Your form couldn&apos;t be submitted. Please try again, or reach out directly:</p>
+      <p className="text-base text-muted-foreground max-w-md mx-auto mb-2">Your form couldn&apos;t be submitted.</p>
+      {errorMessage && (
+        <p className="text-sm text-red-600 max-w-md mx-auto mb-4 bg-red-50 rounded-md px-3 py-2">{errorMessage}</p>
+      )}
+      <p className="text-base text-muted-foreground max-w-md mx-auto mb-6">Please try again, or reach out directly:</p>
       <div className="space-y-2 mb-8">
-        <p className="text-foreground flex items-center justify-center gap-2 text-sm">
-          <Phone className="w-4 h-4 text-accent" />
-          <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Chip — I had trouble submitting the intake form. Can we continue here? [FA-GENERAL]")}`} target="_blank" rel="noopener noreferrer" className="text-accent hover:underline font-semibold">{WHATSAPP_DISPLAY}</a>
-        </p>
         <p className="text-foreground flex items-center justify-center gap-2 text-sm">
           <Mail className="w-4 h-4 text-accent" />
           <a href="mailto:info@fileabroad.com" className="text-accent hover:underline font-semibold">info@fileabroad.com</a>
         </p>
+        <p className="text-sm text-muted-foreground">We typically reply within one business day.</p>
       </div>
-      <button onClick={() => setFormStatus("")} className="bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3">Try Again</button>
+      <button onClick={() => { setFormStatus(""); setErrorMessage(""); }} className="bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3">Try Again</button>
     </div>
   );
 
@@ -442,7 +456,6 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
                   </div>
                   <div className="grid md:grid-cols-2 gap-3">
                     <Field label="Email" required><input type="email" value={formData.email} onChange={(e) => update("email", e.target.value)} className={inputClass} placeholder="john@example.com" /></Field>
-                    <Field label="WhatsApp"><input type="tel" value={formData.whatsapp} onChange={(e) => update("whatsapp", e.target.value)} className={inputClass} placeholder="+1 555 123 4567" /></Field>
                   </div>
                   <div className="grid md:grid-cols-2 gap-3">
                     <Field label="Country" required><input type="text" value={formData.country} onChange={(e) => update("country", e.target.value)} className={inputClass} placeholder="Ecuador" /></Field>

@@ -2,7 +2,7 @@ import type { ReactNode } from 'react';
 import { slugifyHeading } from '@/lib/headings';
 import { defaultLocale, type Locale } from '@/lib/i18n/config';
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
-import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '@/lib/constants';
+
 import {
   FbarAggregateExample,
   RetirementTaxLayers,
@@ -78,14 +78,12 @@ function InlineCta({ raw, locale }: { raw: string; locale: Locale }) {
   const title = quotedProp(raw, 'title') ?? copy.title;
   const description = quotedProp(raw, 'description') ?? copy.description;
   const button = quotedProp(raw, 'buttonText') ?? copy.button;
-  const whatsappText = raw.match(/<WhatsAppButton\b[^>]*\btext=["']([^"']+)["']/)?.[1] ?? 'WhatsApp';
   return (
     <aside className="not-prose my-10 rounded-xl bg-foreground p-8 text-background">
       <p className="text-xl font-medium">{title}</p>
       <p className="mt-3 max-w-2xl text-sm leading-relaxed text-background/65">{description}</p>
       <div className="mt-6 flex flex-wrap gap-3">
         <a href={href.startsWith('/') ? localizePath(href, locale) : href} className="rounded-lg bg-accent px-5 py-3 text-sm font-semibold text-accent-foreground">{button}</a>
-        {raw.includes('WhatsAppButton') && <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`} target="_blank" rel="noopener noreferrer" className="rounded-lg border border-background/20 px-5 py-3 text-sm font-semibold text-background">{whatsappText}</a>}
       </div>
     </aside>
   );

@@ -1,7 +1,7 @@
 'use client';
 
 import { useMemo, useState } from 'react';
-import { WHATSAPP_NUMBER } from '@/lib/constants';
+
 import Image from 'next/image';
 import Link from 'next/link';
 import { useRouter } from 'next/navigation';
@@ -153,17 +153,7 @@ export function RetainerCheckoutForm({
             Pay securely via ACH debit through Mercury. I&apos;ll email you a hosted invoice link.
           </p>
           <p className="text-sm text-muted-foreground mt-2">
-            No US bank account?{' '}
-            <a
-              href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Chip — I don't have a US bank account. Can I pay by card or transfer for my invoice? [FA-GENERAL]")}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              data-cta-location="checkout"
-              data-whatsapp-intent="payment_alternative"
-              className="text-secondary hover:underline"
-            >
-              Message me on WhatsApp for card or transfer options
-            </a>.
+            No US bank account? Email info@fileabroad.com for card or transfer options.
           </p>
         </div>
 
@@ -365,7 +355,7 @@ export function RetainerCheckoutForm({
                   )}
                   <p>
                     <strong>Documents.</strong> Do not email or send sensitive tax
-                    documents through WhatsApp. FileAbroad will provide secure Encyro
+                    documents through unencrypted channels. FileAbroad will provide secure Encyro
                     upload instructions when documents are needed.
                   </p>
                   <p>

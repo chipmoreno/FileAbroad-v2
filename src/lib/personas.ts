@@ -115,7 +115,7 @@ export function getPersonaLongFormSections(persona: PersonaData): { heading: str
     },
     {
       heading: 'Questions to bring to the appointment',
-      body: `Bring the tax years, countries and states, broad income categories, account and entity types, major transactions, residence timeline, prior filings, notices, and the question that feels most urgent. The FAQs on this page cover themes such as ${faqThemes} but they do not decide the reader’s result. Bring a redacted timeline and a list of missing records rather than sending sensitive documents through WhatsApp. The most useful appointment is one where the facts are organized enough to identify what can be answered now, what requires a calculation, what requires current primary-source research, and what must be referred outside the preparation scope.`,
+      body: `Bring the tax years, countries and states, broad income categories, account and entity types, major transactions, residence timeline, prior filings, notices, and the question that feels most urgent. The FAQs on this page cover themes such as ${faqThemes} but they do not decide the reader’s result. Bring a redacted timeline and a list of missing records rather than sending sensitive documents through unencrypted channels. The most useful appointment is one where the facts are organized enough to identify what can be answered now, what requires a calculation, what requires current primary-source research, and what must be referred outside the preparation scope.`,
     },
   ];
 }

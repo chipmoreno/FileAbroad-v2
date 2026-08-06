@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '@/lib/constants';
+
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
 import { type Locale, defaultLocale } from '@/lib/i18n/config';
 
@@ -50,7 +50,6 @@ export default function Footer({ locale = defaultLocale }: { locale?: Locale }) 
             <p className="text-xs font-semibold uppercase tracking-widest text-[#faf9f7]/65">{dict.footer.contact}</p>
             <div className="mt-5 flex flex-col gap-3">
               <a className={linkClass} href="mailto:info@fileabroad.com">info@fileabroad.com</a>
-              <a className={linkClass} href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`} target="_blank" rel="noopener noreferrer">WhatsApp</a>
               <span className="text-sm text-[#faf9f7]/75">Cuenca, Ecuador</span>
               <Link href={local('/consultation')} className="mt-2 inline-flex w-fit rounded-lg bg-accent px-4 py-2 text-sm font-semibold text-accent-foreground">{dict.home.aboutCtaIntake}</Link>
             </div>

@@ -22,7 +22,6 @@ import { sendGa4ServerEvent } from "@/lib/ga4-server";
 import {
   sendEmail,
   ADMIN_EMAIL,
-  CHIP_WHATSAPP_NUMBER,
   escapeHtml,
 } from "@/lib/sendEmail";
 
@@ -132,7 +131,7 @@ async function sendCustomerConfirmation(
 
   const subject = `FileAbroad \u2014 payment received for ${pricing.label}`;
   const nextSteps = whatHappensNextCopy(input.serviceType, input.year);
-  const waLink = `https://wa.me/${CHIP_WHATSAPP_NUMBER.replace(/[^\d]/g, "")}`;
+  const contactEmail = "info@fileabroad.com";
   const isConsultation = [
     "consultation30",
     "consultation60",
@@ -179,9 +178,7 @@ async function sendCustomerConfirmation(
           <p style="margin:0 0 14px">${escapeHtml(nextSteps)}</p>
           ${schedulingButton}
           <p style="margin:0 0 14px">
-            Need to reach me in the meantime? WhatsApp me at
-            <a href="${waLink}" style="color:#d97706">${escapeHtml(CHIP_WHATSAPP_NUMBER)}</a>
-            or just reply to this email.
+            Need to reach me in the meantime? Just reply to this email.
           </p>
           <hr style="border:none;border-top:1px solid #e7dccb;margin:20px 0" />
           <p style="margin:0;font-size:12px;color:#64748b">
@@ -207,7 +204,6 @@ async function sendCustomerConfirmation(
     nextSteps,
     schedulingUrl ? `Schedule: ${schedulingUrl}` : "",
     "",
-    `WhatsApp: ${CHIP_WHATSAPP_NUMBER} (${waLink})`,
     "Or just reply to this email.",
     "",
     "FileAbroad provides U.S. tax return preparation within a written scope.",

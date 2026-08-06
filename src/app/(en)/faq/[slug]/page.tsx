@@ -151,9 +151,9 @@ export default async function FAQSlugPage({ params }: Props) {
 
       <CTASection
         title="Still Have Questions?"
-        description="Every expat situation is unique. If you need personalized guidance, let's talk."
-        buttonText="Message Chip on WhatsApp"
-        buttonHref="https://wa.me/593962848410"
+        description="Every expat situation is unique. If you need personalized guidance, start an intake."
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       {schemas.map((schema, i) => (

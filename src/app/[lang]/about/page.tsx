@@ -14,7 +14,7 @@ import {
   MapPin,
   Users,
 } from '@/components/icons';
-import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '@/lib/constants';
+
 import { generateLocalizedMetadata, extractLocale } from '@/lib/i18n/metadata';
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
 
@@ -282,7 +282,7 @@ export default async function AboutPage({ params }: Props) {
         title={about.ctaTitle}
         description={about.ctaDescription}
         buttonText={about.ctaButton}
-        buttonHref={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`}
+        buttonHref={l('/intake')}
       />
     </PageShell>
   );

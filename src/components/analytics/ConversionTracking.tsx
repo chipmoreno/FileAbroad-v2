@@ -138,17 +138,7 @@ export default function ConversionTracking() {
         return;
       }
 
-      if (!['wa.me', 'api.whatsapp.com'].includes(url.hostname)) return;
 
-      const properties = {
-        site: 'fileabroad',
-        page_path: pagePath,
-        locale: getElementProperties(anchor).locale,
-        cta_location: anchor.dataset.ctaLocation || 'inline',
-        intent: anchor.dataset.whatsappIntent || getIntent(pagePath),
-      };
-
-      trackConversionEvent('whatsapp_open', properties);
     }
 
     function handleFocus(event: FocusEvent) {

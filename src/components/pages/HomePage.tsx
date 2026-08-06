@@ -2,7 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from '@/components/icons';
 import { homepageFaqs, type FAQ } from '@/lib/faq-data';
-import { WHATSAPP_NUMBER, WHATSAPP_MESSAGE } from '@/lib/constants';
+
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
 import { defaultLocale, type Locale } from '@/lib/i18n/config';
 
@@ -165,7 +165,6 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
             </blockquote>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold">
               <Link href={localizeHref('/about')} className="link-underline text-accent">{home.heroCardLink}</Link>
-              <a href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(WHATSAPP_MESSAGE)}`} target="_blank" rel="noopener noreferrer" className="link-underline text-accent">WhatsApp</a>
               <a href="mailto:info@fileabroad.com" className="link-underline text-accent">Email</a>
             </div>
           </div>

@@ -201,7 +201,7 @@ export default function HowItWorksPageContent({ dict, locale }: Props) {
               </div>
             </div>
             <p className="mt-8 border-l-2 border-secondary pl-4 text-sm leading-relaxed text-muted-foreground">
-              Prepare these items, but do not upload SSNs, passports, tax returns, or financial statements through this page, email, or WhatsApp. Secure Encyro upload instructions are provided after the engagement is accepted.
+              Prepare these items, but do not upload SSNs, passports, tax returns, or financial statements through this page or email. Secure Encyro upload instructions are provided after the engagement is accepted.
             </p>
             <p className="mt-8 text-sm text-muted-foreground">{d.whatYouNeedClosing}</p>
           </CardContent>

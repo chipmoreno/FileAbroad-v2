@@ -48,7 +48,7 @@ export const SERVICE_PRICING: Record<ServiceKey, ServicePricing> = {
     requiresYear: true,
     defaultYear: DEFAULT_TAX_YEAR,
     description:
-      "Tax year 2025 federal return with in-scope foreign income exclusion, foreign tax credits, FBAR, and WhatsApp support. Prior years require scope review.",
+      "Tax year 2025 federal return with in-scope foreign income exclusion, foreign tax credits, and FBAR. Prior years require scope review.",
     milestones: [
       {
         label: "Flat fee per year",

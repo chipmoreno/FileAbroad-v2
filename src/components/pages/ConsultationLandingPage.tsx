@@ -22,7 +22,7 @@ const generalFaqs = [
   },
   {
     question: 'Should I upload tax documents before the consultation?',
-    answer: 'No. Use the preliminary intake for broad facts only. Do not send Social Security numbers, account numbers, passports, or tax documents through the public form or WhatsApp. Secure upload instructions come after an accepted scope.',
+    answer: 'No. Use the preliminary intake for broad facts only. Do not send Social Security numbers, account numbers, passports, or tax documents through the public form or unencrypted channels. Secure upload instructions come after an accepted scope.',
   },
   {
     question: 'Can the consultation determine whether I am legally eligible?',

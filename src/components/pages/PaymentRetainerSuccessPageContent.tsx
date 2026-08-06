@@ -6,7 +6,7 @@ import {
   SERVICE_PRICING,
   type ServiceKey,
 } from "@/lib/pricing";
-import { WHATSAPP_NUMBER } from "@/lib/constants";
+
 import { Locale, defaultLocale } from "@/lib/i18n/config";
 
 interface PaymentRetainerSuccessPageContentProps {
@@ -33,8 +33,8 @@ export default function PaymentRetainerSuccessPageContent({
       <main id="main-content" tabIndex={-1} className="pt-20">
         <section className="py-20 md:py-28">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-            <div className="inline-flex items-center justify-center w-16 h-16 bg-whatsapp/10 rounded-full mb-6">
-              <CheckCircle2 className="h-8 w-8 text-whatsapp" />
+            <div className="inline-flex items-center justify-center w-16 h-16 bg-green-100 rounded-full mb-6">
+              <CheckCircle2 className="h-8 w-8 text-green-600" />
             </div>
             <h1 className="text-3xl md:text-4xl font-bold font-sans text-foreground">
               Your invoice is on the way
@@ -52,18 +52,13 @@ export default function PaymentRetainerSuccessPageContent({
                   Next: schedule your consultation
                 </p>
                 <p className="text-sm text-muted-foreground mb-4">
-                  After payment clears, I&apos;ll send available time slots. Prefer to book now? Message me on WhatsApp.
+                  After payment clears, I&apos;ll send available time slots via email.
                 </p>
                 <a
-                  href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Chip — I just paid for my consultation. When are you available? [FA-GENERAL]")}`}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  data-cta-location="payment-success"
-                  data-whatsapp-intent="consultation_scheduling"
-                  className="inline-flex items-center justify-center gap-2 bg-whatsapp text-white px-6 py-3 rounded-lg font-semibold text-base shadow hover:shadow-md transition-all"
+                  href="mailto:info@fileabroad.com?subject=Consultation%20Paid%20-%20Ready%20to%20Schedule"
+                  className="inline-flex items-center justify-center gap-2 bg-accent text-white px-6 py-3 rounded-lg font-semibold text-base shadow hover:shadow-md transition-all"
                 >
-                  <MessageCircle className="w-5 h-5" />
-                  Book on WhatsApp
+                  Email to Schedule
                 </a>
               </div>
             )}

@@ -1,8 +1,6 @@
 export const DEFAULT_FROM =
   process.env.RESEND_FROM_EMAIL || "FileAbroad <noreply@ecuapass.com>";
 export const ADMIN_EMAIL = process.env.ADMIN_EMAIL || "chip.moreno@gmail.com";
-export const CHIP_WHATSAPP_NUMBER =
-  process.env.CHIP_WHATSAPP_NUMBER || "+593962848410";
 
 export type Attachment = {
   filename: string;

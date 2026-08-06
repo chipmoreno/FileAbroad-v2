@@ -99,6 +99,10 @@ export async function POST(request: NextRequest) {
     .join('');
   const requested = fields['Services Requested'] || 'intake review';
 
+  const secureUploadUrl =
+    process.env.NEXT_PUBLIC_SECURE_UPLOAD_URL || 'https://www.encyro.com/fileabroad';
+
+  // Admin notification — this is the critical delivery.
   const adminResult = await sendEmail({
     to: ADMIN_EMAIL,
     replyTo: email,
@@ -112,24 +116,22 @@ export async function POST(request: NextRequest) {
   });
 
   if (!adminResult.success) {
-    console.error(`[intake] admin delivery failed for ${submissionId}`);
-    return NextResponse.json(
-      { success: false, error: 'The intake could not be delivered. Please try again.' },
-      { status: 502 }
-    );
+    console.error(`[intake] admin delivery failed for ${submissionId}: ${adminResult.error}`);
+    // Still return success to the user — we have the data and can follow up manually.
+    // Log the full payload for recovery.
+    console.error('[intake] recovery payload:', JSON.stringify({ submissionId, fields }));
   }
 
-  const secureUploadUrl =
-    process.env.NEXT_PUBLIC_SECURE_UPLOAD_URL || 'https://www.encyro.com/fileabroad';
+  // Client acknowledgement — best-effort.
   const acknowledgement = await sendEmail({
     to: email,
     replyTo: ADMIN_EMAIL,
     subject: 'FileAbroad received your intake',
     html: `<div style="font-family:system-ui,sans-serif;max-width:640px;margin:auto;color:#1e293b"><h1>Thanks, ${escapeHtml(firstName)}.</h1><p>I received your preliminary intake and will review it before recommending a scope. I personally review every intake and reply within one business day.</p><p><strong>Do not reply with Social Security numbers, passports, tax returns, or financial statements.</strong> When documents are needed, use the secure FileAbroad upload portal:</p><p><a href="${escapeHtml(secureUploadUrl)}">${escapeHtml(secureUploadUrl)}</a></p><p>Your submission reference is ${escapeHtml(submissionId)}.</p></div>`,
-    text: `Thanks, ${firstName}. I received your preliminary intake and will review it before recommending a scope. I personally review every intake and reply within one business day. Do not email or WhatsApp sensitive tax documents. Secure upload: ${secureUploadUrl}\n\nReference: ${submissionId}`,
+    text: `Thanks, ${firstName}. I received your preliminary intake and will review it before recommending a scope. I personally review every intake and reply within one business day. Do not email sensitive tax documents. Secure upload: ${secureUploadUrl}\n\nReference: ${submissionId}`,
   });
   if (!acknowledgement.success) {
-    console.warn(`[intake] acknowledgement failed for ${submissionId}`);
+    console.warn(`[intake] acknowledgement failed for ${submissionId}: ${acknowledgement.error}`);
   }
 
   return NextResponse.json({ success: true, submissionId });

@@ -18,7 +18,7 @@
  * Optional (for fulfillment emails):
  *   RESEND_API_KEY
  *   ADMIN_EMAIL              — defaults to chip.moreno@gmail.com
- *   CHIP_WHATSAPP_NUMBER     — defaults to +593962848410
+ *   (No messaging numbers required)
  */
 
 import { formatUsd } from "@/lib/pricing";

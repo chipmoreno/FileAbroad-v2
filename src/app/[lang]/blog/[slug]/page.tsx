@@ -20,7 +20,6 @@ import ArticleActions from '@/components/seo/ArticleActions';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import BlogFaqs from '@/components/blog/BlogFaqs';
-import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import NewsletterSignup from '@/components/forms/NewsletterSignup';
 import TableOfContents from '@/components/guides/TableOfContents';
 import StateTaxGuideLinks from '@/components/seo/StateTaxGuideLinks';
@@ -386,7 +385,7 @@ export default async function BlogPostPage({ params }: Props) {
                   </Link>
                   .
                 </p>
-                <WhatsAppButton text={dict.common.askQuestion} className="!py-3 !text-base" />
+
               </div>
             </div>
           </CardContent>
