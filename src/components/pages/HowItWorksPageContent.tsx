@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import PageHero from '@/components/layout/PageHero';
-import CTASection from '@/components/layout/CTASection';
 import { Card, CardContent } from '@/components/ui/card';
 import { SiteDictionary } from '@/lib/i18n/types';
 import { Locale } from '@/lib/i18n/config';
@@ -225,7 +224,14 @@ export default function HowItWorksPageContent({ dict, locale }: Props) {
       </section>
 
       {/* CTA */}
-      <CTASection title={d.ctaTitle} description={d.ctaDescription} buttonText="Get Started" buttonHref="/intake" />
+      <section className="max-w-4xl mx-auto px-6 py-12 text-center border-t border-muted">
+        <p className="text-muted-foreground mb-4">
+          {d.ctaDescription}
+        </p>
+        <Link href="/intake" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          {d.ctaButton} <ArrowRight className="w-4 h-4" />
+        </Link>
+      </section>
     </>
   );
 }

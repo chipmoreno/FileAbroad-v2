@@ -2,12 +2,11 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import PageShell from '@/components/layout/PageShell';
 import Breadcrumbs from '@/components/seo/Breadcrumbs';
-import CTASection from '@/components/layout/CTASection';
 import FAQAccordion from '@/components/faq/FAQAccordion';
 import { faqCategories } from '@/lib/faq-data';
 import { buildFAQSchema } from '@/lib/structured-data';
 import JsonLd from '@/components/seo/JsonLd';
-import { HelpCircle } from '@/components/icons';
+import { HelpCircle, ArrowRight } from '@/components/icons';
 
 export const metadata: Metadata = {
   title: 'Expat Tax FAQ — US Tax Filing from Abroad',
@@ -35,18 +34,16 @@ export default function FAQPage() {
         <Breadcrumbs items={[{ label: 'FAQ', href: '/faq' }]} />
       </div>
       {/* Hero Section */}
-      <section className="max-w-6xl mx-auto px-6 py-16 text-center">
-        <span className="inline-flex items-center gap-2 text-sm font-semibold tracking-widest uppercase mb-4 text-secondary">
-          <HelpCircle className="w-5 h-5" />
+      <section className="max-w-6xl mx-auto px-6 py-8 text-center">
+        <span className="inline-flex items-center gap-2 text-xs font-semibold tracking-widest uppercase mb-3 text-secondary">
+          <HelpCircle className="w-4 h-4" />
           Questions Answered
         </span>
-        <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 font-sans text-foreground">
+        <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-4 font-sans text-foreground">
           Frequently Asked Questions
         </h1>
-        <p className="text-xl max-w-3xl mx-auto leading-relaxed text-muted-foreground">
+        <p className="text-base max-w-3xl mx-auto leading-relaxed text-muted-foreground">
           Direct answers to common questions about filing U.S. taxes from abroad.
-          If your facts do not fit a general answer, book a consultation to review
-          the next step.
         </p>
       </section>
 
@@ -56,23 +53,14 @@ export default function FAQPage() {
       </section>
 
       {/* Still Have Questions */}
-      <CTASection
-        title="Still Have Questions?"
-        description="General guidance can identify the next question, but your filing position depends on your facts, tax year, and accepted scope."
-
-      >
-        <div className="mt-8 flex flex-wrap justify-center gap-6 text-sm text-white/60">
-          <Link href="/how-it-works" className="underline hover:text-white">
-            How it works
-          </Link>
-          <Link href="/consultation" className="underline hover:text-white">
-            Book a consultation
-          </Link>
-          <Link href="/services" className="underline hover:text-white">
-            Our services
-          </Link>
-        </div>
-      </CTASection>
+      <section className="max-w-4xl mx-auto px-6 py-12 text-center border-t border-muted">
+        <p className="text-muted-foreground mb-4">
+          General guidance can identify the next question, but your filing position depends on your facts, tax year, and accepted scope.
+        </p>
+        <Link href="/how-it-works" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          See how it works <ArrowRight className="w-4 h-4" />
+        </Link>
+      </section>
     </PageShell>
   );
 }

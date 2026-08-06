@@ -69,7 +69,7 @@ export default function EditorialServicePage(props: EditorialServicePageProps) {
         <Breadcrumbs items={[{ label: 'Services', href: '/services' }, { label: props.breadcrumb, href: `/services/${props.slug}` }]} />
       </div>
 
-      <section className="border-y border-border bg-surface-elevated py-12 md:py-16">
+      <section className="border-y border-border bg-surface-elevated py-6 md:py-8">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[1fr_360px] lg:items-start">
           <div>
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary">{props.eyebrow}</p>
@@ -175,8 +175,13 @@ export default function EditorialServicePage(props: EditorialServicePageProps) {
         </section>
       </div>
 
-      <section className="border-t border-border bg-primary py-14 text-primary-foreground">
-        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-6 px-6 md:flex-row md:items-center"><div><h2 className="font-sans text-3xl font-bold text-white">Know your next step before you pay.</h2><p className="mt-2 text-primary-foreground/75">Start the intake and receive the preparation path in writing.</p></div><Link href="/intake" data-analytics-event="service_bottom_cta_click" data-cta-location="service-bottom" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-white px-7 py-4 font-bold text-primary">Get Started<ArrowRight className="h-5 w-5" /></Link></div>
+      <section className="border-t border-border py-10">
+        <div className="mx-auto max-w-6xl px-6 text-center">
+          <p className="text-muted-foreground mb-3">Start the intake and receive the preparation path in writing.</p>
+          <Link href="/intake" data-analytics-event="service_bottom_cta_click" data-cta-location="service-bottom" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+            Get Started <ArrowRight className="h-4 w-4" />
+          </Link>
+        </div>
       </section>
 
       <JsonLd data={buildFAQSchema(props.faqs)} />

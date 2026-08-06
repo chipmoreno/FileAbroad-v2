@@ -3,7 +3,6 @@ import Image from 'next/image';
 import Link from 'next/link';
 import PageShell from '@/components/layout/PageShell';
 import Breadcrumbs from '@/components/seo/Breadcrumbs';
-import CTASection from '@/components/layout/CTASection';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   ArrowRight,
@@ -98,8 +97,8 @@ export default function AboutPage() {
         <Breadcrumbs items={[{ label: 'About', href: '/about' }]} />
       </div>
 
-      <section className="mx-auto max-w-6xl px-6 pb-16 pt-8 md:pb-24">
-        <div className="grid overflow-hidden rounded-3xl border border-border bg-primary shadow-2xl shadow-primary/15 lg:grid-cols-[1.08fr_0.92fr]">
+      <section className="mx-auto max-w-6xl px-6 pb-12 pt-6 md:pb-16">
+        <div className="grid overflow-hidden rounded-3xl border border-border bg-surface-elevated lg:grid-cols-[1.08fr_0.92fr]">
           <div className="relative min-h-[28rem] lg:order-2 lg:min-h-[42rem]">
             <Image
               src="/images/chip-portrait.webp"
@@ -111,15 +110,15 @@ export default function AboutPage() {
             />
             <div
               aria-hidden="true"
-              className="absolute inset-0 bg-gradient-to-t from-primary/75 via-transparent to-transparent"
+              className="absolute inset-0 bg-gradient-to-t from-foreground/40 via-transparent to-transparent"
             />
-            <div className="absolute inset-x-5 bottom-5 rounded-2xl border border-primary-foreground/20 bg-primary/85 p-5 text-primary-foreground shadow-xl backdrop-blur-md sm:inset-x-8 sm:bottom-8">
+            <div className="absolute inset-x-5 bottom-5 rounded-2xl border border-white/20 bg-white/85 p-5 text-foreground shadow-xl backdrop-blur-md sm:inset-x-8 sm:bottom-8">
               <div className="flex items-center gap-3">
-                <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-secondary text-secondary-foreground">
+                <span className="flex size-10 shrink-0 items-center justify-center rounded-full bg-accent text-accent-foreground">
                   <MapPin className="size-5" aria-hidden="true" />
                 </span>
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-primary-foreground/60">
+                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-muted-foreground">
                     Based abroad
                   </p>
                   <p className="font-sans text-xl">Cuenca, Ecuador</p>
@@ -128,31 +127,31 @@ export default function AboutPage() {
             </div>
           </div>
 
-          <div className="flex flex-col justify-center p-8 text-primary-foreground sm:p-12 lg:order-1 lg:p-14 xl:p-16">
+          <div className="flex flex-col justify-center p-8 text-foreground sm:p-12 lg:order-1 lg:p-14 xl:p-16">
             <span className="mb-6 inline-flex w-fit items-center gap-3 text-xs font-semibold uppercase tracking-[0.24em] text-secondary">
               <span className="h-px w-8 bg-secondary" aria-hidden="true" />
               About FileAbroad
             </span>
-            <h1 className="max-w-xl font-sans text-5xl leading-[0.98] tracking-[-0.03em] text-primary-foreground sm:text-6xl xl:text-7xl">
+            <h1 className="max-w-xl font-sans text-5xl leading-[0.98] tracking-[-0.03em] text-foreground sm:text-6xl xl:text-7xl">
               Hi, I&apos;m Chip Moreno
             </h1>
-            <p className="mt-8 max-w-xl text-lg leading-relaxed text-primary-foreground/75 sm:text-xl">
+            <p className="mt-8 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
               I&apos;m an American expat living in Cuenca, Ecuador. I founded
               FileAbroad — the U.S. tax preparation service associated with{' '}
               <a
                 href="https://ecuapass.com"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="font-semibold text-secondary underline decoration-secondary/40 underline-offset-4 transition-colors hover:text-secondary/80"
+                className="font-semibold text-accent underline decoration-accent/40 underline-offset-4 transition-colors hover:text-accent/80"
               >
                 EcuaPass
               </a>{' '}
-              — because the first question is often not “Which form do I file?”
-              but “Which filing path fits my facts?” The service starts there,
+              — because the first question is often not &ldquo;Which form do I file?&rdquo;
+              but &ldquo;Which filing path fits my facts?&rdquo; The service starts there,
               with a clear scope and direct communication where the work is
               straightforward.
             </p>
-            <div className="mt-8 border-l-2 border-secondary pl-5 text-sm leading-relaxed text-primary-foreground/65">
+            <div className="mt-8 border-l-2 border-accent pl-5 text-sm leading-relaxed text-muted-foreground">
               I have passed Part 1 of the IRS Special Enrollment Examination. I
               am not yet an Enrolled Agent, and this exam result is not presented
               as a professional credential.
@@ -251,14 +250,14 @@ export default function AboutPage() {
           </div>
 
           <div className="grid gap-5">
-            <Card className="group relative gap-0 border-border bg-primary py-0 text-primary-foreground shadow-none transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+            <Card className="group relative gap-0 border-border bg-card py-0 text-foreground shadow-none transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
               <CardContent className="p-7 sm:p-8">
                 <div className="flex items-start justify-between gap-6">
-                  <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-secondary text-secondary-foreground">
+                  <div className="flex size-12 shrink-0 items-center justify-center rounded-xl bg-accent text-accent-foreground">
                     <Globe className="size-6" aria-hidden="true" />
                   </div>
                   <ArrowUpRight
-                    className="size-5 text-primary-foreground/45 transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-secondary"
+                    className="size-5 text-muted-foreground transition-transform group-hover:-translate-y-1 group-hover:translate-x-1 group-hover:text-accent"
                     aria-hidden="true"
                   />
                 </div>
@@ -272,7 +271,7 @@ export default function AboutPage() {
                     EcuaPass
                   </Link>
                 </h3>
-                <p className="mt-3 max-w-2xl leading-relaxed text-primary-foreground/70">
+                <p className="mt-3 max-w-2xl leading-relaxed text-muted-foreground">
                   Administrative visa-document preparation and process
                   coordination for Americans moving to Ecuador. EcuaPass does
                   not currently have an Ecuadorian attorney on staff and does
@@ -299,20 +298,14 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <CTASection
-        title="Get a written scope for your situation"
-        description="Book a consultation to identify the records, forms, and filing path before preparation begins. Prefer to start asynchronously? The three-minute intake provides a likely path and the next question to resolve before you decide whether paid preparation fits."
-        buttonText="Get Started"
-        buttonHref="/intake"
-      >
-        <Link
-          href="/intake"
-          className="inline-flex min-h-14 items-center justify-center gap-2 rounded-lg border border-primary-foreground/25 px-6 py-3 font-semibold text-primary-foreground transition-colors hover:border-secondary hover:text-secondary"
-        >
-          Start the free filing review
-          <ArrowRight className="size-4" aria-hidden="true" />
+      <section className="max-w-4xl mx-auto px-6 py-12 text-center border-t border-muted">
+        <p className="text-muted-foreground mb-3">
+          Start the intake to identify the records, forms, and filing path before preparation begins.
+        </p>
+        <Link href="/intake" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          Get Started <ArrowRight className="w-4 h-4" />
         </Link>
-      </CTASection>
+      </section>
     </PageShell>
   );
 }

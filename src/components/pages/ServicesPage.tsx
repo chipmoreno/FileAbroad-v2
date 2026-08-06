@@ -1,7 +1,6 @@
 'use client';
 
 import Link from 'next/link';
-import CTASection from '@/components/layout/CTASection';
 import { Card, CardContent } from '@/components/ui/card';
 import {
   ArrowRight,
@@ -109,7 +108,7 @@ export default function ServicesPage() {
   return (
     <>
       <section className="border-b border-border bg-primary text-primary-foreground">
-        <div className="mx-auto grid max-w-6xl gap-10 px-6 py-8 md:py-10 lg:grid-cols-[1.2fr_0.8fr] lg:items-end lg:py-12">
+        <div className="mx-auto grid max-w-6xl gap-10 px-6 py-6 md:py-8 lg:grid-cols-[1.2fr_0.8fr] lg:items-end lg:py-10">
           <div>
             <span className="inline-flex items-center gap-3 text-xs font-semibold uppercase tracking-[0.24em] text-secondary">
               <span className="h-px w-8 bg-secondary" aria-hidden="true" />
@@ -272,12 +271,12 @@ export default function ServicesPage() {
         </div>
       </section>
 
-      <CTASection
-        title={s.ctaTitle}
-        description={s.ctaDescription}
-        buttonText="Get Started"
-        buttonHref={localizeHref('/intake')}
-      />
+      <section className="max-w-4xl mx-auto px-6 py-12 text-center border-t border-muted">
+        <p className="text-muted-foreground mb-3">{s.ctaDescription}</p>
+        <Link href={localizeHref('/intake')} className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          {s.ctaButton} <ArrowRight className="w-4 h-4" />
+        </Link>
+      </section>
     </>
   );
 }

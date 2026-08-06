@@ -2,7 +2,6 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import PageShell from '@/components/layout/PageShell';
 import Breadcrumbs from '@/components/seo/Breadcrumbs';
-import CTASection from '@/components/layout/CTASection';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
 import { ArrowRight, Calendar, Clock, ShieldCheck } from '@/components/icons';
@@ -168,11 +167,14 @@ export default function GuidesPage() {
         </section>
       </div>
 
-      <CTASection
-        title="Prefer 1-on-1 Help?"
-        description="These guides are educational. For preparation help, start with a scope review of your facts and required forms."
-
-      />
+      <section className="max-w-4xl mx-auto px-6 py-12 text-center border-t border-muted">
+        <p className="text-muted-foreground mb-4">
+          These guides are educational. For preparation help, start with a scope review of your facts and required forms.
+        </p>
+        <Link href="/how-it-works" className="inline-flex items-center gap-2 text-sm font-semibold text-accent hover:underline">
+          See how it works <ArrowRight className="w-4 h-4" />
+        </Link>
+      </section>
     </PageShell>
   );
 }
