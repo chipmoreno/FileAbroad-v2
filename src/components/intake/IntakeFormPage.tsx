@@ -161,18 +161,18 @@ function RadioGroup({
 
 function ProgressBar({ step, copy }: { step: number; copy: ReturnType<typeof localizedPageCopyFor> }) {
   return (
-    <div className="mb-8">
+    <div className="mb-6">
       <div className="flex items-center justify-between mb-2">
-        <span className="text-sm font-semibold text-muted-foreground">
+        <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
           {copy.step} {step} {copy.of} 3
         </span>
-        <span className="text-sm font-semibold text-accent">
+        <span className="text-xs font-semibold text-accent">
           {Math.round((step / 3) * 100)}%
         </span>
       </div>
-      <div className="w-full h-2 bg-muted rounded-full overflow-hidden">
+      <div className="w-full h-1.5 bg-muted rounded-full overflow-hidden">
         <div
-          className="h-full bg-accent rounded-full"
+          className="h-full bg-accent rounded-full transition-all duration-300"
           style={{ width: `${(step / 3) * 100}%` }}
         />
       </div>
@@ -1272,41 +1272,25 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
   // ── Success State ──────────────────────────────────────────────────────────
 
   const renderSuccess = () => (
-    <div className="text-center py-12">
-      <div
-        className="w-16 h-16 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-6"
-        style={{ padding: "16px" }}
-      >
-        <CheckCircle2 className="w-8 h-8 text-green-600" />
+    <div className="text-center py-10">
+      <div className="w-14 h-14 bg-green-100 rounded-full flex items-center justify-center mx-auto mb-5">
+        <CheckCircle2 className="w-7 h-7 text-green-600" />
       </div>
-      <h2 className="text-3xl sm:text-4xl font-sans font-bold text-foreground mb-4">
-        Thanks &mdash; your preliminary intake was received.
+      <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground mb-3">
+        Thanks &mdash; intake received.
       </h2>
-      <p className="text-lg text-muted-foreground max-w-lg mx-auto mb-10">
-        I personally review every intake and reply within one business day.
-        Do not send sensitive tax documents by email or WhatsApp.
+      <p className="text-base text-muted-foreground max-w-md mx-auto mb-8">
+        I review every intake personally and reply within one business day.
+        Secure upload instructions come after scope acceptance.
       </p>
-      <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3">
         <a
           href={process.env.NEXT_PUBLIC_SECURE_UPLOAD_URL || "https://www.encyro.com/fileabroad"}
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center gap-3 bg-foreground hover:bg-foreground text-white rounded-lg font-bold text-lg shadow-xl transition-all duration-300"
-          style={{ padding: "16px 32px" }}
+          className="inline-flex items-center gap-2 bg-foreground text-white rounded-lg font-semibold text-sm hover:opacity-90 transition-opacity px-5 py-3"
         >
-          Secure Encyro Portal
-        </a>
-        <a
-          href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Chip — I just submitted my tax intake form on fileabroad.com. [FA-GENERAL]")}`}
-          target="_blank"
-          rel="noopener noreferrer"
-          data-cta-location="intake-success"
-          data-whatsapp-intent="intake_followup"
-          className="inline-flex items-center gap-3 bg-green-600 hover:bg-green-700 text-white rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
-          style={{ padding: "16px 32px" }}
-        >
-          <MessageCircle className="w-5 h-5" />
-          Message on WhatsApp
+          Secure Upload Portal
         </a>
       </div>
     </div>
@@ -1315,24 +1299,20 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
   // ── Error State ────────────────────────────────────────────────────────────
 
   const renderError = () => (
-    <div className="text-center py-12">
-      <div
-        className="w-16 h-16 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-6"
-        style={{ padding: "16px" }}
-      >
-        <AlertTriangle className="w-8 h-8 text-red-600" />
+    <div className="text-center py-10">
+      <div className="w-14 h-14 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-5">
+        <AlertTriangle className="w-7 h-7 text-red-600" />
       </div>
-      <h2 className="text-3xl sm:text-4xl font-sans font-bold text-foreground mb-4">
+      <h2 className="text-2xl sm:text-3xl font-bold tracking-tight text-foreground mb-3">
         Something went wrong
       </h2>
-      <p className="text-lg text-muted-foreground max-w-lg mx-auto mb-6">
+      <p className="text-base text-muted-foreground max-w-md mx-auto mb-6">
         Your form couldn&apos;t be submitted. Please try again, or reach out
         directly:
       </p>
-      <div className="space-y-3 mb-10">
-        <p className="text-foreground flex items-center justify-center gap-2">
+      <div className="space-y-2 mb-8">
+        <p className="text-foreground flex items-center justify-center gap-2 text-sm">
           <Phone className="w-4 h-4 text-accent" />
-          WhatsApp:{" "}
           <a
             href={`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent("Hi Chip — I had trouble submitting the intake form. Can we continue here? [FA-GENERAL]")}`}
             target="_blank"
@@ -1344,9 +1324,8 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
             {WHATSAPP_DISPLAY}
           </a>
         </p>
-        <p className="text-foreground flex items-center justify-center gap-2">
+        <p className="text-foreground flex items-center justify-center gap-2 text-sm">
           <Mail className="w-4 h-4 text-accent" />
-          Email:{" "}
           <a
             href="mailto:info@fileabroad.com"
             className="text-accent hover:underline font-semibold"
@@ -1357,8 +1336,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
       </div>
       <button
         onClick={() => setFormStatus("")}
-        className="bg-accent hover:bg-accent text-white rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
-        style={{ padding: "16px 32px" }}
+        className="bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3"
       >
         Try Again
       </button>
@@ -1370,19 +1348,19 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
   return (
     <>
       <Header />
-      <main id="main-content" tabIndex={-1} className="pt-24 pb-16 bg-background">
-        <section className="py-16 md:py-20">
+      <main id="main-content" tabIndex={-1} className="pt-4 pb-16 bg-background">
+        <section className="py-6 md:py-8">
           <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
             {/* Page Header */}
-            <div className="text-center mb-10">
-              <p className="text-sm font-semibold tracking-widest text-accent uppercase mb-3">
+            <div className="mb-6">
+              <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
                 {copy.eyebrow}
               </p>
-              <h1 className="text-4xl sm:text-5xl font-sans font-bold text-foreground mb-4">
+              <h1 className="mt-3 text-3xl sm:text-4xl font-bold tracking-tight text-foreground">
                 {copy.title}
               </h1>
               {formStatus !== "success" && formStatus !== "error" && (
-                <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
+                <p className="mt-3 text-base text-muted-foreground max-w-xl">
                   {copy.description}
                 </p>
               )}
@@ -1392,8 +1370,8 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
             <div
               data-analytics-form="true"
               data-form-name="expat-tax-intake"
-              className="bg-white rounded-2xl shadow-2xl border border-muted"
-              style={{ padding: "32px" }}
+              className="bg-surface border border-muted rounded-xl"
+              style={{ padding: "28px" }}
             >
               {/* Honeypot */}
               <input
@@ -1417,11 +1395,8 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
 
                   {/* Validation Errors */}
                   {validationErrors.length > 0 && (
-                    <div
-                      className="bg-red-50 border border-red-200 text-red-800 rounded-lg mb-6"
-                      style={{ padding: "16px 24px" }}
-                    >
-                      <p className="font-semibold mb-2">
+                    <div className="bg-red-50 border border-red-200 text-red-800 rounded-lg mb-6 p-4">
+                      <p className="font-semibold mb-2 text-sm">
                         Please fix the following:
                       </p>
                       <ul className="list-disc list-inside space-y-1 text-sm">
@@ -1440,19 +1415,12 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
                   </>
 
                   {/* Navigation Buttons */}
-                  <div
-                    className="flex items-center justify-between border-t border-muted"
-                    style={{ paddingTop: "24px", marginTop: "32px" }}
-                  >
+                  <div className="flex items-center justify-between border-t border-muted pt-6 mt-8">
                     {step > 1 ? (
                       <button
                         type="button"
                         onClick={handleBack}
-                        className="inline-flex items-center gap-2 text-muted-foreground hover:text-foreground font-semibold transition-colors"
-                        style={{
-                          padding: "12px 24px",
-                          minHeight: "44px",
-                        }}
+                        className="inline-flex items-center gap-2 text-sm font-semibold text-muted-foreground hover:text-foreground transition-colors px-4 py-2.5"
                       >
                         <ArrowLeft className="w-4 h-4" />
                         {copy.back}
@@ -1465,11 +1433,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
                       <button
                         type="button"
                         onClick={handleNext}
-                        className="inline-flex items-center gap-2 bg-accent hover:bg-accent text-white rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300"
-                        style={{
-                          padding: "16px 32px",
-                          minHeight: "44px",
-                        }}
+                        className="inline-flex items-center gap-2 bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3"
                       >
                         {copy.next}
                         <ArrowRight className="w-4 h-4" />
@@ -1479,15 +1443,11 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
                         type="button"
                         onClick={handleSubmit}
                         disabled={formStatus === "sending"}
-                        className="inline-flex items-center gap-2 bg-accent hover:bg-accent text-white rounded-lg font-bold text-lg shadow-xl hover:shadow-2xl hover:scale-[1.02] transition-all duration-300 disabled:opacity-50 disabled:cursor-not-allowed"
-                        style={{
-                          padding: "16px 32px",
-                          minHeight: "44px",
-                        }}
+                        className="inline-flex items-center gap-2 bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity disabled:opacity-50 disabled:cursor-not-allowed px-6 py-3"
                       >
                         {formStatus === "sending" ? (
                           <>
-                            <div className="w-5 h-5 border-2 border-white border-t-transparent rounded-full animate-spin" />
+                            <div className="w-4 h-4 border-2 border-white border-t-transparent rounded-full animate-spin" />
                             {copy.submitting}
                           </>
                         ) : (
@@ -1505,7 +1465,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
 
             {/* Privacy note */}
             {formStatus !== "success" && formStatus !== "error" && (
-              <p className="text-sm text-muted-foreground text-center mt-6">
+              <p className="text-xs text-muted-foreground text-center mt-5 max-w-lg mx-auto">
                 {copy.privacy}
               </p>
             )}

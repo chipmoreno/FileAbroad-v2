@@ -44,7 +44,7 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
 
   return (
     <>
-      <section className="overflow-hidden pb-24 pt-8 lg:pb-32 lg:pt-12">
+      <section className="overflow-hidden pb-24 pt-2 lg:pb-32 lg:pt-4">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
