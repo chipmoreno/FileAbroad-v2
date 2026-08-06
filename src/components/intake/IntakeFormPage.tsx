@@ -344,6 +344,9 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
     return base;
   };
 
+  const WEB3FORMS_KEY = "8c93c84e-bab1-46bf-8500-06e7fd5c053c";
+  const WEB3FORMS_ENDPOINT = "https://api.web3forms.com/submit";
+
   const handleSubmit = async () => {
     const errors = validate();
     if (errors.length > 0) {
@@ -354,14 +357,37 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
     setValidationErrors([]);
     setErrorMessage("");
     setFormStatus("sending");
-    const submissionData = buildSubmissionData();
+
+    const submissionId = crypto.randomUUID();
+    const fields = buildSubmissionData();
+    const requested = fields["Services Requested"] || "intake review";
+
+    // Build a readable message for the email body
+    const messageLines = [
+      `New FileAbroad intake (${submissionId})`,
+      "",
+      ...Object.entries(fields).map(([key, value]) => `${key}: ${value}`),
+    ];
+
     try {
-      const response = await fetch("/api/intake", {
+      const response = await fetch(WEB3FORMS_ENDPOINT, {
         method: "POST",
         headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({ fields: submissionData, privacyConsent, botcheck }),
+        body: JSON.stringify({
+          access_key: WEB3FORMS_KEY,
+          subject: `New FileAbroad intake: ${fields["First Name"]} ${fields["Last Name"]} — ${requested}`,
+          from_name: `${fields["First Name"]} ${fields["Last Name"]}`,
+          email: fields.Email,
+          replyto: fields.Email,
+          message: messageLines.join("\n"),
+          // Include all intake fields as custom fields for Web3Forms
+          ...fields,
+          _submission_id: submissionId,
+          _source: "fileabroad-intake-v2",
+          botcheck,
+        }),
       });
-      const result = await response.json();
+      const result = (await response.json()) as { success?: boolean; message?: string };
       if (response.ok && result.success) {
         setFormStatus("success");
         try { localStorage.removeItem('fa-intake-draft'); } catch {}
@@ -372,7 +398,7 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
         });
       } else {
         console.error("Form error:", result);
-        setErrorMessage(result.error || "Server returned an error. Please try again.");
+        setErrorMessage(result.message || "The intake could not be delivered. Please use the email fallback below.");
         setFormStatus("error");
       }
     } catch (error) {
