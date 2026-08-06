@@ -18,6 +18,7 @@ export default function Footer({ locale = defaultLocale }: { locale?: Locale }) 
     [dict.nav.howItWorks, '/how-it-works'],
     [dict.nav.guides, '/guides'],
     [dict.nav.faq, '/faq'],
+    [dict.nav.contact, '/contact'],
   ];
 
   return (
