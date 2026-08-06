@@ -2,7 +2,6 @@ import type { ReactNode } from 'react';
 import { Geist, Geist_Mono } from 'next/font/google';
 import Script from 'next/script';
 import StructuredData from '@/components/seo/StructuredData';
-import WhatsAppButton from '@/components/ui/WhatsAppButton';
 import ConversionTracking from '@/components/analytics/ConversionTracking';
 import AnalyticsConsent from '@/components/analytics/AnalyticsConsent';
 import { LocaleProvider } from '@/components/i18n/LocaleProvider';
@@ -49,7 +48,6 @@ export default function RootDocument({ children, locale }: { children: ReactNode
         <a className="skip-link" href="#main-content">{skipLinkLabels[locale]}</a>
         <LocaleProvider locale={locale} dictionary={getDictionary(locale)}>
           {children}
-          <WhatsAppButton variant="floating" />
           <ConversionTracking />
           <AnalyticsConsent />
         </LocaleProvider>
