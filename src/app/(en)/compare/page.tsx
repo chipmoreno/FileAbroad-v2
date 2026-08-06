@@ -63,8 +63,8 @@ export default function CompareHubPage() {
       <CTASection
         title="Need help choosing the right path?"
         description="A consultation turns your facts, years, forms, and records into a written scope before any preparation begins."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
     </PageShell>
   );

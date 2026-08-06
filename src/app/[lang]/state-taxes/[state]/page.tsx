@@ -229,8 +229,8 @@ export default async function StateTaxPage({ params }: Props) {
       <CTASection
         title={`Need Help With ${state.name} Tax Issues?`}
         description="State residency termination is fact-specific. Book a consultation to review your ties and receive a written next-step scope."
-        buttonText="Book a consultation"
-        buttonHref={l('/consultation')}
+        buttonText="Get Started"
+        buttonHref={l('/intake')}
       />
 
       <JsonLd data={faqSchema} />

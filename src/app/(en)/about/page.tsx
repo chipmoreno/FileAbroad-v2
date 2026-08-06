@@ -302,8 +302,8 @@ export default function AboutPage() {
       <CTASection
         title="Get a written scope for your situation"
         description="Book a consultation to identify the records, forms, and filing path before preparation begins. Prefer to start asynchronously? The three-minute intake provides a likely path and the next question to resolve before you decide whether paid preparation fits."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       >
         <Link
           href="/intake"

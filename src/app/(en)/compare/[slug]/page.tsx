@@ -221,8 +221,8 @@ export default async function ComparePage({ params }: Props) {
       <CTASection
         title="Not Sure Which Applies to You?"
         description="Every expat situation is different. FileAbroad can analyze your specific income, country, and goals to recommend the optimal strategy."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       {schemas.map((schema, i) => (

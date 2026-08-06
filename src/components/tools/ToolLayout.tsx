@@ -112,8 +112,8 @@ export default function ToolLayout({
       <CTASection
         title="Get Personalized Tax Advice"
         description="These tools are educational starting points. Book a consultation for guidance tailored to your specific situation."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       {schema && <JsonLd data={{ ...schema, name: title, description }} />}

@@ -128,8 +128,8 @@ export default function FBARFlowchartPageContent() {
 
       <CTASection
         title="Still Unsure About Your FBAR Obligation?"
-        description="Chip can review your foreign account facts and tell you exactly what needs to be filed. Start the free 3-minute intake."
-        buttonText="Book a consultation"
+        description="Chip can review your foreign account facts and tell you exactly what needs to be filed. Start the 3-minute intake."
+        buttonText="Get Started"
         buttonHref="/intake"
       />
     </>

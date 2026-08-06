@@ -321,9 +321,9 @@ export default async function GuidePage({ params }: Props) {
       </div>
 
       <CTASection
-        title="Book a consultation"
+        title="Get Started"
         description="Share the facts and years involved. FileAbroad will confirm the right next step and written scope before preparation begins."
-        buttonText="Book a consultation"
+        buttonText="Get Started"
         buttonHref={l(consultationHref)}
       />
 

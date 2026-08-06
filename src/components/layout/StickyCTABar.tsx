@@ -97,7 +97,7 @@ export default function StickyCTABar() {
             <p className="text-xs font-bold uppercase tracking-[0.18em] text-secondary">Before you go</p>
             <h2 id="exit-intent-title" className="mt-3 font-sans text-3xl font-bold text-foreground">Your situation deserves a written next step.</h2>
             <p className="mt-4 leading-relaxed text-muted-foreground">Book a consultation to review the facts behind your filing path. Do not send Social Security numbers, account numbers, passports, or tax documents through this page.</p>
-            <Link href="/consultation" onClick={() => setIsExitIntentOpen(false)} className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground hover:bg-foreground">Book a consultation</Link>
+            <Link href="/consultation" onClick={() => setIsExitIntentOpen(false)} className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground hover:bg-foreground">Get Started</Link>
           </div>
         </div>
       )}

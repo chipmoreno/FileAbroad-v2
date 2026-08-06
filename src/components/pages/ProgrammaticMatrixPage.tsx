@@ -101,10 +101,10 @@ export default function ProgrammaticMatrixPage({ content, breadcrumbs, eyebrow }
 
       <CTASection
         title="Need this mapped to your facts?"
-        description="Book a paid consultation to identify the relevant years, records, forms, and a written preparation scope before work begins."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
-        microcopy="No public service pricing. Scope follows the consultation and written review."
+        description="Start the intake to identify the relevant years, records, forms, and a written preparation scope before work begins."
+        buttonText="Get Started"
+        buttonHref="/intake"
+        microcopy="No public service pricing. Scope follows the intake review."
       />
     </PageShell>
   );

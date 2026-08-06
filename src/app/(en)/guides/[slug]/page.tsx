@@ -183,7 +183,7 @@ export default async function GuidePage({ params }: Props) {
               <p className="text-xs font-bold uppercase tracking-[0.18em] text-secondary">Before you file</p>
               <h2 id="guide-inline-consultation-heading" className="mt-2 font-sans text-2xl font-bold text-foreground">Get a written scope for your situation</h2>
               <p className="mt-3 max-w-2xl text-muted-foreground">The guide is educational. A consultation maps the facts, records, and forms that control your next step before preparation begins.</p>
-              <Link href={consultationHref} data-analytics-event="guide_inline_consultation_click" data-cta-location="guide-inline" className="mt-5 inline-flex items-center justify-center rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground hover:bg-foreground">Book a consultation</Link>
+              <Link href={consultationHref} data-analytics-event="guide_inline_consultation_click" data-cta-location="guide-inline" className="mt-5 inline-flex items-center justify-center rounded-md bg-primary px-5 py-3 font-bold text-primary-foreground hover:bg-foreground">Get Started</Link>
             </section>
 
             {/* FAQs */}
@@ -307,8 +307,8 @@ export default async function GuidePage({ params }: Props) {
       <CTASection
         title={isStreamlinedGuide ? 'Ready to map your Streamlined filing path?' : 'Need a written next step?'}
         description="Every expat situation is different. Book a consultation to review your facts before preparation begins."
-        buttonText="Book Your Consultation"
-        buttonHref={consultationHref}
+        buttonText="Get Started"
+        buttonHref={"/intake"}
       />
 
       {/* Structured Data */}

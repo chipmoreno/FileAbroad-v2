@@ -225,14 +225,7 @@ export default function HowItWorksPageContent({ dict, locale }: Props) {
       </section>
 
       {/* CTA */}
-      <CTASection title={d.ctaTitle} description={d.ctaDescription} buttonText={d.ctaButton} buttonHref="/intake">
-        <p className="mt-6 text-sm text-white/60">
-          {locale === 'en' ? 'Or view ' : ''}
-          <Link href="/consultation" className="underline hover:text-white">
-            Book a consultation
-          </Link>
-        </p>
-      </CTASection>
+      <CTASection title={d.ctaTitle} description={d.ctaDescription} buttonText="Get Started" buttonHref="/intake" />
     </>
   );
 }

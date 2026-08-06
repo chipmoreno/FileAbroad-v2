@@ -44,7 +44,7 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
 
   return (
     <>
-      <section className="overflow-hidden pb-24 pt-24 lg:pb-32 lg:pt-32">
+      <section className="overflow-hidden pb-24 pt-8 lg:pb-32 lg:pt-12">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
@@ -56,12 +56,9 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
               {isEnglish ? 'Work directly with one preparer for annual returns, FBAR, FATCA, foreign tax credits, and carefully screened catch-up filings.' : home.heroDescription}
             </p>
-            <div className="mt-8 flex flex-col gap-3 sm:flex-row">
+            <div className="mt-8">
               <Link href={localizeHref('/intake')} className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground transition-opacity hover:opacity-90">
-                {isEnglish ? 'Start Your Return' : home.heroCtaPrimary}<ArrowRight className="h-4 w-4" />
-              </Link>
-              <Link href={localizeHref('/consultation')} className="inline-flex items-center justify-center rounded-lg border border-muted bg-surface px-6 py-3 font-semibold text-foreground hover:border-foreground/20">
-                {isEnglish ? 'Book a Consultation' : home.aboutCtaIntake}
+                {isEnglish ? 'Get Started' : home.heroCtaPrimary}<ArrowRight className="h-4 w-4" />
               </Link>
             </div>
             <ul className="mt-10 grid gap-5 sm:grid-cols-3">
@@ -181,7 +178,7 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{home.faqSectionLabel}</p>
             <h2 className="mt-6 text-3xl font-medium tracking-tight text-foreground sm:text-4xl">{home.faqHeading}</h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">{home.faqDescription}</p>
-            <Link href={localizeHref('/consultation')} className="mt-8 inline-flex rounded-lg bg-foreground px-5 py-3 text-sm font-semibold text-background">{home.aboutCtaIntake}</Link>
+            <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-foreground px-5 py-3 text-sm font-semibold text-background">{isEnglish ? 'Get Started' : home.aboutCtaIntake}</Link>
           </div>
           <div>
             {faqs.slice(0, 6).map((faq) => (
@@ -199,9 +196,9 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
       <section className="bg-foreground py-24 text-background">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
           <p className="text-xs font-semibold uppercase tracking-widest text-background/70">{isEnglish ? 'Ready to file?' : home.faqSectionLabel}</p>
-          <h2 className="mt-6 text-3xl font-medium tracking-tight sm:text-4xl">{isEnglish ? 'Book a consultation' : dict.faq.ctaTitle}</h2>
+          <h2 className="mt-6 text-3xl font-medium tracking-tight sm:text-4xl">{isEnglish ? 'Start your filing path' : dict.faq.ctaTitle}</h2>
           <p className="mx-auto mt-6 max-w-xl leading-relaxed text-background/75">{isEnglish ? 'Share the broad facts, identify the right filing path, and receive a clear written scope before preparation begins.' : dict.faq.ctaDescription}</p>
-          <Link href={localizeHref('/consultation')} className="mt-8 inline-flex rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground">{home.aboutCtaIntake}</Link>
+          <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground">{isEnglish ? 'Get Started' : home.aboutCtaIntake}</Link>
         </div>
       </section>
     </>

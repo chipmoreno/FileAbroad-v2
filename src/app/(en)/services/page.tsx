@@ -198,8 +198,8 @@ export default function ServicesPage() {
       <CTASection
         title="Not Sure What You Need?"
         description="Book a consultation and I will point you to the right next step."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
     </PageShell>
   );

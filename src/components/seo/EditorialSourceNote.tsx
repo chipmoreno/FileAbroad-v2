@@ -38,7 +38,7 @@ export default function EditorialSourceNote({ routePattern }: Props) {
       </ul>
       <p className="mt-4 text-sm text-muted-foreground">
         Need help applying the checklist to your facts?{' '}
-        <Link href="/consultation" className="font-semibold text-secondary underline underline-offset-4">Book a consultation</Link>.
+        <Link href="/consultation" className="font-semibold text-secondary underline underline-offset-4">Get Started</Link>.
       </p>
     </aside>
   );

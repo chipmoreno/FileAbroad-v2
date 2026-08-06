@@ -59,8 +59,8 @@ export default function Header() {
           ))}
           <LanguageSwitcher />
           <ThemeToggle />
-          <Link href={localizeHref('/consultation')} className="rounded-lg bg-foreground px-4 py-2 text-sm font-semibold text-background transition-opacity hover:opacity-90">
-            {dict.home.aboutCtaIntake}
+          <Link href={localizeHref('/intake')} className="rounded-lg bg-foreground px-4 py-2 text-sm font-semibold text-background transition-opacity hover:opacity-90">
+            {locale === 'en' ? 'Get Started' : dict.home.aboutCtaIntake}
           </Link>
         </nav>
 
@@ -92,8 +92,8 @@ export default function Header() {
               <span className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{getLanguageLabel(locale)}</span>
               <LanguageSwitcher />
             </div>
-            <Link href={localizeHref('/consultation')} onClick={() => setOpen(false)} className="mt-2 rounded-lg bg-foreground px-4 py-3 text-center text-sm font-semibold text-background">
-              {dict.home.aboutCtaIntake}
+            <Link href={localizeHref('/intake')} onClick={() => setOpen(false)} className="mt-2 rounded-lg bg-foreground px-4 py-3 text-center text-sm font-semibold text-background">
+              {locale === 'en' ? 'Get Started' : dict.home.aboutCtaIntake}
             </Link>
           </nav>
         </div>

@@ -214,8 +214,8 @@ export default async function PersonaPage({ params }: Props) {
       <CTASection
         title={`Questions About ${persona.name} Taxes?`}
         description="Every situation is different. Start with a consultation to receive a written scope and next step."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       <JsonLd data={faqSchema} />

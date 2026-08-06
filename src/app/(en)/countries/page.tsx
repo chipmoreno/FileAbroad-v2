@@ -68,8 +68,8 @@ export default function CountriesPage() {
       <CTASection
         title="Need Help Filing from Abroad?"
         description="No matter which country you call home, U.S. filing obligations may follow you. Tell us where you live and we’ll help you understand the next step."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
     </PageShell>
   );

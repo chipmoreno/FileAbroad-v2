@@ -489,8 +489,8 @@ export default async function CountryPage({ params }: Props) {
       <CTASection
         title={`Filing U.S. Taxes from ${country.name}?`}
         description={`Tell us where you live, what you earn, and when you last filed. We'll help you understand what comes next.`}
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       {country.faqs.length > 0 && (

@@ -141,7 +141,7 @@ export default async function FormPage({ params }: Props) {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-secondary">Before you file</p>
           <h2 className="mt-2 font-sans text-2xl font-bold text-foreground">Need this form mapped to your facts?</h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">The right answer can depend on the year, account type, ownership, country, and related forms. Book a consultation for a written next-step scope.</p>
-          <Link href="/consultation" className="mt-5 inline-flex rounded-lg bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">Book a consultation</Link>
+          <Link href="/intake" className="mt-5 inline-flex rounded-lg bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">Get Started</Link>
         </section>
 
         {/* Content */}
@@ -153,7 +153,7 @@ export default async function FormPage({ params }: Props) {
           <p className="text-xs font-bold uppercase tracking-[0.18em] text-secondary">A clear next step</p>
           <h2 className="mt-2 font-sans text-2xl font-bold text-foreground">Get a written scope before preparation begins</h2>
           <p className="mt-3 max-w-2xl text-muted-foreground">Share the broad facts and years involved. FileAbroad will confirm what needs review and whether the form fits an accepted preparation scope.</p>
-          <Link href="/consultation" className="mt-5 inline-flex rounded-lg bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">Book a consultation</Link>
+          <Link href="/intake" className="mt-5 inline-flex rounded-lg bg-primary px-5 py-3 font-semibold text-primary-foreground hover:bg-primary/90">Get Started</Link>
         </section>
 
         {/* FAQs */}
@@ -250,8 +250,8 @@ export default async function FormPage({ params }: Props) {
       <CTASection
         title="Need Help With This Form?"
         description="FileAbroad prepares accepted forms within a written scope. Book a consultation to discuss your situation before preparation begins."
-        buttonText="Book a consultation"
-        buttonHref="/consultation"
+        buttonText="Get Started"
+        buttonHref="/intake"
       />
 
       {/* Structured Data */}

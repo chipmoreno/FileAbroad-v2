@@ -68,17 +68,16 @@ export default function ConsultationLandingPage({ locale = 'en', pathway = 'gene
         <Breadcrumbs items={[{ label: 'Consultation', href: localized('/consultation') }, ...(isGeneral ? [] : [{ label: data.label, href: localized(`/consultation/${data.slug}`) }])]} />
       </div>
 
-      <section className="border-y border-border bg-surface-elevated py-14 md:py-20">
+      <section className="border-y border-border bg-surface-elevated py-8 md:py-12">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary">{data.label} · consultation-first process</p>
             <h1 className="max-w-4xl font-sans text-4xl font-bold leading-tight text-foreground md:text-6xl">{data.title}</h1>
             <p className="mt-6 max-w-3xl text-xl leading-relaxed text-muted-foreground">{data.description}</p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <Link href={bookingHref} target={bookingHref.startsWith('http') ? '_blank' : undefined} rel={bookingHref.startsWith('http') ? 'noopener noreferrer' : undefined} className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-7 py-4 text-lg font-bold text-primary-foreground hover:bg-foreground">
-                Book Your Consultation <ArrowRight className="h-5 w-5" />
+            <div className="mt-8">
+              <Link href={localized('/intake')} className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-7 py-4 text-lg font-bold text-primary-foreground hover:bg-foreground">
+                Get Started <ArrowRight className="h-5 w-5" />
               </Link>
-              <Link href={localized('/intake')} className="font-bold text-foreground underline decoration-secondary decoration-2 underline-offset-8">Start with the preliminary intake</Link>
             </div>
             <p className="mt-4 text-sm text-muted-foreground">Share broad facts first. The accepted scope, documents, and next step are confirmed in writing.</p>
           </div>
@@ -134,7 +133,7 @@ export default function ConsultationLandingPage({ locale = 'en', pathway = 'gene
           </div>
           <ol className="border-t border-border">
             {[
-              ['Book a consultation', 'Choose the general path or the pathway closest to your situation.'],
+              ['Start the intake', 'Choose the general path or the pathway closest to your situation.'],
               ['Share the broad facts', 'Tell us where you live, what years are involved, what you earn or own, and what feels unclear.'],
               ['Review the next step', 'The consultation identifies likely forms, records, scope questions, and any boundary that needs another professional.'],
               ['Receive the written scope', 'If FileAbroad can accept the engagement, the scope and preparation terms are documented before work begins.'],
@@ -162,7 +161,7 @@ export default function ConsultationLandingPage({ locale = 'en', pathway = 'gene
         </div>
       </section>
 
-      <CTASection title="Ready to clarify your filing path?" description="Book a consultation or start the preliminary intake. Do not send sensitive tax documents through the public form." buttonText="Book Your Consultation" buttonHref={bookingHref} />
+      <CTASection title="Ready to clarify your filing path?" description="Start the preliminary intake. Do not send sensitive tax documents through the public form." buttonText="Get Started" buttonHref={localized('/intake')} />
     </PageShell>
   );
 }

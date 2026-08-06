@@ -75,9 +75,8 @@ export default function EditorialServicePage(props: EditorialServicePageProps) {
             <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary">{props.eyebrow}</p>
             <h1 className="max-w-4xl font-sans text-4xl font-bold leading-tight text-foreground md:text-6xl">{props.title}</h1>
             <p className="mt-6 max-w-3xl text-xl leading-relaxed text-muted-foreground">{props.lead}</p>
-            <div className="mt-8 flex flex-col gap-4 sm:flex-row sm:items-center">
-              <Link href={consultationPath} data-analytics-impression="service_primary_cta_view" data-analytics-event="service_primary_cta_click" data-cta-location="service-hero" className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-7 py-4 text-lg font-bold text-primary-foreground hover:bg-foreground">Book a consultation<ArrowRight className="h-5 w-5" /></Link>
-              <Link href="/consultation" className="px-3 py-3 font-bold text-foreground underline decoration-secondary decoration-2 underline-offset-8">Book a consultation</Link>
+            <div className="mt-8">
+              <Link href="/intake" data-analytics-impression="service_primary_cta_view" data-analytics-event="service_primary_cta_click" data-cta-location="service-hero" className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-7 py-4 text-lg font-bold text-primary-foreground hover:bg-foreground">Get Started<ArrowRight className="h-5 w-5" /></Link>
             </div>
           </div>
           <aside className="border-t-4 border-secondary bg-background p-7">
@@ -177,7 +176,7 @@ export default function EditorialServicePage(props: EditorialServicePageProps) {
       </div>
 
       <section className="border-t border-border bg-primary py-14 text-primary-foreground">
-        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-6 px-6 md:flex-row md:items-center"><div><h2 className="font-sans text-3xl font-bold text-white">Know your next step before you pay.</h2><p className="mt-2 text-primary-foreground/75">Book a consultation and receive the preparation path in writing.</p></div><Link href={consultationPath} data-analytics-event="service_bottom_cta_click" data-cta-location="service-bottom" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-white px-7 py-4 font-bold text-primary">Book a consultation<ArrowRight className="h-5 w-5" /></Link></div>
+        <div className="mx-auto flex max-w-6xl flex-col justify-between gap-6 px-6 md:flex-row md:items-center"><div><h2 className="font-sans text-3xl font-bold text-white">Know your next step before you pay.</h2><p className="mt-2 text-primary-foreground/75">Start the intake and receive the preparation path in writing.</p></div><Link href="/intake" data-analytics-event="service_bottom_cta_click" data-cta-location="service-bottom" className="inline-flex shrink-0 items-center justify-center gap-2 rounded-md bg-white px-7 py-4 font-bold text-primary">Get Started<ArrowRight className="h-5 w-5" /></Link></div>
       </section>
 
       <JsonLd data={buildFAQSchema(props.faqs)} />
