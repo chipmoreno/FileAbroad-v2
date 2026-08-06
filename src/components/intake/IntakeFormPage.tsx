@@ -395,6 +395,25 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
     </div>
   );
 
+  const buildMailtoFallback = () => {
+    const lines = [
+      `Name: ${formData.firstName} ${formData.lastName}`,
+      `Email: ${formData.email}`,
+      `Country: ${formData.country}`,
+      `Last U.S. State: ${formData.lastState}`,
+      `Citizenship: ${formData.citizenStatus}`,
+      `Services: ${formData.services.join(", ")}`,
+      `Filing For: ${formData.filingFor}`,
+      `Deadline: ${formData.deadline}`,
+    ];
+    if (formData.taxYear) lines.push(`Tax Year: ${formData.taxYear}`);
+    if (formData.primaryIncome) lines.push(`Income Source: ${formData.primaryIncome}`);
+    if (formData.anythingComplicated) lines.push(`Complicated Items: ${formData.anythingComplicated}`);
+    if (formData.previousPreparer) lines.push(`Previous Preparer: ${formData.previousPreparer}`);
+    const body = encodeURIComponent(lines.join("\n"));
+    return `mailto:info@fileabroad.com?subject=Intake%20Fallback%20-%20${encodeURIComponent(formData.firstName + " " + formData.lastName)}&body=${body}`;
+  };
+
   const renderError = () => (
     <div className="text-center py-10">
       <div className="w-14 h-14 bg-red-100 rounded-full flex items-center justify-center mx-auto mb-5">
@@ -405,15 +424,14 @@ export default function IntakeFormPage({ referralPartner, locale = "en" }: Intak
       {errorMessage && (
         <p className="text-sm text-red-600 max-w-md mx-auto mb-4 bg-red-50 rounded-md px-3 py-2">{errorMessage}</p>
       )}
-      <p className="text-base text-muted-foreground max-w-md mx-auto mb-6">Please try again, or reach out directly:</p>
-      <div className="space-y-2 mb-8">
-        <p className="text-foreground flex items-center justify-center gap-2 text-sm">
-          <Mail className="w-4 h-4 text-accent" />
-          <a href="mailto:info@fileabroad.com" className="text-accent hover:underline font-semibold">info@fileabroad.com</a>
-        </p>
-        <p className="text-sm text-muted-foreground">We typically reply within one business day.</p>
+      <div className="flex flex-col sm:flex-row items-center justify-center gap-3 mb-6">
+        <button onClick={() => { setFormStatus(""); setErrorMessage(""); }} className="bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3">Try Again</button>
+        <a href={buildMailtoFallback()} className="inline-flex items-center gap-2 border border-accent text-accent hover:bg-accent/5 rounded-lg font-semibold text-base transition-colors px-6 py-3">
+          <Mail className="w-4 h-4" />
+          Email My Intake Instead
+        </a>
       </div>
-      <button onClick={() => { setFormStatus(""); setErrorMessage(""); }} className="bg-accent hover:opacity-90 text-white rounded-lg font-semibold text-base transition-opacity px-6 py-3">Try Again</button>
+      <p className="text-sm text-muted-foreground max-w-md mx-auto">We typically reply within one business day.</p>
     </div>
   );
 
