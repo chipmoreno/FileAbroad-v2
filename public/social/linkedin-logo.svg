@@ -1,0 +1,14 @@
+<svg width="300" height="300" viewBox="0 0 300 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#1e293b"/>
+
+  <!-- Folder icon -->
+  <path d="M75 105C75 97.268 81.268 91 89 91H129L147 109H211C218.732 109 225 115.268 225 123V195C225 202.732 218.732 209 211 209H89C81.268 209 75 202.732 75 195V105Z" fill="#334155"/>
+  <path d="M75 123C75 115.268 81.268 109 89 109H211C218.732 109 225 115.268 225 123V195C225 202.732 218.732 209 211 209H89C81.268 209 75 202.732 75 195V123Z" fill="#475569"/>
+
+  <!-- Globe -->
+  <circle cx="150" cy="159" r="38" fill="#fefdfb" stroke="#d97706" stroke-width="4"/>
+  <ellipse cx="150" cy="159" rx="38" ry="15" stroke="#d97706" stroke-width="3" fill="none"/>
+  <ellipse cx="150" cy="159" rx="15" ry="38" stroke="#d97706" stroke-width="3" fill="none"/>
+  <line x1="112" y1="159" x2="188" y2="159" stroke="#d97706" stroke-width="3"/>
+</svg>

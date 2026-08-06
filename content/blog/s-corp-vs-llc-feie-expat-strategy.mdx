@@ -1,0 +1,191 @@
+---
+title: "S-Corp vs LLC Abroad: Why the FEIE Changes the Math"
+description: "Standard tax advice says elect S-Corp to save on self-employment tax. But for expats claiming the FEIE, the math flips. Here's the real comparison with numbers."
+date: "2026-03-21"
+author: "Chip Moreno"
+category: "Tax Strategy"
+tags: ["S-Corp", "LLC", "FEIE", "self-employment tax", "business structure", "expat taxes"]
+relatedServiceSlugs:
+  - "expat-tax-filing"
+faqs:
+  - question: "Can I claim the FEIE on S-Corp distributions?"
+    answer: "No. S-Corp distributions are not earned income — they're a return on your ownership interest. Only the salary (W-2) portion of your S-Corp income qualifies for the FEIE. This is the fundamental reason the standard S-Corp advice breaks down for expats."
+  - question: "Does LLC income fully qualify for the FEIE?"
+    answer: "Yes. When your single-member LLC is taxed as a sole proprietorship (the default), all net income flows to Schedule C as self-employment income. Self-employment income is earned income for FEIE purposes, so the full amount can be excluded up to the FEIE limit ($130,000 for 2025)."
+  - question: "When does an S-Corp still make sense for an expat?"
+    answer: "If your net income significantly exceeds the FEIE limit — say $200,000 or more — the S-Corp can start making sense again. At that point, you've already maxed out the FEIE, and splitting the excess between salary and distributions can reduce self-employment tax on the amount above the exclusion. Run the numbers both ways."
+  - question: "Does the FEIE eliminate self-employment tax?"
+    answer: "No. The FEIE only excludes income from federal income tax. Self-employment tax (15.3% — covering Social Security and Medicare) applies regardless of whether you claim the FEIE. The only way to avoid SE tax while abroad is through a totalization agreement with your country of residence, and even then it depends on the specific agreement."
+  - question: "Can I switch from S-Corp back to LLC taxation?"
+    answer: "Yes, but there are rules. If you elected S-Corp status and want to revoke it, you generally need to wait 5 years before re-electing (though you can revoke at any time). The revocation requires consent from shareholders holding more than 50% of shares. File it early in the tax year — if filed by March 15, it's effective for that year."
+---
+
+If you run your own business and talk to a US-based CPA, you'll hear the same advice once you hit a certain income level: "You should elect S-Corp status to save on self-employment tax."
+
+In domestic situations, that advice is often sound. But if you live abroad and claim the Foreign Earned Income Exclusion, following that advice can actually **increase** your total tax bill by thousands of dollars.
+
+Here's why.
+
+## The Standard S-Corp Playbook (Domestic)
+
+For a business owner in the US, the logic is straightforward:
+
+**As a single-member LLC (default):**
+- All net business income is subject to self-employment (SE) tax at **15.3%** (12.4% Social Security + 2.9% Medicare)
+- All net business income is also subject to federal income tax
+- On $120,000 net income, SE tax alone is roughly **$17,000**
+
+**As an S-Corp:**
+- You split income into a "reasonable salary" (say $60,000) and distributions ($60,000)
+- Only the salary is subject to payroll tax (FICA at 15.3%, split between employer and employee portions)
+- Distributions are NOT subject to SE/FICA tax
+- On the same $120,000, you save roughly **$9,000** in SE tax
+
+This is why every CPA in America recommends S-Corp election once you hit about $50,000 in net self-employment income. The SE tax savings are real and significant.
+
+**But this analysis completely ignores the FEIE.**
+
+## The Problem: S-Corp Distributions Don't Qualify for the FEIE
+
+Here's the critical tax law distinction that changes everything for expats:
+
+The FEIE under **IRC Section 911** excludes **foreign earned income** from federal income tax. "Earned income" means compensation for personal services — wages, salaries, self-employment income.
+
+| Income Type | Earned Income? | Qualifies for FEIE? |
+|---|---|---|
+| LLC net income (Schedule C) | Yes — self-employment income | **Yes** |
+| S-Corp salary (W-2) | Yes — wages | **Yes** |
+| S-Corp distributions (Schedule K-1) | **No** — return on investment | **No** |
+
+When you elect S-Corp status and split your income into $60,000 salary + $60,000 distributions, you've just made $60,000 of your income **ineligible for the FEIE**. That $60,000 in distributions will be taxed as ordinary income on your federal return, with no exclusion available.
+
+With an LLC, the full $120,000 is self-employment income. All of it is earned income. **All of it qualifies for the FEIE.**
+
+## The Math: Side by Side
+
+Let's run the real numbers for someone living in Ecuador with $120,000 in net business income. Single filer, standard deduction of $15,000, qualifying for FEIE under the bona fide residence test.
+
+### Scenario A: Single-Member LLC (Taxed as Sole Proprietorship)
+
+| Line Item | Amount |
+|---|---|
+| Net business income (Schedule C) | $120,000 |
+| FEIE exclusion (Form 2555) | ($120,000) |
+| Federal taxable earned income | $0 |
+| Federal income tax | **$0** |
+| Self-employment tax (15.3% on 92.35% of net income) | **$16,930** |
+| **Total federal tax** | **$16,930** |
+
+### Scenario B: S-Corp ($60K Salary + $60K Distributions)
+
+| Line Item | Amount |
+|---|---|
+| W-2 salary | $60,000 |
+| S-Corp distributions (K-1) | $60,000 |
+| FEIE exclusion on salary | ($60,000) |
+| FEIE exclusion on distributions | $0 (not eligible) |
+| Taxable income | $60,000 - $15,000 standard deduction = $45,000 |
+| Federal income tax on $45,000 | **~$5,600** |
+| FICA on $60K salary (employer + employee combined) | **$9,180** |
+| **Total federal tax** | **~$14,780** |
+
+### The Comparison
+
+| | LLC | S-Corp | Difference |
+|---|---|---|---|
+| Federal income tax | $0 | ~$5,600 | S-Corp pays $5,600 more |
+| SE tax / FICA | $16,930 | $9,180 | S-Corp saves $7,750 |
+| **Total federal tax** | **$16,930** | **~$14,780** | **S-Corp saves ~$2,150** |
+
+Wait — in this scenario the S-Corp actually comes out slightly ahead? Let me add what's missing.
+
+### The Hidden Costs of the S-Corp
+
+The comparison above doesn't account for the **additional costs** of maintaining an S-Corp:
+
+| S-Corp Overhead | Annual Cost |
+|---|---|
+| Payroll processing (Gusto, ADP, etc.) | $500–$1,500 |
+| S-Corp tax return (Form 1120-S) | $800–$2,000 |
+| Reasonable salary determination | Time/cost |
+| State franchise taxes / annual reports | $0–$800 |
+| **Total additional overhead** | **$1,300–$4,300** |
+
+Once you add **$1,500 to $3,000** in S-Corp overhead costs, the slight tax savings evaporate. And we haven't even discussed the complexity cost — running payroll for yourself from abroad, filing an additional business return, and the risk of getting the "reasonable salary" calculation wrong.
+
+### What Happens at Different Income Levels
+
+The math shifts at different income levels. Here's the summary:
+
+| Net Income | LLC Total Tax | S-Corp Total Tax* | Winner |
+|---|---|---|---|
+| $80,000 | ~$11,300 SE | ~$8,500 FICA + ~$0 income tax | Close / depends on overhead |
+| $100,000 | ~$14,100 SE | ~$9,500 FICA + ~$2,200 income tax | Close / depends on overhead |
+| $120,000 | ~$16,900 SE | ~$9,200 FICA + ~$5,600 income tax | Close / depends on overhead |
+| $130,000 (FEIE limit) | ~$18,300 SE | ~$9,200 FICA + ~$6,800 income tax | Roughly even |
+| $180,000 | ~$22,500 SE | ~$9,200 FICA + ~$10,600 income tax | S-Corp starts winning |
+| $250,000 | ~$27,500 SE** | ~$9,200 FICA + ~$20,400 income tax | S-Corp wins clearly |
+
+*Assumes $60K reasonable salary, distributions for the rest. Does not include S-Corp overhead costs ($1,500-$3,000/year).
+
+**SE tax caps at the Social Security wage base ($176,100 for 2025); only the 2.9% Medicare portion continues above that.
+
+**The pattern is clear:** For expats earning under or near the FEIE limit, the LLC wins (or it's a wash after S-Corp overhead). The S-Corp only pulls ahead when income significantly exceeds the FEIE limit.
+
+## Why Most Expats Should Stay as an LLC
+
+For the typical FileAbroad client — earning between $60,000 and $130,000 in self-employment income while living abroad — **the LLC taxed as a sole proprietorship is the better choice.** Here's why:
+
+**1. Maximum FEIE benefit.** All your net income qualifies for exclusion. No income left on the table.
+
+**2. Simplicity.** One tax return (Form 1040 with Schedule C and Form 2555). No payroll. No Form 1120-S. No reasonable salary analysis.
+
+**3. Lower compliance costs.** You're saving $1,500-$3,000 per year in accounting and payroll costs.
+
+**4. No reasonable salary risk.** The IRS can challenge your "reasonable salary" determination on an S-Corp. If they argue it should be higher, you lose the SE tax benefit AND may owe penalties. With an LLC, there's no salary to argue about.
+
+## When the S-Corp DOES Make Sense Abroad
+
+There are situations where the S-Corp is the right call, even for expats:
+
+### Income Well Above the FEIE Limit
+
+If you're earning $200,000+ consistently, you've already maxed out the FEIE at $130,000 (2025). The remaining $70,000+ is taxable regardless. At that point, splitting that excess into salary and distributions can save real money on SE tax — potentially $5,000-$10,000 per year, which easily justifies the overhead.
+
+### State Tax Considerations
+
+Some states tax S-Corp distributions differently than self-employment income. If you maintain state tax obligations (because you haven't fully severed residency or have state-source income), the S-Corp structure may offer state-level benefits independent of the federal FEIE analysis.
+
+### You Already Have an S-Corp
+
+If you already elected S-Corp status before moving abroad, the decision is whether to revoke it — not whether to elect it. Revoking means you can't re-elect for 5 years. If there's any chance you'll move back to the US or your income will grow well above the FEIE limit, you might keep the S-Corp and accept the slightly sub-optimal result for now.
+
+## The Self-Employment Tax Reality
+
+Here's the uncomfortable truth that applies to both structures: **the FEIE does not eliminate self-employment tax.** Whether you're an LLC or an S-Corp, you're paying SE tax or FICA on your earned income.
+
+The only way to avoid SE tax while abroad is through a **totalization agreement** between the US and your country of residence. The US has agreements with about 30 countries, but **Ecuador is not one of them** (nor are most Latin American countries). If you live in a country with a totalization agreement (UK, Germany, Canada, etc.) and you're paying into that country's social security system, you may be exempt from US SE tax.
+
+For most expats in Latin America, SE tax at 15.3% is unavoidable. The question is simply whether you're paying it on 100% of your income (LLC) or on just the salary portion (S-Corp) — and whether the savings justify the overhead. If you're already operating as a single-member LLC and want a primer on FEIE mechanics for your structure, start with [FEIE for LLC owners moving abroad](/blog/feie-llc-owners-moving-abroad).
+
+## My Recommendation
+
+**If your net self-employment income is under $150,000 and you qualify for the FEIE: stay as an LLC.** The simplicity, lower compliance costs, and full FEIE eligibility make it the clear winner.
+
+**If your income is consistently above $180,000:** Run the numbers both ways with a tax professional who understands the FEIE. The S-Corp may save you money at that level, even after accounting for overhead.
+
+**If you're unsure:** That's exactly the kind of analysis we do at FileAbroad. We'll model both structures with your actual numbers and tell you which one saves you more.
+
+Don't restructure your business based on generic domestic tax advice that doesn't account for where you live. The FEIE changes the math, and the wrong choice can cost you thousands every year.
+
+[Book a consultation](/consultation), [view all services](/services), or [start your intake](/intake) — I handle expat returns from Ecuador for Americans worldwide.
+
+**Related:**
+- [Moved Abroad With Your LLC? You May Be Overpaying US Taxes](/blog/feie-llc-owners-moving-abroad)
+- [Can You Claim the FEIE on W-2 Income?](/blog/w2-feie-remote-workers-abroad)
+- [1099 Income Abroad: Tax Guide for Freelancers](/blog/1099-income-abroad-freelancers)
+
+## Official IRS sources
+
+- [Self-employed individuals tax center](https://www.irs.gov/businesses/small-businesses-self-employed/self-employed-individuals-tax-center)
+- [About Form 2555](https://www.irs.gov/forms-pubs/about-form-2555)

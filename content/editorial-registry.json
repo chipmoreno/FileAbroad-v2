@@ -1,0 +1,157 @@
+{
+  "version": 1,
+  "site": "FileAbroad",
+  "purpose": "Source-controlled review queue for tax content that can affect filing, reporting, deadlines, or professional scope.",
+  "items": [
+    {
+      "routePattern": "/services/*",
+      "riskTier": "high",
+      "owner": "Chip Moreno",
+      "reviewer": "Chip Moreno",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad",
+        "https://www.irs.gov/individuals/international-taxpayers/figuring-the-foreign-earned-income-exclusion",
+        "https://www.fincen.gov/purpose-fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "indexPolicy": "index"
+    },
+    {
+      "routePattern": "/blog/*",
+      "riskTier": "high",
+      "owner": "Chip Moreno",
+      "reviewer": "Tax professional review required for changed claims",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.fincen.gov/fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/tools/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required before threshold changes",
+      "primarySources": [
+        "https://www.irs.gov/newsroom/irs-releases-tax-inflation-adjustments-for-tax-year-2026-including-amendments-from-the-one-big-beautiful-bill",
+        "https://www.fincen.gov/purpose-fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/guides/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required for changed claims",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.fincen.gov/report-foreign-bank-and-financial-accounts"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/countries/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required for treaty, local-tax, and social-security claims",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://home.treasury.gov/policy-issues/tax-policy/treaties",
+        "https://www.ssa.gov/international/status.html"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/compare/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required before rule comparisons are published",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.fincen.gov/purpose-fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/faq/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required for changed claims",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.fincen.gov/fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/state-taxes/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "State-tax professional review required for changed claims",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.irs.gov/individuals/international-taxpayers/us-citizens-and-resident-aliens-abroad"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/resources/*",
+      "riskTier": "high",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required before checklist updates",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers",
+        "https://www.fincen.gov/purpose-fbar"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/forms/*",
+      "riskTier": "medium",
+      "owner": "FileAbroad editorial team",
+      "reviewer": "Tax professional review required for form-year changes",
+      "primarySources": [
+        "https://www.irs.gov/forms-instructions"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2026-10-01",
+      "reviewStatus": "queue-open",
+      "indexPolicy": "index-if-current-and-sourced"
+    },
+    {
+      "routePattern": "/editorial-policy",
+      "riskTier": "governance",
+      "owner": "Chip Moreno",
+      "reviewer": "Chip Moreno",
+      "primarySources": [
+        "https://www.irs.gov/individuals/international-taxpayers"
+      ],
+      "lastReviewed": "2026-07-31",
+      "reviewDue": "2027-01-31",
+      "indexPolicy": "index"
+    }
+  ]
+}

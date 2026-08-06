@@ -1,0 +1,53 @@
+{
+  "version": 1,
+  "defaultLocale": "en",
+  "locales": ["en", "es", "pt", "fr", "de", "it", "nl", "ja", "zh"],
+  "fallbackPolicy": "noindex-canonical-en",
+  "localizedStaticPaths": [
+    "/",
+    "/services",
+    "/services/fbar-filing",
+    "/services/fatca-compliance",
+    "/services/streamlined-filing",
+    "/services/expat-tax-filing",
+    "/how-it-works",
+    "/about",
+    "/faq",
+    "/blog",
+    "/guides",
+    "/forms",
+    "/countries",
+    "/personas",
+    "/state-taxes",
+    "/tools",
+    "/intake",
+    "/editorial-policy",
+    "/privacy",
+    "/terms",
+    "/resources/expat-tax-checklist"
+  ],
+  "localizedToolSlugs": [
+    "feie-calculator",
+    "fbar-checker",
+    "catch-up-program",
+    "expat-tax-deadline-calendar",
+    "tax-savings-estimator"
+  ],
+  "localizedFormSlugs": ["114-fbar", "2555-feie", "8938-fatca", "1116-ftc"],
+  "localizedResourceSlugs": ["expat-tax-checklist"],
+  "routeFamilies": [
+    { "pattern": "/", "status": "translated", "locales": "all" },
+    { "pattern": "/services/*", "status": "translated", "locales": "all" },
+    { "pattern": "/blog", "status": "translated", "locales": "all" },
+    { "pattern": "/guides/:slug", "status": "source-backed-only", "locales": ["es", "pt"] },
+    { "pattern": "/blog/:slug", "status": "source-backed-only", "locales": "translation-when-available" },
+    { "pattern": "/tools/:slug", "status": "source-backed-only", "locales": "localizedToolSlugs" },
+    { "pattern": "/resources/:slug", "status": "source-backed-only", "locales": "localizedResourceSlugs" },
+    { "pattern": "/forms/*", "status": "source-backed-only", "locales": "localizedFormSlugs" },
+    { "pattern": "/personas/*", "status": "english-only", "locales": ["en"] },
+    { "pattern": "/state-taxes/*", "status": "english-only", "locales": ["en"] },
+    { "pattern": "/visas/*", "status": "english-only", "locales": ["en"] },
+    { "pattern": "/compare/*", "status": "english-only", "locales": ["en"] },
+    { "pattern": "/topics/*", "status": "english-only", "locales": ["en"] }
+  ]
+}

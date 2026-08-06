@@ -1,0 +1,61 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="background" x1="80" y1="10" x2="1120" y2="630" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0f1d32"/>
+      <stop offset="1" stop-color="#0a1424"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="translate(980 230) rotate(135) scale(420 420)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#d4a843" stop-opacity=".22"/>
+      <stop offset="1" stop-color="#d4a843" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#050b14" flood-opacity=".36"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="630" fill="url(#background)"/>
+  <rect width="1200" height="630" fill="url(#glow)"/>
+
+  <g opacity=".08" stroke="#fafaf8">
+    <path d="M0 105H1200M0 210H1200M0 315H1200M0 420H1200M0 525H1200"/>
+    <path d="M100 0V630M205 0V630M310 0V630M415 0V630M520 0V630M625 0V630M730 0V630M835 0V630M940 0V630M1045 0V630M1150 0V630"/>
+  </g>
+
+  <g transform="translate(750 92)" filter="url(#shadow)">
+    <circle cx="225" cy="225" r="205" fill="#10213a" stroke="#d4a843" stroke-opacity=".55" stroke-width="2"/>
+    <ellipse cx="225" cy="225" rx="205" ry="76" stroke="#fafaf8" stroke-opacity=".16" stroke-width="2"/>
+    <ellipse cx="225" cy="225" rx="80" ry="205" stroke="#fafaf8" stroke-opacity=".16" stroke-width="2"/>
+    <path d="M20 225H430" stroke="#fafaf8" stroke-opacity=".16" stroke-width="2"/>
+    <path d="M83 80C188 126 281 132 382 64" stroke="#d4a843" stroke-width="3" stroke-linecap="round"/>
+    <path d="M55 300C155 246 287 282 408 207" stroke="#d4a843" stroke-opacity=".7" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="83" cy="80" r="7" fill="#e8c876"/>
+    <circle cx="240" cy="122" r="7" fill="#e8c876"/>
+    <circle cx="382" cy="64" r="7" fill="#e8c876"/>
+    <circle cx="55" cy="300" r="6" fill="#e8c876"/>
+    <circle cx="246" cy="269" r="6" fill="#e8c876"/>
+    <circle cx="408" cy="207" r="6" fill="#e8c876"/>
+  </g>
+
+  <g transform="translate(74 74)">
+    <rect width="330" height="38" rx="19" fill="#fafaf8" fill-opacity=".07" stroke="#fafaf8" stroke-opacity=".14"/>
+    <circle cx="21" cy="19" r="4" fill="#d4a843"/>
+    <text x="36" y="25" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="2.1" fill="#e8c876">U.S. EXPAT TAX PREPARATION</text>
+  </g>
+
+  <text x="74" y="220" font-family="Georgia, serif" font-size="76" letter-spacing="-3" fill="#ffffff">A clear U.S. tax</text>
+  <text x="74" y="302" font-family="Georgia, serif" font-size="76" letter-spacing="-3" fill="#ffffff">filing path</text>
+  <text x="74" y="384" font-family="Georgia, serif" font-size="76" font-style="italic" letter-spacing="-3" fill="#e8c876">from abroad.</text>
+
+  <text x="78" y="448" font-family="Arial, sans-serif" font-size="24" fill="#d1d5db">Consultation first · Written scope · Direct communication</text>
+
+  <g transform="translate(76 506)">
+    <path d="M0 10C0 4.477 4.477 0 10 0H48L58 10H116C121.523 10 126 14.477 126 20V63C126 68.523 121.523 73 116 73H10C4.477 73 0 68.523 0 63V10Z" fill="#1a2f52"/>
+    <path d="M0 20C0 14.477 4.477 10 10 10H116C121.523 10 126 14.477 126 20V63C126 68.523 121.523 73 116 73H10C4.477 73 0 68.523 0 63V20Z" fill="#243b53"/>
+    <circle cx="63" cy="42" r="23" fill="#fafaf8" stroke="#d4a843" stroke-width="2.5"/>
+    <ellipse cx="63" cy="42" rx="23" ry="8" stroke="#d4a843" stroke-width="2"/>
+    <ellipse cx="63" cy="42" rx="8" ry="23" stroke="#d4a843" stroke-width="2"/>
+    <path d="M40 42H86" stroke="#d4a843" stroke-width="2"/>
+  </g>
+  <text x="225" y="559" font-family="Georgia, serif" font-size="43" font-weight="700" fill="#ffffff">File<tspan fill="#e8c876">Abroad</tspan></text>
+  <text x="490" y="558" font-family="Arial, sans-serif" font-size="20" font-weight="600" fill="#9ca3af">fileabroad.com</text>
+</svg>

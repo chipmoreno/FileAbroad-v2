@@ -1,0 +1,753 @@
+[
+  {
+    "slug": "california",
+    "name": "California",
+    "abbreviation": "CA",
+    "headline": "California State Tax for Expats: How to Stop Filing (If You Can)",
+    "description": "California is the most aggressive state in pursuing former residents for state income tax. Learn the safe harbor rules, domicile requirements, and termination steps for Americans living abroad.",
+    "persistenceRisk": "extreme",
+    "persistenceSummary": "California aggressively audits expats and former residents. The Franchise Tax Board (FTB) presumes you remain a California resident until you prove otherwise. Simply moving abroad is not enough—you must demonstrate a clear break in California domicile with objective evidence.",
+    "keyRules": [
+      "California taxes residents on worldwide income. Non-residents are taxed only on California-source income.",
+      "California does not have a statutory definition of 'residency.' Instead, it uses a facts-and-circumstances test focused on domicile and presence.",
+      "The 546-day safe harbor allows certain expats to avoid California tax for up to 546 days if they meet strict presence, purpose, and domicile requirements.",
+      "Voting in California elections, maintaining a California driver's license, or owning California property can trigger a residency audit.",
+      "California does not recognize the federal Foreign Earned Income Exclusion for state tax purposes. If you are a California resident, FEIE-excluded income may still be taxable by California."
+    ],
+    "terminationSteps": [
+      "Sell or lease your California home and establish a permanent residence abroad.",
+      "Change your voter registration to your new location (or unregister if you are no longer eligible to vote in California).",
+      "Surrender your California driver's license and obtain a license in your new country of residence (if applicable).",
+      "Close California bank accounts or reduce them to minimal activity.",
+      "Update your mailing address with all financial institutions, employers, and government agencies to your foreign address.",
+      "Document your intent to remain abroad permanently—employment contracts, residence permits, property leases, and family ties.",
+      "File California Form 540 NR as a part-year resident in your year of departure to establish the break.",
+      "Consider filing a California residency clarification letter if the FTB challenges your status."
+    ],
+    "commonTraps": [
+      "Maintaining a vacation home or rental property in California while claiming non-resident status.",
+      "Keeping a California driver's license as your only US license for banking or ID purposes.",
+      "Returning to California for more than 45 days in a tax year without clear documentation of temporary purpose.",
+      "Having a spouse or children who remain in California while you work abroad.",
+      "Using a California address for W-2, 1099, or investment account statements.",
+      "Filing a federal return as a non-resident but failing to file a California part-year/non-resident return in the departure year."
+    ],
+    "expatConsiderations": [
+      "If you qualify for the 546-day safe harbor, you must be outside California for at least 546 consecutive days and have less than $200,000 of California-source income during that period.",
+      "Self-employed expats with California clients may have California-source income even if they live abroad, triggering non-resident filing requirements.",
+      "California does not tax Social Security benefits, but it taxes most other retirement income if you are a resident.",
+      "If you are an 'inactive taxpayer' (no California income, no California filing requirement), the FTB may still send notices based on federal filing data. Respond promptly.",
+      "California community property rules can complicate filing for married couples when one spouse remains a California resident and the other claims non-resident status."
+    ],
+    "residencyAnalysis": [
+      "California residency is a facts-and-circumstances determination. Domicile means the place you consider your permanent home and to which you intend to return, while physical presence is only one fact. A person can spend limited time in California and still have a California domicile, or spend time in California temporarily after establishing a new domicile elsewhere. The departure file should therefore explain both the move and the intent behind it.",
+      "The FTB may examine the home available to you, where your spouse and children live, where you work, where you keep valuable personal property, how you use bank and investment accounts, where you are registered to vote, and which address appears on official records. None of these facts is necessarily decisive alone. The risk increases when the records continue to describe California as your primary home after your move abroad.",
+      "A foreign residence permit, long-term lease, local employment contract, school enrollment, or business registration can support a new domicile, but the document must match the lived facts. A short lease while a California home remains available, or a foreign mailing address used only for correspondence, may not show a permanent change. Explain renewal rights, household arrangements, and whether the foreign location is intended to be temporary or indefinite.",
+      "The 546-day safe harbor is narrower than a general conclusion that a taxpayer moved abroad. Review the employment-related purpose, consecutive-day count, California-source income limit, California return history, and permitted California visits. A taxpayer who fails one safe-harbor condition may still argue that domicile changed, but the analysis then depends on the broader facts and documentation rather than the safe harbor alone.",
+      "A spouse or dependent remaining in California can be relevant without automatically deciding the result. Analyze where the family lives, who maintains the household, whether the taxpayer has a separate permanent home abroad, the reason for the arrangement, and how expenses are paid. Community-property rules can also affect how income and assets appear on a California return when spouses have different residency positions.",
+      "Do not treat a federal FEIE claim, a foreign tax return, or a new passport as proof that California residency ended. Federal and state residency tests are different, and California can continue to tax a resident's worldwide income. The file should connect the state conclusion to California-specific facts, the departure date, the return filed, and the treatment of California-source income after the move."
+    ],
+    "incomeSourcing": [
+      "Wages and service income require a work-location analysis. If services are performed physically outside California after the move, the income may not become California-source merely because the employer, client, or payroll department is in California. Conversely, days worked in California, services tied to California operations, or a California business presence can create source questions. Keep a workday calendar and separate pre-move, California, and post-move services.",
+      "Rental income from California real estate generally remains connected to California even after the owner becomes a non-resident. Track rent, repairs, property taxes, management fees, depreciation, mortgage interest, and sale activity separately from foreign income. A California rental can require a non-resident return and estimated payments without proving that the owner remains a California resident. The property’s availability for personal use is also relevant to the residency analysis.",
+      "A business owner abroad should map the work performed, customers, employees, contractors, office locations, entity classification, and payment flows. A California client does not answer every sourcing question, and an overseas company does not automatically eliminate California filing. California activities, real property, pass-through income, and the taxpayer’s services may each have a different state result. Preserve contracts, invoices, travel records, and entity documents.",
+      "Investment and retirement income can have different state treatment from wages or services. Review dividends, interest, capital gains, pensions, retirement distributions, stock compensation, and partnership or S-corporation items under the relevant California rules. Do not assume that federal exclusions or foreign tax credits carry over to California. A departure-year return should show how worldwide income was allocated between resident and non-resident periods.",
+      "California-source income is not the same as California residency. A former resident may still have a filing obligation because of California property, a California business, a pass-through interest, or work performed in the state. Conversely, a person who remains a resident may owe California tax on foreign-source income even when no California payer is involved. Keep the source schedule next to the domicile analysis so both conclusions are consistent."
+    ],
+    "departureYearWorkflow": [
+      "Set a defensible move date and build a timeline of the year. Mark the last day the California home was available, the date the foreign residence began, travel into California, employment changes, family moves, property transactions, and address changes. The date should be supported by leases, closing statements, immigration records, employment documents, and travel history rather than chosen only because it produces a favorable tax result.",
+      "Determine whether the year calls for Form 540, Form 540NR, or another California filing position based on the facts and current FTB instructions. Reconcile the federal return to the California return, especially where California does not conform to federal exclusions, deductions, entity elections, or retirement rules. Identify California-source income after the move and report it consistently with the sourcing workpaper.",
+      "Update every address that could create a residency signal: DMV, voter registration, financial institutions, employers, insurance, professional licenses, immigration records, and tax agencies. If an address must remain for a narrow administrative reason, document that reason. Do not close an account solely for optics if it is needed for a real obligation; instead, explain its purpose, activity, and balance in the residency file.",
+      "Review estimated payments, withholding, notices, and prior-year carryforwards. A California notice generated from a federal information document is not necessarily proof of residency, but it should not be ignored. Compare the notice to the return, source schedule, and departure evidence, then respond by the deadline with a concise explanation and supporting records. Escalate legal or audit representation questions when they exceed return-preparation scope.",
+      "After filing, perform an annual tie review. Note California visits, home use, new leases, family changes, business activity, property income, and any change in foreign residence. The first year after a move often receives the most scrutiny, but a later return to California, a home purchase, or a new work arrangement can change the analysis. Preserve the original departure file and add contemporaneous updates rather than recreating it later."
+    ],
+    "evidenceChecklist": [
+      "Foreign domicile: residence permit, visa, lease or deed, utility bills, local tax registration, bank activity, employment contract, business registration, school records, and evidence showing whether the residence is temporary or intended to continue. Include translations or explanations for documents that are not in English.",
+      "California home and property: sale or lease documents, move-out records, property-management agreement, insurance, utility closure or transfer, storage records, and a schedule showing whether the home remained available for personal use. If a home was retained, explain its use, occupants, rental terms, and access during the year.",
+      "Travel and presence: passport pages, airline or border records, calendar entries, workday logs, and a list of California visits with purpose and length. Reconcile travel records to the 546-day safe-harbor count and to the service-location schedule. Keep evidence for both time abroad and time in California.",
+      "Personal and official ties: voter registration, driver-license status, vehicle registration, professional licenses, memberships, mailing addresses, family location, and major personal-property location. Identify which ties were ended, which were retained for a specific reason, and when each change occurred.",
+      "Income and filing records: federal return, California returns, Forms W-2 and 1099, rental statements, business invoices, payroll workday data, pass-through schedules, foreign returns, estimated payments, and FTB notices. Use the same move date and source categories across all schedules.",
+      "FTB response file: copy of every notice, submission confirmation, protest, call log, representative authorization, and supporting exhibit. Keep a deadline calendar. If the FTB asks for a specific document, answer that request directly and avoid sending an unindexed collection that makes the residency facts harder to follow."
+    ],
+    "faqs": [
+      {
+        "question": "Do I still have to pay California taxes if I live abroad?",
+        "answer": "If you remain a California resident, yes. California taxes its residents on worldwide income. If you have successfully terminated your California domicile and established a new domicile abroad, you are generally not subject to California income tax on foreign-source income. However, California-source income (rental property, business income from California clients, etc.) remains taxable even for non-residents."
+      },
+      {
+        "question": "What is the California 546-day safe harbor?",
+        "answer": "The 546-day safe harbor allows certain individuals to avoid California tax if they are absent from California for at least 546 consecutive days and have less than $200,000 of California-source income during that period. The absence must be for an employment-related contract or other specific purpose, and you cannot return to California for more than 45 days in any tax year during the absence. The safe harbor is narrowly construed and requires strict compliance."
+      },
+      {
+        "question": "How do I prove I am no longer a California resident?",
+        "answer": "California residency is determined by facts and circumstances. To prove non-residency, you should demonstrate: (1) you have established a new domicile abroad with intent to remain indefinitely; (2) you have severed California ties (home, voter registration, driver's license, bank accounts); and (3) your presence in California is temporary and occasional. Document everything—leases, residence permits, employment contracts, utility bills, and travel records."
+      },
+      {
+        "question": "Does California recognize the Foreign Earned Income Exclusion?",
+        "answer": "No. California does not conform to the federal Foreign Earned Income Exclusion. If you are a California resident, income excluded on your federal return under the FEIE may still be taxable for California purposes. This is one of the most significant differences between federal and California tax treatment for expats."
+      },
+      {
+        "question": "What if California sends me a tax notice while I am abroad?",
+        "answer": "Respond immediately. The Franchise Tax Board aggressively pursues former residents and may issue assessments based on federal filing data or third-party information. If you believe the notice is incorrect, file a written protest with supporting documentation of your non-resident status. Ignoring the notice can lead to escalating penalties, liens, and passport restrictions. FileAbroad can review the notice and recommend the appropriate response within a scoped engagement."
+      }
+    ],
+    "seo": {
+      "title": "California Expat State Tax: Termination, Safe Harbor & Filing Rules",
+      "description": "California aggressively taxes expats. Learn the 546-day safe harbor, domicile termination steps, FTB audit triggers, and how to stop filing California taxes from abroad.",
+      "keywords": ["California expat tax", "California state tax abroad", "stop California residency", "California safe harbor 546 days", "California FTB expat", "California domicile termination"]
+    }
+  },
+  {
+    "slug": "virginia",
+    "name": "Virginia",
+    "abbreviation": "VA",
+    "headline": "Virginia State Tax for Expats: Domicile and Residency Rules",
+    "description": "Virginia requires a clear break in domicile to stop state tax obligations. Learn the termination steps, common audit triggers, and how Virginia taxes income for Americans living abroad.",
+    "persistenceRisk": "high",
+    "persistenceSummary": "Virginia uses a domicile-based residency test. Once you establish domicile in Virginia, you remain a Virginia resident until you establish a new domicile elsewhere with intent to remain indefinitely. Virginia does not have a specific safe harbor for expats, so termination requires careful documentation.",
+    "keyRules": [
+      "Virginia taxes residents on worldwide income. Non-residents pay tax only on Virginia-source income.",
+      "Virginia domicile is established by physical presence plus intent to remain indefinitely.",
+      "A Virginia resident who moves abroad remains a Virginia resident unless they establish a new domicile in a foreign country.",
+      "Virginia recognizes the federal Foreign Earned Income Exclusion for state tax purposes.",
+      "Military personnel stationed outside Virginia may be exempt under the Servicemembers Civil Relief Act, but civilian expats are not."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent out your Virginia home and establish a primary residence abroad.",
+      "Change your voter registration from Virginia to your new location or unregister.",
+      "Surrender your Virginia driver's license and obtain foreign documentation if available.",
+      "Close or minimize Virginia bank accounts and update your mailing address to your foreign address.",
+      "File Virginia Form 760 as a part-year resident in your departure year to establish the break.",
+      "Document your intent to remain abroad indefinitely through employment contracts, residence visas, and family relocation."
+    ],
+    "commonTraps": [
+      "Maintaining a Virginia home while claiming a foreign domicile.",
+      "Keeping Virginia voter registration for federal elections only.",
+      "Returning to Virginia for extended visits without clear temporary purpose documentation.",
+      "Filing a federal return with a Virginia address while claiming non-resident status.",
+      "Failing to file a Virginia part-year return in the year of departure."
+    ],
+    "expatConsiderations": [
+      "Virginia does conform to the federal FEIE, which reduces the state tax burden for residents claiming the exclusion.",
+      "Self-employed expats with Virginia clients may still owe Virginia tax on that Virginia-source income as non-residents.",
+      "Virginia's tax rate is moderate (2% to 5.75%), but the domicile rules are strictly enforced.",
+      "If you maintain a Virginia LLC or business entity, you may have filing obligations regardless of personal residency."
+    ],
+    "residencyAnalysis": [
+      "Virginia can analyze both domicile and statutory residency. A taxpayer may remain domiciled in Virginia after moving abroad if the permanent-home facts and intent do not show a new domicile, while a separate day-count and abode analysis can matter for statutory residency. Review the current Virginia instructions for the tax year and keep the two tests separate in the workpapers.",
+      "A foreign lease, employment contract, residence permit, and local utility history can support the move, but Virginia ties should be addressed individually. Update the driver license, voter registration, vehicle records, financial addresses, professional licenses, and property use. If a Virginia home is retained, document whether it is rented, occupied by family, held for sale, or available for personal use.",
+      "Virginia-source income can remain reportable after domicile changes. Separate services performed in Virginia from services performed abroad, and separately track Virginia real estate, pass-through interests, and business activity. A Virginia customer or employer address does not answer the sourcing question by itself; the service location, entity, contract, and workday records all matter.",
+      "For the departure year, prepare a dated presence and domicile timeline, identify the correct resident or part-year position, reconcile federal and Virginia adjustments, and retain the records used to support the conclusion. If Virginia requests information, answer the notice by deadline with an indexed explanation rather than sending inconsistent documents from different years."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to file Virginia taxes if I live abroad?",
+        "answer": "If Virginia remains your domicile, yes. Virginia taxes its residents on worldwide income. If you have successfully established a new domicile abroad, you generally do not owe Virginia tax on foreign-source income, but Virginia-source income remains taxable."
+      },
+      {
+        "question": "Does Virginia recognize the Foreign Earned Income Exclusion?",
+        "answer": "Yes. Virginia conforms to the federal Foreign Earned Income Exclusion. If you claim the FEIE on your federal return, Virginia generally respects that exclusion for state tax purposes, which can significantly reduce or eliminate your Virginia tax liability if you are still considered a resident."
+      },
+      {
+        "question": "How do I terminate Virginia domicile?",
+        "answer": "To terminate Virginia domicile, you must establish a new domicile abroad with intent to remain indefinitely and sever your Virginia ties. This includes selling or leasing your Virginia home, changing voter registration, surrendering your Virginia driver's license, and updating your address with all financial institutions. File a Virginia part-year resident return in your departure year to document the break."
+      }
+    ],
+    "seo": {
+      "title": "Virginia Expat State Tax: Domicile Termination & Filing Rules",
+      "description": "Virginia state tax for Americans abroad. Learn domicile termination steps, FEIE conformity, common audit triggers, and how to stop filing Virginia taxes from overseas.",
+      "keywords": ["Virginia expat tax", "Virginia state tax abroad", "Virginia domicile termination", "Virginia non-resident tax", "Virginia FEIE"]
+    }
+  },
+  {
+    "slug": "new-york",
+    "name": "New York",
+    "abbreviation": "NY",
+    "headline": "New York State Tax for Expats: Residency and Domicile Breaks",
+    "description": "New York uses both statutory residency and domicile tests. Understand the 184-day rule, the domicile presumption, and how to terminate New York tax obligations when moving abroad.",
+    "persistenceRisk": "high",
+    "persistenceSummary": "New York aggressively audits expats using both domicile and statutory residency tests. Even if you break domicile, you can be treated as a statutory resident if you spend 184+ days in New York and maintain a permanent place of abode there. Moving abroad generally breaks statutory residency, but maintaining a New York home creates risk.",
+    "keyRules": [
+      "New York taxes residents on worldwide income. Non-residents pay tax on New York-source income.",
+      "You are a New York resident if: (1) your domicile is in New York, OR (2) you are a statutory resident (184+ days in NY + permanent place of abode in NY).",
+      "Moving abroad generally eliminates statutory residency because you are no longer in New York for 184+ days.",
+      "New York does not conform to the federal Foreign Earned Income Exclusion. If you are a New York resident, FEIE-excluded income may still be taxable by New York.",
+      "New York City has its own income tax in addition to New York State tax."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent your New York home. Maintaining a permanent place of abode in New York while claiming non-residency is high-risk.",
+      "Change voter registration and surrender your New York driver's license.",
+      "Close New York bank accounts or reduce them to minimal activity.",
+      "Update your mailing address with all institutions to your foreign address.",
+      "File New York Form IT-203 in your departure year as a part-year non-resident.",
+      "Document your foreign residence with leases, employment contracts, and residence permits."
+    ],
+    "commonTraps": [
+      "Keeping a New York apartment or house while claiming foreign residency.",
+      "Returning to New York for extended stays that approach 184 days in a year.",
+      "Using a New York address for banking, investments, or tax documents.",
+      "Failing to realize that New York does not conform to the federal FEIE.",
+      "Ignoring New York City tax obligations if you were previously a NYC resident."
+    ],
+    "expatConsiderations": [
+      "New York's non-conformity with the FEIE makes it particularly expensive for residents with significant foreign earned income.",
+      "The Foreign Tax Credit is generally more useful than the FEIE for New York residents because New York does not exclude FEIE income.",
+      "Remote workers employed by New York companies may have New York-source income even if they work entirely from abroad.",
+      "New York's audit rate for residency changes is among the highest in the nation. Document everything."
+    ],
+    "residencyAnalysis": [
+      "New York residency analysis commonly turns on domicile and a separate statutory-resident framework involving a permanent place of abode and day count. Keep a daily travel calendar and document whether a New York dwelling was available, maintained, rented to an unrelated tenant, or used by family. A foreign address alone is not enough to resolve the state question.",
+      "New York audits often compare the return with apartment records, utility bills, credit-card activity, cell-phone location, employment records, school records, and travel data. Build a consistent evidence file before filing: explain the new foreign home, the reason for the move, the location of work, the treatment of the New York dwelling, and the dates each tie was ended or retained.",
+      "New York-source income can survive a residency change. Review services physically performed in New York, New York real estate, pass-through interests, stock compensation, business activity, and income connected to a New York office. The federal FEIE, a foreign tax return, and an employer's payroll address do not by themselves determine New York sourcing.",
+      "For a departure-year filing, split the resident and non-resident periods using current New York instructions, reconcile federal and state differences, and preserve the source schedule. A notice response should address the exact residency facts requested and should not rely on a generic statement that the taxpayer moved abroad."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay New York state tax if I live abroad?",
+        "answer": "If New York remains your domicile, yes. New York taxes its residents on worldwide income. If you have broken domicile and established a new domicile abroad, you are generally not subject to New York tax on foreign-source income. However, New York-source income (such as rental property or business income from New York clients) remains taxable for non-residents."
+      },
+      {
+        "question": "Does New York recognize the Foreign Earned Income Exclusion?",
+        "answer": "No. New York does not conform to the federal Foreign Earned Income Exclusion. If you are a New York resident, income excluded on your federal return under the FEIE is still taxable for New York purposes. This makes New York one of the most expensive states for expats who rely on the FEIE."
+      },
+      {
+        "question": "What is the New York 184-day rule?",
+        "answer": "The 184-day rule applies to statutory residency. If you spend 184 or more days in New York during the tax year and maintain a permanent place of abode in New York, you are treated as a New York resident for tax purposes even if your domicile is elsewhere. Moving abroad generally breaks statutory residency because you will not spend 184 days in New York, but maintaining a permanent place of abode there still creates audit risk."
+      }
+    ],
+    "seo": {
+      "title": "New York Expat State Tax: 184-Day Rule, Domicile & FEIE Non-Conformity",
+      "description": "New York aggressively taxes expats and does not recognize the federal FEIE. Learn the 184-day statutory residency rule, domicile termination steps, and NY-source income rules.",
+      "keywords": ["New York expat tax", "New York state tax abroad", "New York 184 day rule", "New York domicile termination", "New York FEIE"]
+    }
+  },
+  {
+    "slug": "new-mexico",
+    "name": "New Mexico",
+    "abbreviation": "NM",
+    "headline": "New Mexico State Tax for Expats: Domicile and Residency Rules",
+    "description": "New Mexico taxes residents on worldwide income. Learn the domicile requirements, termination steps, and how to stop filing New Mexico taxes from abroad.",
+    "persistenceRisk": "moderate",
+    "persistenceSummary": "New Mexico uses a domicile-based residency test. Once domiciled in New Mexico, you remain a resident until you establish a new domicile elsewhere with intent to remain indefinitely. New Mexico conforms to the federal Foreign Earned Income Exclusion.",
+    "keyRules": [
+      "New Mexico taxes residents on worldwide income. Non-residents pay tax only on New Mexico-source income.",
+      "New Mexico domicile is established by physical presence plus intent to remain indefinitely.",
+      "New Mexico conforms to the federal Foreign Earned Income Exclusion, reducing tax for residents claiming the FEIE.",
+      "Self-employed expats with New Mexico clients may owe state tax on that income even as non-residents.",
+      "New Mexico's personal income tax rates range from 1.7% to 5.9%."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent out your New Mexico home and establish a primary residence abroad.",
+      "Change your voter registration from New Mexico to your new location or unregister.",
+      "Surrender your New Mexico driver's license and obtain foreign documentation if available.",
+      "Close or minimize New Mexico bank accounts and update your mailing address to your foreign address.",
+      "File New Mexico Form PIT-B as a part-year resident in your departure year.",
+      "Document your intent to remain abroad indefinitely through employment contracts, residence visas, and family relocation."
+    ],
+    "commonTraps": [
+      "Maintaining a New Mexico vacation home while claiming foreign residency.",
+      "Keeping New Mexico voter registration for federal elections only.",
+      "Returning to New Mexico for extended visits without clear temporary purpose documentation.",
+      "Filing a federal return with a New Mexico address while claiming non-resident status.",
+      "Failing to file a New Mexico part-year return in the year of departure."
+    ],
+    "expatConsiderations": [
+      "New Mexico conforms to the federal FEIE, which reduces the state tax burden for residents claiming the exclusion.",
+      "Self-employed expats with New Mexico clients may still owe New Mexico tax on that New Mexico-source income as non-residents.",
+      "New Mexico's tax rate is moderate, but the domicile rules are strictly enforced.",
+      "If you maintain a New Mexico LLC or business entity, you may have filing obligations regardless of personal residency."
+    ],
+    "residencyAnalysis": [
+      "New Mexico residency should be analyzed from domicile, physical presence, home availability, family location, and the taxpayer's intent to return. A move abroad is stronger when the foreign residence is established as a real home rather than a short stop between U.S. locations. Keep a timeline that connects the move date to immigration, housing, employment, and household records.",
+      "Review the current New Mexico personal-income-tax instructions for resident, part-year, and non-resident filing positions. Do not assume that federal FEIE treatment answers every New Mexico question. Identify state additions, subtractions, credits, and source rules separately, especially when the taxpayer has retirement income, pass-through income, or a business interest.",
+      "New Mexico property, rental income, services performed in the state, and business activity may continue to create state filing questions after a taxpayer becomes a non-resident. Maintain a source schedule that separates New Mexico items from foreign wages, foreign business receipts, investment income, and post-departure services performed abroad.",
+      "Evidence should include the foreign residence, U.S. home disposition or rental terms, travel calendar, address changes, voter and license records, family location, and the departure-year return. If the state challenges the change, explain which facts changed, when they changed, and why retained ties do not show that New Mexico remained the permanent home."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to file New Mexico taxes if I live abroad?",
+        "answer": "If New Mexico remains your domicile, yes. New Mexico taxes its residents on worldwide income. If you have successfully established a new domicile abroad, you generally do not owe New Mexico tax on foreign-source income, but New Mexico-source income remains taxable."
+      },
+      {
+        "question": "Does New Mexico recognize the Foreign Earned Income Exclusion?",
+        "answer": "Yes. New Mexico conforms to the federal Foreign Earned Income Exclusion. If you claim the FEIE on your federal return, New Mexico generally respects that exclusion for state tax purposes."
+      },
+      {
+        "question": "How do I terminate New Mexico domicile?",
+        "answer": "To terminate New Mexico domicile, you must establish a new domicile abroad with intent to remain indefinitely and sever your New Mexico ties. This includes selling or leasing your New Mexico home, changing voter registration, surrendering your driver's license, and updating your address with all financial institutions. File a New Mexico part-year resident return in your departure year to document the break."
+      }
+    ],
+    "seo": {
+      "title": "New Mexico Expat State Tax: Domicile Termination & Filing Rules",
+      "description": "New Mexico state tax for Americans abroad. Learn domicile termination steps, FEIE conformity, common audit triggers, and how to stop filing New Mexico taxes from overseas.",
+      "keywords": ["New Mexico expat tax", "New Mexico state tax abroad", "New Mexico domicile termination", "New Mexico non-resident tax", "New Mexico FEIE"]
+    }
+  },
+  {
+    "slug": "south-carolina",
+    "name": "South Carolina",
+    "abbreviation": "SC",
+    "headline": "South Carolina State Tax for Expats: Residency and Filing Rules",
+    "description": "South Carolina requires a clear break in domicile to stop state tax obligations. Learn the termination steps, common audit triggers, and how South Carolina taxes income for Americans living abroad.",
+    "persistenceRisk": "moderate",
+    "persistenceSummary": "South Carolina uses a domicile-based residency test. Once domiciled in South Carolina, you remain a resident until you establish a new domicile elsewhere with intent to remain indefinitely. South Carolina conforms to the federal Foreign Earned Income Exclusion.",
+    "keyRules": [
+      "South Carolina taxes residents on worldwide income. Non-residents pay tax only on South Carolina-source income.",
+      "South Carolina domicile is established by physical presence plus intent to remain indefinitely.",
+      "South Carolina conforms to the federal Foreign Earned Income Exclusion.",
+      "Self-employed expats with South Carolina clients may owe state tax on that income even as non-residents.",
+      "South Carolina's personal income tax rates range from 0% to 6.4%."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent out your South Carolina home and establish a primary residence abroad.",
+      "Change your voter registration from South Carolina to your new location or unregister.",
+      "Surrender your South Carolina driver's license and obtain foreign documentation if available.",
+      "Close or minimize South Carolina bank accounts and update your mailing address to your foreign address.",
+      "File South Carolina Form SC1040 as a part-year resident in your departure year.",
+      "Document your intent to remain abroad indefinitely through employment contracts, residence visas, and family relocation."
+    ],
+    "commonTraps": [
+      "Maintaining a South Carolina vacation home while claiming foreign residency.",
+      "Keeping South Carolina voter registration for federal elections only.",
+      "Returning to South Carolina for extended visits without clear temporary purpose documentation.",
+      "Filing a federal return with a South Carolina address while claiming non-resident status.",
+      "Failing to file a South Carolina part-year return in the year of departure."
+    ],
+    "expatConsiderations": [
+      "South Carolina conforms to the federal FEIE, which reduces the state tax burden for residents claiming the exclusion.",
+      "Self-employed expats with South Carolina clients may still owe South Carolina tax on that South Carolina-source income as non-residents.",
+      "South Carolina's tax rate is moderate, but the domicile rules are strictly enforced.",
+      "If you maintain a South Carolina LLC or business entity, you may have filing obligations regardless of personal residency."
+    ],
+    "residencyAnalysis": [
+      "South Carolina's departure analysis should distinguish domicile from a temporary absence. Review the foreign home, family location, employment, property use, vehicle and license records, voter registration, and the taxpayer's stated intention. A seasonal or retirement move can require more evidence because a retained U.S. home may still appear to be the permanent base.",
+      "Keep records of the year of departure and all later South Carolina visits. The current state instructions control the resident, part-year, and non-resident filing position; do not use a federal day-count rule as a substitute. If a safe-harbor or exception is relevant, document every condition and the dates that support it.",
+      "South Carolina real property, rentals, services performed in the state, pass-through income, and business registrations may continue to matter after a move abroad. Use separate schedules for state-source items and foreign income. A South Carolina client or bank account is a fact to explain, not an automatic conclusion that all income is South Carolina-source.",
+      "A defensible file includes the foreign lease or deed, immigration records, move logistics, address updates, travel records, home-use evidence, state returns, and any tax notices. Keep the facts consistent across federal, South Carolina, and foreign returns and respond promptly if the state asks for proof of the domicile change."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to file South Carolina taxes if I live abroad?",
+        "answer": "If South Carolina remains your domicile, yes. South Carolina taxes its residents on worldwide income. If you have successfully established a new domicile abroad, you generally do not owe South Carolina tax on foreign-source income, but South Carolina-source income remains taxable."
+      },
+      {
+        "question": "Does South Carolina recognize the Foreign Earned Income Exclusion?",
+        "answer": "Yes. South Carolina conforms to the federal Foreign Earned Income Exclusion. If you claim the FEIE on your federal return, South Carolina generally respects that exclusion for state tax purposes."
+      },
+      {
+        "question": "How do I terminate South Carolina domicile?",
+        "answer": "To terminate South Carolina domicile, you must establish a new domicile abroad with intent to remain indefinitely and sever your South Carolina ties. This includes selling or leasing your South Carolina home, changing voter registration, surrendering your driver's license, and updating your address with all financial institutions. File a South Carolina part-year resident return in your departure year to document the break."
+      }
+    ],
+    "seo": {
+      "title": "South Carolina Expat State Tax: Domicile Termination & Filing Rules",
+      "description": "South Carolina state tax for Americans abroad. Learn domicile termination steps, FEIE conformity, common audit triggers, and how to stop filing South Carolina taxes from overseas.",
+      "keywords": ["South Carolina expat tax", "South Carolina state tax abroad", "South Carolina domicile termination", "South Carolina non-resident tax", "South Carolina FEIE"]
+    }
+  },
+  {
+    "slug": "massachusetts",
+    "name": "Massachusetts",
+    "abbreviation": "MA",
+    "headline": "Massachusetts State Tax for Expats: Domicile and Residency Rules",
+    "description": "Massachusetts taxes residents on worldwide income. Learn the domicile requirements, termination steps, and how to stop filing Massachusetts taxes from abroad.",
+    "persistenceRisk": "moderate",
+    "persistenceSummary": "Massachusetts uses a domicile-based residency test. Once domiciled in Massachusetts, you remain a resident until you establish a new domicile elsewhere with intent to remain indefinitely. Massachusetts does not conform to the federal Foreign Earned Income Exclusion.",
+    "keyRules": [
+      "Massachusetts taxes residents on worldwide income. Non-residents pay tax only on Massachusetts-source income.",
+      "Massachusetts domicile is established by physical presence plus intent to remain indefinitely.",
+      "Massachusetts does not conform to the federal Foreign Earned Income Exclusion.",
+      "Self-employed expats with Massachusetts clients may owe state tax on that income even as non-residents.",
+      "Massachusetts has a flat personal income tax rate of 5% (with a 4% surtax on income over $1 million)."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent out your Massachusetts home and establish a primary residence abroad.",
+      "Change your voter registration from Massachusetts to your new location or unregister.",
+      "Surrender your Massachusetts driver's license and obtain foreign documentation if available.",
+      "Close or minimize Massachusetts bank accounts and update your mailing address to your foreign address.",
+      "File Massachusetts Form 1-NR/PY as a part-year resident in your departure year.",
+      "Document your intent to remain abroad indefinitely through employment contracts, residence visas, and family relocation."
+    ],
+    "commonTraps": [
+      "Maintaining a Massachusetts vacation home while claiming foreign residency.",
+      "Keeping Massachusetts voter registration for federal elections only.",
+      "Returning to Massachusetts for extended visits without clear temporary purpose documentation.",
+      "Filing a federal return with a Massachusetts address while claiming non-resident status.",
+      "Failing to file a Massachusetts part-year return in the year of departure."
+    ],
+    "expatConsiderations": [
+      "Massachusetts does not conform to the federal FEIE, making it expensive for residents with significant foreign earned income.",
+      "Self-employed expats with Massachusetts clients may still owe Massachusetts tax on that Massachusetts-source income as non-residents.",
+      "Massachusetts has a flat tax rate, which simplifies calculations but can be burdensome for high earners.",
+      "If you maintain a Massachusetts LLC or business entity, you may have filing obligations regardless of personal residency."
+    ],
+    "residencyAnalysis": [
+      "Massachusetts can examine domicile and statutory residency separately. A permanent place of abode, actual days, family location, work location, and the availability of a Massachusetts home should be mapped against the current Department of Revenue guidance. Use a contemporaneous calendar instead of estimating days after the year ends.",
+      "Because Massachusetts may not follow federal exclusions in the same way, reconcile the federal return to the state return line by line. Review wages, self-employment income, retirement distributions, investment income, foreign tax, and pass-through items separately. A federal FEIE position does not automatically remove the income from the Massachusetts analysis.",
+      "After a domicile change, Massachusetts-source income can still require a non-resident or part-year filing. Track Massachusetts property, rental activity, workdays in the state, business operations, and services tied to the state. Keep foreign workdays and foreign income in a separate schedule with contracts and invoices.",
+      "The evidence file should explain when the Massachusetts home stopped being the primary home, where the new foreign home was established, what ties were retained, and why. Include licenses, voter records, utilities, leases, travel, family, employer records, and the exact state filing position used for the departure year."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to file Massachusetts taxes if I live abroad?",
+        "answer": "If Massachusetts remains your domicile, yes. Massachusetts taxes its residents on worldwide income. If you have successfully established a new domicile abroad, you generally do not owe Massachusetts tax on foreign-source income, but Massachusetts-source income remains taxable."
+      },
+      {
+        "question": "Does Massachusetts recognize the Foreign Earned Income Exclusion?",
+        "answer": "No. Massachusetts does not conform to the federal Foreign Earned Income Exclusion. If you are a Massachusetts resident, income excluded on your federal return under the FEIE is still taxable for Massachusetts purposes."
+      },
+      {
+        "question": "How do I terminate Massachusetts domicile?",
+        "answer": "To terminate Massachusetts domicile, you must establish a new domicile abroad with intent to remain indefinitely and sever your Massachusetts ties. This includes selling or leasing your Massachusetts home, changing voter registration, surrendering your driver's license, and updating your address with all financial institutions. File a Massachusetts part-year resident return in your departure year to document the break."
+      }
+    ],
+    "seo": {
+      "title": "Massachusetts Expat State Tax: Domicile Termination & Filing Rules",
+      "description": "Massachusetts state tax for Americans abroad. Learn domicile termination steps, FEIE non-conformity, common audit triggers, and how to stop filing Massachusetts taxes from overseas.",
+      "keywords": ["Massachusetts expat tax", "Massachusetts state tax abroad", "Massachusetts domicile termination", "Massachusetts non-resident tax", "Massachusetts FEIE"]
+    }
+  },
+  {
+    "slug": "texas",
+    "name": "Texas",
+    "abbreviation": "TX",
+    "headline": "Texas State Tax for Expats: No Income Tax, But Other Considerations",
+    "description": "Texas has no state income tax, making it a popular domicile for Americans moving abroad. Learn the residency rules, property tax considerations, and other obligations.",
+    "persistenceRisk": "low",
+    "persistenceSummary": "Texas has no state income tax, so there is no state tax liability for Texas residents living abroad. However, you may still have property tax obligations if you maintain real estate in Texas, and you should ensure your domicile is properly established to avoid challenges from other states.",
+    "keyRules": [
+      "Texas has no state income tax. There is no personal income tax filing requirement for Texas residents.",
+      "Texas does not tax wage income, investment income, or retirement income at the state level.",
+      "Texas property tax is among the highest in the nation. If you maintain a home in Texas, you will owe property tax regardless of residency.",
+      "Texas has no state estate tax or inheritance tax.",
+      "Establishing Texas domicile before moving abroad can simplify tax obligations."
+    ],
+    "terminationSteps": [
+      "Establish a Texas address and update your voter registration to Texas before moving abroad.",
+      "Obtain a Texas driver's license and register your vehicle in Texas.",
+      "Open a Texas bank account and update your mailing address with all financial institutions.",
+      "File federal taxes using your Texas address to establish domicile.",
+      "If you maintain Texas property, ensure property taxes are paid or the property is rented.",
+      "Document your intent to make Texas your permanent US domicile."
+    ],
+    "commonTraps": [
+      "Assuming Texas residency eliminates all US state tax obligations — other states may challenge your domicile if you have significant ties elsewhere.",
+      "Failing to pay Texas property taxes on maintained real estate.",
+      "Not properly establishing Texas domicile before moving abroad, leaving domicile ambiguous.",
+      "Maintaining significant ties to a high-tax state (e.g., California) while claiming Texas domicile."
+    ],
+    "expatConsiderations": [
+      "Texas is one of the best states for domicile before moving abroad because there is no state income tax.",
+      "Texas property tax can be high, so factor this into the cost of maintaining Texas real estate.",
+      "If you have no Texas property and no Texas income, there are generally no state tax filing obligations.",
+      "Texas does not conform to federal tax rules in the same way as some states, but this is irrelevant because there is no income tax."
+    ],
+    "residencyAnalysis": [
+      "Texas does not impose a broad individual state income tax, but Texas domicile evidence can still matter when another state argues that Texas was not the taxpayer's true home. Keep the foreign residence, move date, employment, household, vehicle, voter, license, and property records together so the domicile story is consistent across federal and state filings.",
+      "Retaining Texas property is not automatically a problem. Document whether it is rented, used by family, held for sale, or available for personal visits. A homestead or mailing address may be relevant evidence, but it should be explained in context rather than treated as conclusive by itself.",
+      "Texas business activity, real property, pass-through interests, franchise-tax obligations, payroll, and services performed in Texas can remain relevant even when the individual has no personal income-tax return. Separate personal domicile from entity compliance and refer entity-level questions to the appropriate specialist.",
+      "For a taxpayer leaving another income-tax state and claiming a Texas domicile before moving abroad, the strongest file shows the Texas home and ties were real, not merely a paper address. Preserve the sequence of moves, leases, closing statements, travel, and address changes before filing the former state's departure-year return."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Texas state tax if I live abroad?",
+        "answer": "No. Texas has no state income tax, so there is no personal income tax liability for Texas residents living abroad. However, if you maintain real estate in Texas, you will still owe property tax."
+      },
+      {
+        "question": "Should I establish Texas domicile before moving abroad?",
+        "answer": "Yes, if possible. Texas is one of the best states for expat domicile because there is no state income tax, no estate tax, and no inheritance tax. Establishing Texas domicile before moving abroad can eliminate state tax obligations entirely."
+      },
+      {
+        "question": "Does Texas have property tax for expats?",
+        "answer": "Yes. Texas property tax applies to real estate regardless of the owner's residency status. If you maintain a home, land, or other real property in Texas, you will receive a property tax bill annually. Texas property taxes are among the highest in the US."
+      }
+    ],
+    "seo": {
+      "title": "Texas Expat State Tax: No Income Tax, Property Tax & Domicile",
+      "description": "Texas has no state income tax for Americans abroad. Learn residency rules, property tax obligations, and why Texas is a top domicile choice for expats.",
+      "keywords": ["Texas expat tax", "Texas state tax abroad", "Texas no income tax", "Texas domicile expat", "Texas property tax abroad"]
+    }
+  },
+  {
+    "slug": "florida",
+    "name": "Florida",
+    "abbreviation": "FL",
+    "headline": "Florida State Tax for Expats: No Income Tax, Warm Weather, Simple Obligations",
+    "description": "Florida has no state income tax, making it a popular domicile for Americans moving abroad. Learn the residency rules and why Florida is a top choice for expat state domicile.",
+    "persistenceRisk": "low",
+    "persistenceSummary": "Florida has no state income tax, so there is no state tax liability for Florida residents living abroad. Florida also has no estate tax or inheritance tax. Property tax applies to maintained real estate, but there are no personal income tax filing obligations.",
+    "keyRules": [
+      "Florida has no state income tax. There is no personal income tax filing requirement for Florida residents.",
+      "Florida does not tax wage income, investment income, or retirement income at the state level.",
+      "Florida property tax applies to real estate. The average effective rate is approximately 0.9%.",
+      "Florida has no state estate tax or inheritance tax.",
+      "Florida's homestead exemption can reduce property tax for primary residences."
+    ],
+    "terminationSteps": [
+      "Establish a Florida address and update your voter registration to Florida before moving abroad.",
+      "Obtain a Florida driver's license and register your vehicle in Florida.",
+      "Open a Florida bank account and update your mailing address with all financial institutions.",
+      "File federal taxes using your Florida address to establish domicile.",
+      "If you maintain Florida property, ensure property taxes are paid or the property is rented.",
+      "Document your intent to make Florida your permanent US domicile."
+    ],
+    "commonTraps": [
+      "Assuming Florida residency eliminates all US state tax obligations — other states may challenge your domicile if you have significant ties elsewhere.",
+      "Failing to pay Florida property taxes on maintained real estate.",
+      "Not properly establishing Florida domicile before moving abroad, leaving domicile ambiguous.",
+      "Maintaining significant ties to a high-tax state (e.g., New York) while claiming Florida domicile."
+    ],
+    "expatConsiderations": [
+      "Florida is one of the best states for domicile before moving abroad because there is no state income tax, no estate tax, and no inheritance tax.",
+      "Florida property tax is moderate compared to other states, but still a factor if you maintain real estate.",
+      "If you have no Florida property and no Florida income, there are generally no state tax filing obligations.",
+      "Florida's homestead exemption can reduce property tax if you maintain a primary residence there."
+    ],
+    "residencyAnalysis": [
+      "Florida does not impose a broad individual state income tax, but Florida domicile records can still be important when a former state challenges a move abroad. Establishing a real Florida home before the international move is different from using a mailing address. Keep the lease or closing file, utilities, household records, driver license, voter registration, and travel history.",
+      "Florida property and homestead records should match the actual facts. If a home is retained after the move, document who occupies it, whether it is rented, how personal use is limited, and how the property is insured. A homestead filing can be evidence of a claimed home, but it does not by itself answer another state's residency test.",
+      "Florida-based businesses, rental property, pass-through interests, payroll, and services performed in Florida may create entity or source obligations even without a personal income tax. Keep the individual domicile analysis separate from the business records and identify any foreign company or partnership reporting that needs a federal review.",
+      "When Florida is used as the last U.S. domicile before moving abroad, preserve the order of events: the former state was left, Florida ties were established, and the foreign home was created. The timeline should be consistent with federal addresses, insurance, banking, property documents, and the final state return filed in the former state."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Florida state tax if I live abroad?",
+        "answer": "No. Florida has no state income tax, so there is no personal income tax liability for Florida residents living abroad. However, if you maintain real estate in Florida, you will still owe property tax."
+      },
+      {
+        "question": "Should I establish Florida domicile before moving abroad?",
+        "answer": "Yes, if possible. Florida is one of the best states for expat domicile because there is no state income tax, no estate tax, and no inheritance tax. Many retirees and remote workers choose Florida as their domicile before moving abroad."
+      },
+      {
+        "question": "Does Florida have property tax for expats?",
+        "answer": "Yes. Florida property tax applies to real estate regardless of the owner's residency status. If you maintain a home, land, or other real property in Florida, you will receive a property tax bill annually. Florida's average effective property tax rate is approximately 0.9%."
+      }
+    ],
+    "seo": {
+      "title": "Florida Expat State Tax: No Income Tax, Property Tax & Domicile",
+      "description": "Florida has no state income tax for Americans abroad. Learn residency rules, property tax obligations, and why Florida is a top domicile choice for expats.",
+      "keywords": ["Florida expat tax", "Florida state tax abroad", "Florida no income tax", "Florida domicile expat", "Florida property tax abroad"]
+    }
+  },
+  {
+    "slug": "washington",
+    "name": "Washington",
+    "abbreviation": "WA",
+    "headline": "Washington State Tax for Expats: No Income Tax, But Capital Gains Tax Applies",
+    "description": "Washington has no state income tax but enacted a 7% capital gains tax in 2022. Learn the residency rules and how Washington taxes investment income for Americans living abroad.",
+    "persistenceRisk": "low",
+    "persistenceSummary": "Washington has no state income tax on wages, but a 7% capital gains tax applies to long-term capital gains over $250,000 per year. Washington residents living abroad are subject to this tax on worldwide capital gains. Washington has no estate tax for estates under $2.193 million.",
+    "keyRules": [
+      "Washington has no state income tax on wages, salaries, or ordinary income.",
+      "Washington has a 7% long-term capital gains tax on gains exceeding $250,000 per year (effective 2022).",
+      "The capital gains tax applies to Washington residents on worldwide capital gains, including gains from foreign investments.",
+      "Washington has a state estate tax with an exemption of $2.193 million.",
+      "Washington does not have an inheritance tax."
+    ],
+    "terminationSteps": [
+      "Establish a Washington address and update your voter registration to Washington before moving abroad.",
+      "Obtain a Washington driver's license and register your vehicle in Washington.",
+      "Open a Washington bank account and update your mailing address with all financial institutions.",
+      "File federal taxes using your Washington address to establish domicile.",
+      "If you maintain Washington property, ensure property taxes are paid or the property is rented.",
+      "Document your intent to make Washington your permanent US domicile."
+    ],
+    "commonTraps": [
+      "Assuming Washington residency eliminates all state tax obligations — the capital gains tax still applies.",
+      "Not reporting worldwide capital gains on the Washington return if you remain a resident.",
+      "Failing to pay Washington property taxes on maintained real estate.",
+      "Not properly establishing Washington domicile before moving abroad, leaving domicile ambiguous."
+    ],
+    "expatConsiderations": [
+      "Washington is a good state for domicile if you have modest capital gains, but the 7% capital gains tax can be significant for high-net-worth individuals.",
+      "Washington property tax applies to maintained real estate regardless of residency.",
+      "If you have no Washington property and no capital gains over $250,000, there are generally no state tax filing obligations.",
+      "Washington's estate tax exemption ($2.193 million) is lower than the federal exemption, so estate planning is important for high-net-worth individuals."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Washington state tax if I live abroad?",
+        "answer": "Washington has no state income tax on wages, so there is no tax on earned income. However, if you are a Washington resident and have long-term capital gains exceeding $250,000 in a year, you owe the 7% Washington capital gains tax on worldwide gains. If you have established a new domicile abroad, you are generally not subject to Washington tax."
+      },
+      {
+        "question": "Does Washington tax capital gains for expats?",
+        "answer": "Yes, if you remain a Washington resident. Washington's 7% capital gains tax applies to long-term capital gains exceeding $250,000 per year, including gains from foreign investments. If you have terminated Washington residency, the tax does not apply."
+      },
+      {
+        "question": "Should I establish Washington domicile before moving abroad?",
+        "answer": "Washington is a good choice if you have no or modest capital gains, because there is no state income tax on wages. However, if you expect significant capital gains (over $250,000 per year), Florida, Texas, or Nevada may be better choices because they have no capital gains tax."
+      }
+    ],
+    "seo": {
+      "title": "Washington Expat State Tax: Capital Gains Tax & Domicile Rules",
+      "description": "Washington has no income tax but a 7% capital gains tax. Learn residency rules, capital gains obligations, and domicile strategies for Americans abroad.",
+      "keywords": ["Washington expat tax", "Washington state tax abroad", "Washington capital gains tax", "Washington domicile expat", "Washington no income tax"]
+    }
+  },
+  {
+    "slug": "nevada",
+    "name": "Nevada",
+    "abbreviation": "NV",
+    "headline": "Nevada State Tax for Expats: No Income Tax, No Corporate Tax",
+    "description": "Nevada has no state income tax and no corporate income tax, making it an attractive domicile for Americans moving abroad. Learn the residency rules and obligations.",
+    "persistenceRisk": "low",
+    "persistenceSummary": "Nevada has no state income tax, no corporate income tax, and no franchise tax. There are no personal income tax filing obligations for Nevada residents living abroad. Property tax applies to maintained real estate, and Nevada has a state business license fee for entities.",
+    "keyRules": [
+      "Nevada has no state income tax. There is no personal income tax filing requirement.",
+      "Nevada has no corporate income tax and no franchise tax.",
+      "Nevada property tax applies to real estate. The average effective rate is approximately 0.6%.",
+      "Nevada has no state estate tax or inheritance tax.",
+      "Nevada businesses must pay an annual business license fee ($200-$500 depending on entity type)."
+    ],
+    "terminationSteps": [
+      "Establish a Nevada address and update your voter registration to Nevada before moving abroad.",
+      "Obtain a Nevada driver's license and register your vehicle in Nevada.",
+      "Open a Nevada bank account and update your mailing address with all financial institutions.",
+      "File federal taxes using your Nevada address to establish domicile.",
+      "If you maintain Nevada property, ensure property taxes are paid or the property is rented.",
+      "Document your intent to make Nevada your permanent US domicile."
+    ],
+    "commonTraps": [
+      "Assuming Nevada residency eliminates all US state tax obligations — other states may challenge your domicile if you have significant ties elsewhere.",
+      "Failing to pay Nevada property taxes on maintained real estate.",
+      "Not properly establishing Nevada domicile before moving abroad, leaving domicile ambiguous.",
+      "Maintaining significant ties to a high-tax state while claiming Nevada domicile."
+    ],
+    "expatConsiderations": [
+      "Nevada is one of the best states for domicile before moving abroad because there is no state income tax, no corporate tax, and no estate tax.",
+      "Nevada property tax is moderate, and the state has no inheritance tax.",
+      "If you have no Nevada property and no Nevada income, there are generally no state tax filing obligations.",
+      "Nevada is particularly attractive for business owners because there is no corporate income tax."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Nevada state tax if I live abroad?",
+        "answer": "No. Nevada has no state income tax, so there is no personal income tax liability for Nevada residents living abroad. However, if you maintain real estate in Nevada, you will still owe property tax. If you own a Nevada business, you must pay the annual business license fee."
+      },
+      {
+        "question": "Should I establish Nevada domicile before moving abroad?",
+        "answer": "Yes, Nevada is an excellent choice for expat domicile. There is no state income tax, no corporate tax, no estate tax, and no inheritance tax. Many business owners and retirees choose Nevada as their domicile before moving abroad."
+      },
+      {
+        "question": "Does Nevada have property tax for expats?",
+        "answer": "Yes. Nevada property tax applies to real estate regardless of the owner's residency status. Nevada's average effective property tax rate is approximately 0.6%, which is below the national average."
+      }
+    ],
+    "seo": {
+      "title": "Nevada Expat State Tax: No Income Tax, Property Tax & Domicile",
+      "description": "Nevada has no state income tax for Americans abroad. Learn residency rules, property tax obligations, and why Nevada is a top domicile choice for expats.",
+      "keywords": ["Nevada expat tax", "Nevada state tax abroad", "Nevada no income tax", "Nevada domicile expat", "Nevada property tax abroad"]
+    }
+  },
+  {
+    "slug": "tennessee",
+    "name": "Tennessee",
+    "abbreviation": "TN",
+    "headline": "Tennessee State Tax for Expats: No Income Tax on Wages",
+    "description": "Tennessee has no state income tax on wages, making it an attractive domicile for Americans moving abroad. Learn the residency rules and limited tax obligations.",
+    "persistenceRisk": "low",
+    "persistenceSummary": "Tennessee has no state income tax on wages and salaries. Tennessee does tax interest and dividend income (the Hall Income Tax), but this tax is being phased out and will be fully eliminated by 2027. There are no personal income tax filing obligations for wage earners living abroad.",
+    "keyRules": [
+      "Tennessee has no state income tax on wages, salaries, or business income.",
+      "Tennessee's Hall Income Tax on interest and dividends is being phased out and will be fully repealed by 2027.",
+      "Tennessee property tax applies to real estate. The average effective rate is approximately 0.7%.",
+      "Tennessee has no state estate tax or inheritance tax.",
+      "Tennessee has a state sales tax of 7% plus local sales taxes."
+    ],
+    "terminationSteps": [
+      "Establish a Tennessee address and update your voter registration to Tennessee before moving abroad.",
+      "Obtain a Tennessee driver's license and register your vehicle in Tennessee.",
+      "Open a Tennessee bank account and update your mailing address with all financial institutions.",
+      "File federal taxes using your Tennessee address to establish domicile.",
+      "If you maintain Tennessee property, ensure property taxes are paid or the property is rented.",
+      "Document your intent to make Tennessee your permanent US domicile."
+    ],
+    "commonTraps": [
+      "Assuming Tennessee residency eliminates all US state tax obligations — other states may challenge your domicile if you have significant ties elsewhere.",
+      "Failing to pay Tennessee property taxes on maintained real estate.",
+      "Not properly establishing Tennessee domicile before moving abroad, leaving domicile ambiguous.",
+      "Maintaining significant ties to a high-tax state while claiming Tennessee domicile."
+    ],
+    "expatConsiderations": [
+      "Tennessee is one of the best states for domicile before moving abroad because there is no wage income tax and the Hall Tax is being eliminated.",
+      "Tennessee property tax is moderate, and the state has no estate or inheritance tax.",
+      "If you have no Tennessee property and no Tennessee income, there are generally no state tax filing obligations.",
+      "Tennessee's sales tax is high, but this does not affect expats living abroad."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Tennessee state tax if I live abroad?",
+        "answer": "No. Tennessee has no state income tax on wages, so there is no personal income tax liability for Tennessee residents living abroad. The Hall Income Tax on interest and dividends is being phased out and will be fully eliminated by 2027."
+      },
+      {
+        "question": "Should I establish Tennessee domicile before moving abroad?",
+        "answer": "Yes, Tennessee is an excellent choice for expat domicile. There is no wage income tax, no estate tax, and no inheritance tax. The Hall Tax on investment income is being eliminated. Many retirees and remote workers choose Tennessee as their domicile before moving abroad."
+      },
+      {
+        "question": "Does Tennessee have property tax for expats?",
+        "answer": "Yes. Tennessee property tax applies to real estate regardless of the owner's residency status. Tennessee's average effective property tax rate is approximately 0.7%, which is below the national average."
+      }
+    ],
+    "seo": {
+      "title": "Tennessee Expat State Tax: No Wage Tax, Property Tax & Domicile",
+      "description": "Tennessee has no state income tax on wages for Americans abroad. Learn residency rules, property tax obligations, and why Tennessee is a top domicile choice for expats.",
+      "keywords": ["Tennessee expat tax", "Tennessee state tax abroad", "Tennessee no income tax", "Tennessee domicile expat", "Tennessee property tax abroad"]
+    }
+  },
+  {
+    "slug": "hawaii",
+    "name": "Hawaii",
+    "abbreviation": "HI",
+    "headline": "Hawaii State Tax for Expats: High Rates and Aggressive Residency Rules",
+    "description": "Hawaii has some of the highest state income tax rates in the US and aggressively pursues former residents. Learn the residency rules, termination steps, and how to stop filing Hawaii taxes from abroad.",
+    "persistenceRisk": "high",
+    "persistenceSummary": "Hawaii uses a domicile-based residency test combined with a statutory presence test. Hawaii taxes residents on worldwide income at rates up to 11%. Hawaii does not conform to the federal Foreign Earned Income Exclusion, making it extremely expensive for residents with foreign earned income.",
+    "keyRules": [
+      "Hawaii taxes residents on worldwide income. Non-residents pay tax only on Hawaii-source income.",
+      "Hawaii has some of the highest state income tax rates in the US, ranging from 1.4% to 11%.",
+      "Hawaii does not conform to the federal Foreign Earned Income Exclusion.",
+      "Hawaii uses both domicile and statutory presence tests for residency.",
+      "Hawaii has a General Excise Tax (GET) on business income, which applies even to non-residents with Hawaii business activity."
+    ],
+    "terminationSteps": [
+      "Sell or permanently rent out your Hawaii home and establish a primary residence abroad.",
+      "Change your voter registration from Hawaii to your new location or unregister.",
+      "Surrender your Hawaii driver's license and obtain foreign documentation if available.",
+      "Close or minimize Hawaii bank accounts and update your mailing address to your foreign address.",
+      "File Hawaii Form N-15 as a part-year non-resident in your departure year.",
+      "Document your intent to remain abroad indefinitely through employment contracts, residence visas, and family relocation."
+    ],
+    "commonTraps": [
+      "Maintaining a Hawaii vacation home while claiming foreign residency.",
+      "Keeping Hawaii voter registration for federal elections only.",
+      "Returning to Hawaii for extended visits without clear temporary purpose documentation.",
+      "Filing a federal return with a Hawaii address while claiming non-resident status.",
+      "Failing to file a Hawaii part-year return in the year of departure."
+    ],
+    "expatConsiderations": [
+      "Hawaii does not conform to the federal FEIE, making it one of the most expensive states for expats with foreign earned income.",
+      "Hawaii's top marginal rate of 11% applies to income over $200,000 (single) or $400,000 (married filing jointly).",
+      "Self-employed expats with Hawaii clients may owe Hawaii GET on that income even as non-residents.",
+      "Hawaii property tax is relatively low, but income tax is extremely high."
+    ],
+    "faqs": [
+      {
+        "question": "Do I have to pay Hawaii state tax if I live abroad?",
+        "answer": "If Hawaii remains your domicile, yes. Hawaii taxes its residents on worldwide income at rates up to 11%. If you have successfully established a new domicile abroad, you generally do not owe Hawaii tax on foreign-source income, but Hawaii-source income remains taxable."
+      },
+      {
+        "question": "Does Hawaii recognize the Foreign Earned Income Exclusion?",
+        "answer": "No. Hawaii does not conform to the federal Foreign Earned Income Exclusion. If you are a Hawaii resident, income excluded on your federal return under the FEIE is still taxable for Hawaii purposes. This makes Hawaii one of the most expensive states for expats."
+      },
+      {
+        "question": "How do I terminate Hawaii domicile?",
+        "answer": "To terminate Hawaii domicile, you must establish a new domicile abroad with intent to remain indefinitely and sever your Hawaii ties. This includes selling or leasing your Hawaii home, changing voter registration, surrendering your driver's license, and updating your address with all financial institutions. File a Hawaii part-year non-resident return in your departure year to document the break."
+      }
+    ],
+    "seo": {
+      "title": "Hawaii Expat State Tax: High Rates, FEIE Non-Conformity & Domicile",
+      "description": "Hawaii aggressively taxes expats with rates up to 11% and does not recognize the federal FEIE. Learn domicile termination steps and how to stop filing Hawaii taxes from overseas.",
+      "keywords": ["Hawaii expat tax", "Hawaii state tax abroad", "Hawaii high tax rate", "Hawaii domicile termination", "Hawaii FEIE"]
+    }
+  }
+]

@@ -1,0 +1,82 @@
+---
+title: "FBAR Treasury Exchange Rates: Converting Foreign Account Balances"
+description: "A practical worksheet for converting foreign account balances into U.S. dollars for FBAR reporting, including multiple currencies, missing statements, and audit support."
+date: "2026-08-03"
+author: "Chip Moreno"
+category: "FBAR"
+tags: ["FBAR", "exchange rates", "FinCEN Form 114", "foreign currency"]
+relatedGuideSlugs:
+  - "fbar-guide"
+relatedServiceSlugs:
+  - "fbar-filing"
+faqs:
+  - question: "Can I use the exchange rate shown by my bank?"
+    answer: "A bank rate may be useful evidence, but the filing should follow the current FinCEN instructions and use a consistently documented conversion method. Keep the rate source and the date or period it represents."
+  - question: "Do I convert each account separately?"
+    answer: "Yes. Convert each reportable account value into U.S. dollars before calculating the aggregate maximum value. Do not add balances in different currencies directly."
+  - question: "What if the balance was close to the threshold?"
+    answer: "Preserve full-precision calculations, review the rate source, and flag the result for professional review. Small conversion choices can matter near a filing threshold."
+---
+
+# FBAR Treasury Exchange Rates: Converting Foreign Account Balances
+
+Foreign account statements are often denominated in euros, pounds, pesos, francs, or another currency. The FBAR, however, asks for values in U.S. dollars. A defensible filing therefore needs more than a final number: it needs a reproducible conversion record.
+
+## Use the current filing instructions first
+
+The governing source is the current FinCEN FBAR filing instruction. It describes how to value accounts and how to convert foreign currency. Treasury publishes exchange-rate information that can support the calculation, but an article from a prior filing year should not be treated as the rule for the current year.
+
+Use the [FBAR guide](/guides/fbar-guide) for account coverage and the [FBAR filing service](/services/fbar-filing) when several currencies, missing statements, or threshold-sensitive calculations need a documented reconciliation.
+
+Create a worksheet with these columns:
+
+- Institution and account number or identifying label.
+- Country and local currency.
+- Maximum local-currency value during the calendar year.
+- Rate source, rate date, and rate direction.
+- Converted U.S.-dollar maximum.
+- Notes about estimates, missing data, or account closure.
+
+## Convert before aggregating
+
+Suppose one account is denominated in euros, another in pounds, and a third in Ecuadorian dollars. Convert each maximum into U.S. dollars using a consistent documented method. Then add the converted values. The FBAR threshold is not tested separately for each currency or country.
+
+When the account value changed throughout the year, the relevant local-currency maximum and the conversion method should be considered together. A year-end statement may not show the highest value. If the institution provides only monthly statements, preserve the monthly record and explain how the high point was selected.
+
+<InlineCTA />
+
+## Avoid common conversion errors
+
+### Reversing the rate
+
+An exchange quote can mean “foreign currency per dollar” or “dollars per foreign currency.” Label the direction explicitly and test the result against a known balance. Reversing the rate can produce a materially wrong threshold calculation.
+
+### Mixing dates without explanation
+
+A year-end rate, an annual average, and a transaction-date rate answer different questions. Do not mix them account by account merely because each produces a convenient number. Follow the current instructions and document any required judgment.
+
+### Rounding too early
+
+Retain full precision in the worksheet. Round only at the stage required by the filing system. Early rounding can create an avoidable discrepancy when several accounts are close to the threshold.
+
+### Ignoring closed accounts
+
+An account closed in March can still have held the year’s maximum value. Add it to the inventory and retain the closing statement, transfer record, and any evidence of the high balance.
+
+## When statements are incomplete
+
+Request an annual transaction history or balance report from the institution. If that is impossible, identify the best available evidence and label the estimate. Do not replace missing account data with a guess that is not recorded. A professional review can determine whether a reasonable reconstruction is possible and whether an amended filing is needed.
+
+## Compare FBAR and Form 8938 separately
+
+Foreign-currency conversion is only one step. The FBAR and Form 8938 use different filing systems, asset definitions, and threshold rules. An account can be reportable on one, both, or neither. Cross-reference the conversion worksheet to the Form 8938 asset inventory, but do not assume that one form’s result controls the other.
+
+## Scope boundary
+
+This article is a recordkeeping framework, not an exchange-rate opinion or a determination of whether an account is reportable. Use the current FinCEN instructions for the filing year and retain the source used. FileAbroad can reconcile the account inventory and prepare the FBAR within a written scope through the [FBAR filing intake](/intake?service=fbar).
+
+## Official sources
+
+- [FinCEN FBAR filing instructions](https://www.fincen.gov/sites/default/files/shared/FBAR%20Line%20Item%20Instructions.pdf)
+- [U.S. Treasury exchange-rate resources](https://fiscaldata.treasury.gov/currency-exchange-rates-converter/)
+- [IRS foreign currency and currency exchange rates](https://www.irs.gov/individuals/international-taxpayers/foreign-currency-and-currency-exchange-rates)

@@ -1,0 +1,16 @@
+{
+  "name": "FileAbroad",
+  "short_name": "FileAbroad",
+  "description": "U.S. tax preparation for Americans living abroad.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#fefdfb",
+  "theme_color": "#1e293b",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

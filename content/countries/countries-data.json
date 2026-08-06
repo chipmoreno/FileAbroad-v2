@@ -1,0 +1,1963 @@
+[
+  {
+    "slug": "mexico",
+    "name": "Mexico",
+    "region": "North America",
+    "flag": "\ud83c\uddf2\ud83c\uddfd",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1992,
+      "keyProvisions": [
+        "Reduced withholding rates on dividends (10% for 10%+ ownership, 15% otherwise)",
+        "Pension income provisions allowing source-country taxation",
+        "Reduced royalty withholding rate of 10%",
+        "Exchange of tax information between authorities"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Mexico's proximity to the US makes the 330-day physical presence test manageable, but frequent border crossings must be carefully documented. Days spent in the US for business or personal trips count against your 330-day requirement.",
+      "bonaFideNotes": "Obtaining a Temporary or Permanent Resident Visa strongly supports bona fide residence. Mexican tax registration (RFC number) and local employment further establish residency intent.",
+      "commonVisaTypes": ["Temporary Resident Visa", "Permanent Resident Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates from 1.92% to 35%",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["BBVA Mexico", "Banorte", "Citibanamex", "Santander Mexico"],
+      "fbarNotes": "All Mexican bank accounts with aggregate balances exceeding $10,000 at any point during the year must be reported on FinCEN 114. This includes peso and dollar-denominated accounts, as well as investment accounts at Mexican brokerages.",
+      "fatcaCompliance": "Mexico signed a Model 1 IGA with the US in 2012. Mexican banks actively report US account holders' information to the SAT, which shares it with the IRS. Expect to provide your SSN or ITIN when opening accounts.",
+      "currencyCode": "MXN"
+    },
+    "pitfalls": [
+      "Failing to track border crossings accurately, which can disqualify FEIE physical presence claims",
+      "Not registering with the SAT (Mexican tax authority) when required as a tax resident, triggering penalties",
+      "Overlooking Mexican tax obligations on worldwide income once you become a Mexican tax resident (183+ days)",
+      "Missing the additional June 15 automatic extension deadline and not filing for the October extension",
+      "Ignoring state-level payroll taxes (ISN) if employing others or working as a contractor in Mexico"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,200-$2,500",
+      "comparedToUS": "40-60% lower than US average",
+      "notes": "Costs vary significantly by city. Mexico City and tourist areas like Cancun trend higher, while cities like Merida, Oaxaca, and Puebla offer lower costs. Healthcare is notably affordable compared to the US."
+    },
+    "faqs": [
+      {
+        "question": "Do I have to pay taxes in both the US and Mexico?",
+        "answer": "As a US citizen or green card holder, you must file US taxes on worldwide income regardless of where you live. If you become a Mexican tax resident (183+ days), you must also file in Mexico. The US-Mexico tax treaty and Foreign Tax Credit help prevent double taxation on the same income."
+      },
+      {
+        "question": "Can I use the FEIE while living in Mexico?",
+        "answer": "Yes. You can qualify via the Physical Presence Test (330 days outside the US in a 12-month period) or the Bona Fide Residence Test. Given Mexico's proximity, carefully track your US visits to maintain FEIE eligibility. The 2025 exclusion amount is $130,000."
+      },
+      {
+        "question": "Do I need to report my Mexican bank accounts to the US?",
+        "answer": "Yes. If your aggregate foreign account balances exceed $10,000 at any point during the year, you must file an FBAR (FinCEN 114). Additionally, FATCA Form 8938 may be required if your foreign financial assets exceed $200,000 (filing from abroad). Penalties for non-compliance are severe."
+      },
+      {
+        "question": "Is there a U.S.-Mexico Social Security totalization agreement in force?",
+        "answer": "No. The United States and Mexico signed an agreement, but it is not listed by the Social Security Administration among agreements in force. Confirm which system covers your employment or self-employment and whether contributions may be due in both countries."
+      },
+      {
+        "question": "What is Mexico's RFC and do I need one?",
+        "answer": "The RFC (Registro Federal de Contribuyentes) is Mexico's taxpayer identification number. If you earn income in Mexico or become a tax resident, you need an RFC. It is required for employment, opening certain bank accounts, and filing Mexican tax returns. You can obtain one at your local SAT office."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Mexico: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for American expats in Mexico. Tax treaties, FBAR reporting, FEIE eligibility, and expert filing tips.",
+      "keywords": ["expat taxes Mexico", "FBAR Mexico", "US tax filing Mexico", "American expats Mexico", "FEIE Mexico", "tax treaty Mexico", "Mexico tax resident"]
+    },
+    "relatedBlogSlugs": ["us-expats-mexico-tax-guide", "fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines"]
+  },
+  {
+    "slug": "canada",
+    "name": "Canada",
+    "region": "North America",
+    "flag": "\ud83c\udde8\ud83c\udde6",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1980,
+      "keyProvisions": [
+        "Reduced withholding rates on dividends (15% general, 5% for 10%+ corporate ownership)",
+        "Pension and annuity provisions with 15% withholding cap",
+        "Social Security benefits taxed only in country of residence",
+        "Exchange of information and mutual agreement procedures"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Living near the US-Canada border makes accidental disqualification common. Every day spent in the US counts against the 330-day requirement. Carefully log all cross-border trips including short shopping or family visits.",
+      "bonaFideNotes": "Permanent Resident status (PR card) or a valid work permit strongly supports bona fide residence. Filing Canadian taxes and maintaining a Canadian home, bank accounts, and social ties are key factors.",
+      "commonVisaTypes": ["Permanent Resident Card", "Work Permit", "Study Permit", "CUSMA/TN Work Permit"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Federal progressive rates from 15% to 33%, plus provincial rates varying by province (5.06%-25.75%)",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Royal Bank of Canada (RBC)", "Toronto-Dominion (TD)", "Bank of Montreal (BMO)", "Scotiabank"],
+      "fbarNotes": "All Canadian bank accounts, RRSPs, TFSAs, and investment accounts must be reported on FBAR if aggregate balances exceed $10,000. RRSPs and RRIFs require annual Form 8891 reporting (now included in treaty-based positions on Form 8833).",
+      "fatcaCompliance": "Canada signed a Model 1 IGA with the US in 2014. Canadian financial institutions report US person account information to the CRA, which shares it with the IRS. US citizens opening Canadian accounts must declare US tax status.",
+      "currencyCode": "CAD"
+    },
+    "pitfalls": [
+      "Forgetting to report RRSPs and TFSAs on FBAR and FATCA forms, which carry steep penalties",
+      "Not making the treaty election to defer tax on RRSP/RRIF income (Form 8891 / Form 8833)",
+      "Frequent US border crossings inadvertently breaking the FEIE physical presence test",
+      "Double taxation on Canadian-source capital gains if Foreign Tax Credit is not properly claimed",
+      "Overlooking provincial tax obligations which vary significantly across Canada"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,000-$3,500",
+      "comparedToUS": "Comparable to or slightly higher than US average, varies by province",
+      "notes": "Toronto and Vancouver are among the most expensive cities. Smaller cities in the Prairie provinces and Atlantic Canada offer significantly lower costs. Healthcare is publicly funded, reducing one major US expense."
+    },
+    "faqs": [
+      {
+        "question": "Do I need to file taxes in both the US and Canada?",
+        "answer": "Yes. US citizens and green card holders must file US taxes on worldwide income. If you are a Canadian tax resident, you also file with the CRA. The US-Canada tax treaty and Foreign Tax Credits prevent most double taxation, but proper planning is essential."
+      },
+      {
+        "question": "How are my RRSP and TFSA treated for US tax purposes?",
+        "answer": "RRSPs can be tax-deferred for US purposes under the treaty if you file the proper election. However, TFSAs are NOT recognized as tax-advantaged by the IRS - all income earned inside a TFSA is taxable on your US return. Both must be reported on FBAR and potentially FATCA Form 8938."
+      },
+      {
+        "question": "Can I claim the FEIE while living in Canada?",
+        "answer": "Yes, but given Canada's high tax rates, most expats benefit more from the Foreign Tax Credit (Form 1116) than the FEIE. Since Canadian taxes often exceed US taxes on the same income, FTC can eliminate your US liability and generate carryover credits."
+      },
+      {
+        "question": "How does the US-Canada totalization agreement work?",
+        "answer": "The agreement prevents double Social Security/CPP contributions. If you work for a US employer temporarily in Canada, you continue paying US Social Security. If employed locally in Canada, you pay into CPP. Work credits from both countries can be combined to qualify for benefits in either country."
+      },
+      {
+        "question": "Are my Canadian pension benefits (CPP/OAS) taxable in the US?",
+        "answer": "Under the treaty, Canadian CPP and OAS benefits received by a US resident are generally taxable only in the US. If you reside in Canada, they are taxed in Canada. The treaty prevents double taxation on these pension payments."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Canada: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Canada. RRSP reporting, tax treaty benefits, FBAR rules, and cross-border filing tips.",
+      "keywords": ["expat taxes Canada", "FBAR Canada", "US tax filing Canada", "American expats Canada", "RRSP US taxes", "TFSA US tax", "US Canada tax treaty", "FEIE Canada"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "uk",
+    "name": "United Kingdom",
+    "region": "Europe",
+    "flag": "\ud83c\uddec\ud83c\udde7",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 2001,
+      "keyProvisions": [
+        "Zero withholding on dividends paid to pension funds",
+        "Reduced withholding on royalties (0%) and interest (0%)",
+        "Pension provisions allowing source-country or residence-country taxation",
+        "Capital gains generally taxed only in country of residence"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "The UK does not share a border with the US, making the 330-day physical presence test more straightforward. Track any US visits including layovers or business trips that count as days in the US.",
+      "bonaFideNotes": "Indefinite Leave to Remain (ILR), a valid UK work visa, or UK settled status post-Brexit strongly support bona fide residence. HMRC tax registration and UK National Insurance contributions further establish residency.",
+      "commonVisaTypes": ["Skilled Worker Visa", "Global Talent Visa", "Innovator Founder Visa", "Spouse/Family Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates: 20% basic (up to £50,270), 40% higher (to £125,140), 45% additional rate",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["HSBC", "Barclays", "Lloyds Banking Group", "NatWest"],
+      "fbarNotes": "All UK bank accounts, ISAs, and investment accounts with aggregate balances exceeding $10,000 must be reported on FBAR. UK ISAs (Individual Savings Accounts) are not tax-advantaged for US purposes and must be reported.",
+      "fatcaCompliance": "The UK signed a Model 1 IGA with the US in 2012. UK banks report US person account data to HMRC, which forwards it to the IRS. Some UK banks may decline to open accounts for US citizens due to compliance costs.",
+      "currencyCode": "GBP"
+    },
+    "pitfalls": [
+      "ISAs (Individual Savings Accounts) are NOT tax-free for US tax purposes - all ISA income is US-taxable",
+      "UK pensions (including workplace pensions) may require complex US reporting on Form 3520/3520-A",
+      "Remittance basis of taxation for non-domiciled residents creates complex interactions with US worldwide taxation",
+      "Failing to coordinate US and UK tax years (UK tax year runs April 6 to April 5)",
+      "Not reporting UK Premium Bonds winnings as taxable income on your US return"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,500-$4,000",
+      "comparedToUS": "Comparable to or higher than major US cities, especially in London",
+      "notes": "London is significantly more expensive than other UK cities. Cities like Manchester, Edinburgh, and Bristol offer lower costs. The NHS provides free healthcare at point of use, offsetting health insurance costs."
+    },
+    "faqs": [
+      {
+        "question": "Are UK ISAs tax-free for US expats?",
+        "answer": "No. While ISAs are tax-free in the UK, the IRS does not recognize them as tax-advantaged. All interest, dividends, and capital gains inside your ISA are taxable on your US return. ISAs may also be classified as Passive Foreign Investment Companies (PFICs), requiring Form 8621."
+      },
+      {
+        "question": "Do I need to report my UK pension to the IRS?",
+        "answer": "Yes. UK workplace and personal pensions may need to be reported as foreign trusts (Forms 3520 and 3520-A), though treaty-based positions can simplify reporting. Contributions by your UK employer may be taxable for US purposes. Consult a cross-border tax specialist."
+      },
+      {
+        "question": "Is the Foreign Tax Credit or FEIE better for UK expats?",
+        "answer": "Given the UK's high tax rates, most US expats in the UK benefit more from the Foreign Tax Credit (FTC). UK taxes typically exceed US taxes on the same income, generating excess credits that can carry forward. The FEIE may help if your income is below the exclusion amount."
+      },
+      {
+        "question": "How does the UK-US totalization agreement affect National Insurance?",
+        "answer": "The totalization agreement prevents paying both US Social Security and UK National Insurance simultaneously. Temporary US workers in the UK can stay on US Social Security for up to 5 years. Locally employed expats pay into UK National Insurance, and credits from both countries can be combined for benefit eligibility."
+      },
+      {
+        "question": "What happens to my UK taxes if I claim non-domiciled status?",
+        "answer": "Non-domiciled UK residents can elect the remittance basis, paying UK tax only on income brought into the UK. However, as a US citizen, you owe US tax on worldwide income regardless. This mismatch requires careful coordination to properly claim Foreign Tax Credits."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in the UK: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in the UK. ISA reporting, pension rules, tax treaty benefits, FBAR, and filing tips.",
+      "keywords": ["expat taxes UK", "FBAR UK", "US tax filing UK", "American expats UK", "UK ISA US taxes", "US UK tax treaty", "FEIE UK", "UK pension US tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "germany",
+    "name": "Germany",
+    "region": "Europe",
+    "flag": "\ud83c\udde9\ud83c\uddea",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1989,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 10%+ corporate ownership)",
+        "Zero withholding on interest payments",
+        "Pension income taxed only in country of residence",
+        "Professors and researchers exemption for up to 2 years"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Germany's central location in Europe makes Schengen travel easy, but days in Germany count toward your 330 days outside the US. Days in other countries also count favorably as long as you are not in the US.",
+      "bonaFideNotes": "A German residence permit (Aufenthaltstitel), registration at the Einwohnermeldeamt (residents' registration office), and German tax ID (Steuer-ID) strongly support bona fide residence claims.",
+      "commonVisaTypes": ["EU Blue Card", "Employee Residence Permit", "Freelance Visa", "Family Reunion Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates from 14% to 45%, plus 5.5% solidarity surcharge on tax liability, plus 8-9% church tax if applicable",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Deutsche Bank", "Commerzbank", "DZ Bank", "KfW"],
+      "fbarNotes": "German bank accounts, Bausparverträge (building savings contracts), and investment depot accounts must be reported on FBAR if aggregate balances exceed $10,000. German Riester and Rürup pension plans may also require reporting.",
+      "fatcaCompliance": "Germany signed a Model 1 IGA with the US in 2013. German banks report US person data to the BZSt (Federal Central Tax Office), which shares it with the IRS. Some German banks refuse US citizen accounts due to FATCA compliance burdens.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "German church tax (Kirchensteuer) is automatically deducted and often overlooked in US Foreign Tax Credit calculations",
+      "The solidarity surcharge (Solidaritätszuschlag) is claimable as a Foreign Tax Credit but must be properly documented",
+      "German pension contributions (Rentenversicherung) by employers may be treated as taxable income by the IRS",
+      "Many German banks refuse to open accounts for US citizens due to FATCA reporting requirements",
+      "Riester and Rürup pension plans are not recognized as tax-advantaged by the IRS"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,000-$3,200",
+      "comparedToUS": "Comparable to mid-tier US cities, lower than major US metros",
+      "notes": "Munich is the most expensive German city. Berlin remains relatively affordable compared to other European capitals. Healthcare is mandatory through the Gesetzliche Krankenversicherung (public) or private insurance."
+    },
+    "faqs": [
+      {
+        "question": "Should I use the FEIE or Foreign Tax Credit in Germany?",
+        "answer": "Germany's high effective tax rates (including solidarity surcharge and potentially church tax) usually make the Foreign Tax Credit more advantageous. German taxes often exceed US liability, generating excess FTC carryovers. Analyze both options with a cross-border tax professional."
+      },
+      {
+        "question": "How are German pension contributions treated for US taxes?",
+        "answer": "Employer contributions to German statutory pension insurance (Rentenversicherung) may be considered taxable compensation for US purposes. The US-Germany tax treaty provides some relief, but proper treaty-based reporting on Form 8833 is recommended."
+      },
+      {
+        "question": "Can US citizens open bank accounts in Germany?",
+        "answer": "It can be challenging. Many traditional German banks decline US citizen applications due to FATCA reporting requirements. Online banks like N26 and Deutsche Bank's international services are more US-citizen friendly. You will need to provide your US SSN/TIN."
+      },
+      {
+        "question": "Do I report my German Riester-Rente to the IRS?",
+        "answer": "Yes. Riester pension plans are not recognized as tax-qualified by the IRS. Contributions are not deductible on your US return, and the German government's Zulagen (bonuses) and earnings may be currently taxable. The accounts must also be reported on FBAR and potentially FATCA Form 8938."
+      },
+      {
+        "question": "How does the US-Germany totalization agreement help me?",
+        "answer": "The agreement prevents double Social Security contributions. If temporarily assigned to Germany (up to 5 years), you can remain on US Social Security. Locally hired workers pay into the German system. Credits from both countries can be combined to meet minimum eligibility requirements in either country."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Germany: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Germany. Tax treaty, pension reporting, FBAR rules, FEIE, and filing strategies.",
+      "keywords": ["expat taxes Germany", "FBAR Germany", "US tax filing Germany", "American expats Germany", "FEIE Germany", "US Germany tax treaty", "German pension US tax", "Riester Rente US tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "france",
+    "name": "France",
+    "region": "Europe",
+    "flag": "\ud83c\uddeb\ud83c\uddf7",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1994,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 10%+ corporate ownership)",
+        "Zero withholding on interest and royalties",
+        "Pension income provisions with residence-country taxation",
+        "Capital gains generally taxed only in country of residence"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "France's Schengen membership means easy European travel, but all days outside the US (whether in France or other countries) count toward the 330-day requirement. Track US visits carefully.",
+      "bonaFideNotes": "A carte de séjour (residence permit), French tax registration, and integration into French social systems (Sécurité Sociale) strongly support bona fide residence. Owning or renting property in France adds supporting evidence.",
+      "commonVisaTypes": ["Talent Passport Visa", "Long-Stay Visa (VLS-TS)", "Visitor Visa", "Entrepreneur Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates: 0% (up to €11,294), 11%, 30%, 41%, and 45% (above €177,106), plus social charges of approximately 9.7% on employment income",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["BNP Paribas", "Société Générale", "Crédit Agricole", "Crédit Mutuel"],
+      "fbarNotes": "All French bank accounts, Livret A savings accounts, PEA (Plan d'Épargne en Actions), and assurance-vie policies must be reported on FBAR if aggregate balances exceed $10,000. Assurance-vie policies are particularly complex for US reporting.",
+      "fatcaCompliance": "France signed a Model 1 IGA with the US in 2013. French banks actively report US person data to French tax authorities (DGFiP), which share with the IRS. Most major French banks accept US citizen customers but require additional documentation.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "French assurance-vie policies are treated as foreign trusts or PFICs by the IRS, creating complex reporting obligations",
+      "French social charges (CSG/CRDS) may not qualify as creditable foreign taxes for FTC purposes",
+      "The French wealth tax (IFI) on real estate is not creditable against US income tax",
+      "PEA (stock savings plans) are not recognized as tax-advantaged and trigger PFIC reporting",
+      "France's quotient familial (family-based taxation) has no US equivalent, complicating FTC calculations"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,200-$3,800",
+      "comparedToUS": "Paris is comparable to NYC/SF; other cities are 20-40% lower than US metros",
+      "notes": "Paris is among Europe's most expensive cities. Cities like Lyon, Toulouse, Bordeaux, and Montpellier offer significantly lower costs. Healthcare is excellent and partially covered by Sécurité Sociale."
+    },
+    "faqs": [
+      {
+        "question": "How is my French assurance-vie treated for US taxes?",
+        "answer": "Assurance-vie policies are a major compliance headache for US expats. The IRS may classify them as foreign trusts (requiring Forms 3520/3520-A) or as PFICs (requiring Form 8621). Growth inside the policy is potentially taxable annually. Consult a specialist before investing in assurance-vie."
+      },
+      {
+        "question": "Can I claim French social charges (CSG/CRDS) as a Foreign Tax Credit?",
+        "answer": "This is a contested area. The IRS historically denied FTC for CSG/CRDS because they fund social programs rather than general government revenue. However, the 2019 US-France treaty protocol may change this. Consult a tax professional for the latest guidance."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Americans in France?",
+        "answer": "France's high tax rates (income tax plus social charges) generally make the Foreign Tax Credit more beneficial. French taxes usually exceed US taxes on the same income. However, if you have significant US-source income, a combination strategy may work best."
+      },
+      {
+        "question": "Do I report my French Livret A to the IRS?",
+        "answer": "Yes. Although the Livret A is tax-free in France, interest earned is taxable on your US return. The account must be reported on FBAR if aggregate foreign accounts exceed $10,000, and potentially on FATCA Form 8938 if asset thresholds are met."
+      },
+      {
+        "question": "How does the US-France totalization agreement work?",
+        "answer": "The agreement ensures you pay Social Security contributions to only one country at a time. Temporary US workers in France (up to 5 years) can remain on US Social Security. Locally hired workers pay into France's Sécurité Sociale. Credits from both systems can be combined for benefit eligibility."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in France: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in France. Assurance-vie reporting, tax treaty benefits, FBAR, FEIE, and filing tips.",
+      "keywords": ["expat taxes France", "FBAR France", "US tax filing France", "American expats France", "FEIE France", "US France tax treaty", "assurance vie US tax", "CSG CRDS tax credit"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "spain",
+    "name": "Spain",
+    "region": "Europe",
+    "flag": "\ud83c\uddea\ud83c\uddf8",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1990,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 10% for 25%+ corporate ownership)",
+        "Reduced withholding on interest (10%) and royalties (5-10%)",
+        "Pension income provisions with source-country taxation rights",
+        "Government service pension exemptions"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Spain is a popular base for exploring Europe. All days outside the US (in Spain or traveling within Schengen) count toward the 330-day requirement. Spain's Non-Lucrative Visa requires primary residence in Spain.",
+      "bonaFideNotes": "A Spanish NIE (Número de Identidad de Extranjero), empadronamiento (municipal registration), and registration with the Agencia Tributaria strongly support bona fide residence claims.",
+      "commonVisaTypes": ["Non-Lucrative Visa", "Digital Nomad Visa (2023)", "Work Visa", "Golden Visa (being phased out)"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates from 19% to 47% (varies by autonomous community), plus Beckham Law option for new arrivals (flat 24% on Spanish-source income)",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["CaixaBank", "BBVA", "Santander Spain", "Sabadell"],
+      "fbarNotes": "All Spanish bank accounts and investment accounts must be reported on FBAR if aggregate balances exceed $10,000. Spain's own foreign asset reporting (Modelo 720) creates additional compliance requirements that do not replace US FBAR obligations.",
+      "fatcaCompliance": "Spain signed a Model 1 IGA with the US in 2013. Spanish banks report US person data to the Agencia Tributaria, which shares with the IRS. Most major Spanish banks accept US citizens but require W-9 or W-8BEN forms.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "Spain's Modelo 720 foreign asset declaration carries severe penalties for non-compliance (though EU courts have reduced these)",
+      "The Beckham Law (flat 24% rate for new arrivals) creates complex interactions with US worldwide taxation",
+      "Spanish wealth tax (Impuesto sobre el Patrimonio) varies by autonomous community and is not creditable against US income tax",
+      "Autonomous community tax rate differences can significantly impact total tax burden",
+      "Failing to declare global assets on both Spanish Modelo 720 AND US FBAR creates dual non-compliance risk"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,500-$2,800",
+      "comparedToUS": "25-45% lower than US average, significantly lower outside Madrid and Barcelona",
+      "notes": "Spain offers excellent value for quality of life. Barcelona and Madrid are pricier, while Valencia, Malaga, Seville, and smaller cities are very affordable. Healthcare is high-quality through both public and private systems."
+    },
+    "faqs": [
+      {
+        "question": "What is Spain's Beckham Law and should I use it?",
+        "answer": "The Beckham Law allows new tax residents to pay a flat 24% tax rate on Spanish-source income for up to 6 years, while being treated as a non-resident for tax purposes. This can be advantageous, but it interacts complexly with US worldwide taxation and may limit your ability to claim certain treaty benefits. Analyze carefully with a cross-border tax specialist."
+      },
+      {
+        "question": "Do I need to file Spain's Modelo 720 in addition to FBAR?",
+        "answer": "Yes, these are separate obligations. Modelo 720 is Spain's foreign asset declaration required by the Agencia Tributaria. FBAR (FinCEN 114) is required by the US. Living in Spain as a US citizen means you may have reporting obligations in both countries for foreign assets."
+      },
+      {
+        "question": "How does the Spanish Digital Nomad Visa affect my US taxes?",
+        "answer": "The Digital Nomad Visa grants Spanish residence, which may make you a Spanish tax resident if you spend 183+ days there. You would then owe Spanish tax on worldwide income (or Spanish-source income under Beckham Law) in addition to your US filing obligations. FEIE or FTC can help prevent double taxation."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Spain?",
+        "answer": "Spain's tax rates are relatively high, especially with autonomous community surcharges. The Foreign Tax Credit is usually more advantageous as Spanish taxes often exceed US taxes on the same income. If you qualify for the Beckham Law's 24% flat rate, the analysis changes."
+      },
+      {
+        "question": "How does the US-Spain totalization agreement work?",
+        "answer": "The agreement prevents double Social Security taxation between the US and Spain. Workers temporarily assigned to Spain (up to 5 years) can continue paying only US Social Security. Locally employed workers pay into Spain's Seguridad Social. Credits from both countries can be combined for benefit eligibility."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Spain: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Spain. Beckham Law, Modelo 720, FBAR reporting, FEIE eligibility, and filing tips.",
+      "keywords": ["expat taxes Spain", "FBAR Spain", "US tax filing Spain", "American expats Spain", "Beckham Law Spain", "FEIE Spain", "Modelo 720", "Spain Digital Nomad Visa taxes"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "portugal",
+    "name": "Portugal",
+    "region": "Europe",
+    "flag": "\ud83c\uddf5\ud83c\uddf9",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1994,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 25%+ corporate ownership)",
+        "Reduced withholding on interest (10%) and royalties (10%)",
+        "Pension income provisions with residence-country primary taxation",
+        "Capital gains provisions with residence-country taxation"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Portugal is a popular expat destination with straightforward residency. All days outside the US count toward the 330-day physical presence test. Portugal's mild climate discourages mid-year departures that could complicate FEIE claims.",
+      "bonaFideNotes": "A Portuguese NIF (tax number), residence permit, and registration with Finanças (tax authority) strongly support bona fide residence. The D7 Passive Income Visa is especially popular with retirees and remote workers.",
+      "commonVisaTypes": ["D7 Passive Income Visa", "Digital Nomad Visa (2022)", "Golden Visa (restricted 2023)", "D2 Entrepreneur Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates from 14.5% to 48%, plus solidarity surcharge up to 5% on high incomes. NHR 2.0 (new 2024 regime) offers 20% flat rate for qualifying new residents in eligible professions",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Millennium BCP", "Caixa Geral de Depósitos", "Novo Banco", "Santander Portugal"],
+      "fbarNotes": "All Portuguese bank accounts, investment accounts, and PPR (retirement savings plans) must be reported on FBAR if aggregate balances exceed $10,000. NHR status does not affect US FBAR obligations.",
+      "fatcaCompliance": "Portugal signed a Model 1 IGA with the US in 2015. Portuguese banks report US person data to the Autoridade Tributária, which shares with the IRS. Most Portuguese banks accept US citizens with standard additional documentation.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "The original NHR program ended in 2023; the replacement NHR 2.0 has different rules and eligibility criteria",
+      "NHR tax benefits in Portugal do not reduce US tax obligations on worldwide income",
+      "Portuguese PPR retirement savings plans are not recognized as tax-advantaged by the IRS",
+      "Crypto gains are subject to Portuguese tax since 2023, adding another layer for US crypto investors",
+      "Portuguese inheritance tax exemptions for NHR participants do not apply for US estate tax purposes"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,500-$2,500",
+      "comparedToUS": "30-50% lower than US average, though Lisbon has risen significantly",
+      "notes": "Lisbon and the Algarve have become more expensive due to expat demand. Porto, Coimbra, and inland areas remain affordable. Healthcare is available through the SNS (national health service) and affordable private options."
+    },
+    "faqs": [
+      {
+        "question": "What happened to Portugal's NHR program for US expats?",
+        "answer": "The original NHR (Non-Habitual Resident) program ended for new applicants in late 2023. It was replaced by NHR 2.0 in 2024, which offers a 20% flat tax rate for qualifying professionals in eligible activities (scientific research, tech, etc.). The new regime is more restrictive but still beneficial for those who qualify."
+      },
+      {
+        "question": "Does NHR/NHR 2.0 reduce my US tax bill?",
+        "answer": "No. NHR benefits only reduce your Portuguese tax. As a US citizen, you owe US tax on worldwide income regardless. However, lower Portuguese taxes under NHR mean lower Foreign Tax Credits available, which may actually increase your net US tax liability compared to paying standard Portuguese rates."
+      },
+      {
+        "question": "How is my D7 Visa income taxed?",
+        "answer": "The D7 Passive Income Visa requires proof of regular income (pension, rental, investment). This income is taxable in Portugal as a tax resident (unless NHR exemptions apply). It is also reportable on your US return. Use the Foreign Tax Credit or FEIE to prevent double taxation."
+      },
+      {
+        "question": "Do I need to report Portuguese accounts on FBAR?",
+        "answer": "Yes. All Portuguese bank accounts, investment accounts, and financial products count toward the $10,000 aggregate threshold for FBAR filing. This applies regardless of your NHR status or whether the accounts generate taxable income in Portugal."
+      },
+      {
+        "question": "How does the US-Portugal totalization agreement work?",
+        "answer": "The agreement prevents double Social Security contributions. US workers temporarily in Portugal stay on US Social Security. Locally employed workers contribute to Portuguese Segurança Social. Credits from both systems can be combined to qualify for benefits. This is especially relevant for D7 Visa holders receiving US Social Security while in Portugal."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Portugal: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Portugal. NHR program, D7 visa taxes, FBAR reporting, FEIE, and filing strategies.",
+      "keywords": ["expat taxes Portugal", "FBAR Portugal", "US tax filing Portugal", "NHR Portugal taxes", "D7 Visa tax Portugal", "American expats Portugal", "FEIE Portugal", "Portugal Digital Nomad Visa tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "italy",
+    "name": "Italy",
+    "region": "Europe",
+    "flag": "\ud83c\uddee\ud83c\uddf9",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1999,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 25%+ corporate ownership)",
+        "Reduced withholding on interest (10%) and royalties (5-8%)",
+        "Pension income generally taxed in country of residence",
+        "Government pension exemptions for source-country taxation"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Italy's central Mediterranean location makes European travel easy. All days outside the US count toward the 330-day physical presence test. Italy's elective residence visa requires maintaining primary residence in Italy.",
+      "bonaFideNotes": "An Italian codice fiscale (tax code), residenza (official residence registration), and permesso di soggiorno (residence permit) strongly support bona fide residence. Registration with the AIRE (Registry of Italians Abroad) is not applicable for US citizens.",
+      "commonVisaTypes": ["Elective Residence Visa", "Work Visa (Lavoro)", "Self-Employment Visa", "EU Blue Card"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates: 23% (up to €28,000), 25%, 35%, and 43% (above €50,000), plus regional (1.23-3.33%) and municipal surcharges (0-0.9%). Flat tax option of €100,000/year for new residents on foreign income",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Intesa Sanpaolo", "UniCredit", "Banco BPM", "BPER Banca"],
+      "fbarNotes": "All Italian bank accounts (conto corrente), postal savings (Poste Italiane), and investment accounts must be reported on FBAR if aggregate balances exceed $10,000. Italy's own foreign asset reporting (Quadro RW) creates parallel obligations.",
+      "fatcaCompliance": "Italy signed a Model 1 IGA with the US in 2015. Italian banks report US person data to the Agenzia delle Entrate, which shares with the IRS. Opening accounts as a US citizen requires additional documentation but is generally possible at major banks.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "Italy's flat tax regime (€100,000/year on foreign income) does not reduce US worldwide tax obligations",
+      "Italian regional and municipal tax surcharges are often overlooked when calculating Foreign Tax Credits",
+      "Italy's Quadro RW foreign asset declaration is required alongside US FBAR filing",
+      "Italian TFR (severance fund) contributions by employers may be taxable for US purposes",
+      "Complex Italian bureaucracy can delay tax residency documentation needed for FEIE claims"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,800-$3,000",
+      "comparedToUS": "20-40% lower than US average outside major cities",
+      "notes": "Milan and Rome are the most expensive cities. Southern Italy, Sicily, and Sardinia offer significantly lower costs. Some Italian municipalities offer €1 homes with renovation requirements. Healthcare through the SSN (national health service) is comprehensive."
+    },
+    "faqs": [
+      {
+        "question": "What is Italy's flat tax for new residents and how does it affect US taxes?",
+        "answer": "Italy offers a €100,000/year flat tax on all foreign-source income for new tax residents (not resident in Italy for 9 of the prior 10 years). While this simplifies Italian taxes, it does not reduce your US tax obligations. You still owe US tax on worldwide income, and the flat tax may generate different FTC calculations than standard progressive rates."
+      },
+      {
+        "question": "Do I need to file Italy's Quadro RW and the US FBAR?",
+        "answer": "Yes. As a tax resident of Italy with foreign assets, you must file Quadro RW with your Italian tax return. Separately, as a US citizen, you must file FBAR for foreign accounts exceeding $10,000 in aggregate. These are independent obligations to different countries."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Americans in Italy?",
+        "answer": "Italy's combined tax rates (national, regional, municipal) are often higher than US rates, making the Foreign Tax Credit more advantageous for most expats. Italian taxes paid usually exceed US taxes on the same income, generating excess FTC carryovers."
+      },
+      {
+        "question": "How does the US-Italy totalization agreement work?",
+        "answer": "The agreement prevents double Social Security/INPS contributions. US workers temporarily in Italy can remain on US Social Security for up to 5 years. Locally employed workers contribute to INPS (Italy's social security). Credits from both systems can be combined for benefit eligibility."
+      },
+      {
+        "question": "Can I qualify for Italian citizenship by descent and what are the tax implications?",
+        "answer": "Many Americans of Italian descent qualify for citizenship through jure sanguinis. Obtaining Italian citizenship alone does not trigger Italian tax obligations. You become an Italian tax resident only if you establish domicile, residence, or spend 183+ days in Italy. However, Italian citizenship does grant EU freedom of movement."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Italy: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Italy. Flat tax regime, Quadro RW, FBAR reporting, FEIE eligibility, and filing tips.",
+      "keywords": ["expat taxes Italy", "FBAR Italy", "US tax filing Italy", "American expats Italy", "Italy flat tax expats", "FEIE Italy", "US Italy tax treaty", "Quadro RW US citizens"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "netherlands",
+    "name": "Netherlands",
+    "region": "Europe",
+    "flag": "\ud83c\uddf3\ud83c\uddf1",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1992,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 10%+ corporate ownership)",
+        "Zero withholding on interest payments",
+        "Pension provisions with residence-country primary taxation",
+        "30% ruling interaction provisions for expat workers"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "The Netherlands' compact size and Schengen membership make European travel easy. Days spent anywhere outside the US count toward the 330-day requirement. Track all US business trips and home visits carefully.",
+      "bonaFideNotes": "A Dutch BSN (Burgerservicenummer), registration with the gemeente (municipality), and a Dutch residence permit strongly support bona fide residence. The 30% ruling for highly skilled migrants provides additional evidence of established residence.",
+      "commonVisaTypes": ["Highly Skilled Migrant Visa (Kennismigrant)", "EU Blue Card", "Orientation Year Visa", "Self-Employment Permit"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Box 1 (income): 36.93% up to €75,518, then 49.5%. Box 2 (substantial interest): 24.5-33%. Box 3 (savings/investments): deemed return taxed at 36%",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["ING", "ABN AMRO", "Rabobank", "de Volksbank (SNS)"],
+      "fbarNotes": "All Dutch bank accounts, investment accounts, and pension fund balances must be reported on FBAR if aggregate balances exceed $10,000. The Netherlands' Box 3 deemed-return system creates unique FTC complications since the Dutch tax may not correspond to actual income.",
+      "fatcaCompliance": "The Netherlands signed a Model 1 IGA with the US in 2013. Dutch banks actively report US person data to the Belastingdienst, which shares with the IRS. Dutch banks generally accept US citizens but require additional FATCA documentation.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "The 30% ruling reduces Dutch taxable income but also reduces available Foreign Tax Credits for US purposes",
+      "Box 3 deemed-return taxation may not generate creditable foreign taxes since it taxes a fictional return, not actual income",
+      "Dutch pension contributions by employers may be taxable for US purposes if not treaty-protected",
+      "The Dutch wealth tax (Box 3) interactions with US investment income reporting are highly complex",
+      "Expiring 30% ruling (reduced from 5 to 3.3 years for new applicants in 2024) requires mid-stay tax restructuring"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,200-$3,500",
+      "comparedToUS": "Comparable to mid-to-high tier US cities",
+      "notes": "Amsterdam is the most expensive city, comparable to San Francisco. Cities like Rotterdam, The Hague, and Utrecht are somewhat lower. Eindhoven and smaller cities offer better value. Healthcare is mandatory through private insurance (approximately €120-150/month)."
+    },
+    "faqs": [
+      {
+        "question": "How does the Dutch 30% ruling affect my US taxes?",
+        "answer": "The 30% ruling allows qualifying expats to receive 30% of their salary tax-free in the Netherlands. While this reduces your Dutch tax, it also reduces your Foreign Tax Credits available for US purposes. You may end up owing more US tax since there is less Dutch tax to offset your US liability."
+      },
+      {
+        "question": "How is Dutch Box 3 taxation handled for US taxes?",
+        "answer": "The Netherlands taxes savings and investments (Box 3) based on a deemed return, not actual income. This creates a mismatch with US taxation of actual gains and income. The Dutch Box 3 tax may not fully qualify as a creditable foreign income tax, requiring careful analysis with a cross-border tax professional."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Americans in the Netherlands?",
+        "answer": "Dutch tax rates are among Europe's highest (up to 49.5%). The Foreign Tax Credit typically provides more benefit than the FEIE, as Dutch taxes often exceed US taxes on the same income. However, the Box 3 deemed-return complications may reduce FTC benefits on investment income."
+      },
+      {
+        "question": "Do I report my Dutch pension (ABP, PFZW, etc.) to the IRS?",
+        "answer": "Yes. Dutch pension fund contributions and balances must be considered for US tax purposes. Employer contributions may be taxable income, and pension fund balances may need reporting on FBAR and FATCA Form 8938. The treaty provides some relief for pension taxation upon distribution."
+      },
+      {
+        "question": "How does the US-Netherlands totalization agreement work?",
+        "answer": "The agreement prevents double Social Security/AOW contributions. Temporarily assigned US workers continue paying US Social Security. Locally employed workers pay Dutch premiums (AOW, WIA, etc.). Credits from both systems can be combined for benefit eligibility. This is especially relevant given the Netherlands' extensive social insurance system."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in the Netherlands: FBAR, FEIE & Filing Guide",
+      "description": "Guide to US tax obligations for Americans in the Netherlands. 30% ruling, Box 3 taxes, FBAR reporting, FEIE, and cross-border filing tips.",
+      "keywords": ["expat taxes Netherlands", "FBAR Netherlands", "US tax filing Netherlands", "American expats Netherlands", "30% ruling US tax", "FEIE Netherlands", "Dutch Box 3 US tax", "US Netherlands tax treaty"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "thailand",
+    "name": "Thailand",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddf9\ud83c\udded",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1996,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 10% for 25%+ corporate ownership)",
+        "Reduced withholding on interest (10-15%) and royalties (5-15%)",
+        "Pension income provisions",
+        "Government service pension exemptions"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Thailand's visa rules often require border runs or visa renewals that may take you to neighboring countries. Days in Cambodia, Laos, or Malaysia still count as days outside the US for the 330-day test. Keep thorough records of all border crossings.",
+      "bonaFideNotes": "A Thai work permit, Non-Immigrant Visa (O, B, or ED), or Thailand Elite Visa support bona fide residence. Thai tax registration and a Thai Tax ID (TIN) provide additional evidence. Retirement visa holders should document local ties.",
+      "commonVisaTypes": ["Non-Immigrant B (Business)", "Non-Immigrant O (Retirement)", "Thailand Elite Visa", "Long-Term Resident (LTR) Visa"]
+    },
+    "localTax": {
+      "system": "remittance",
+      "rates": "Progressive rates from 0% (up to 150,000 THB) to 35% (above 5 million THB). Since January 2024, foreign income remitted to Thailand in the same year earned is taxable.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Bangkok Bank", "Kasikornbank (KBank)", "Siam Commercial Bank (SCB)", "Krungthai Bank"],
+      "fbarNotes": "All Thai bank accounts must be reported on FBAR if aggregate foreign balances exceed $10,000. This includes both Thai baht and foreign currency accounts. Thai fixed deposit accounts and investment accounts at Thai brokerages are also reportable.",
+      "fatcaCompliance": "Thailand signed a Model 1 IGA with the US in 2016. Thai banks are increasingly requiring US citizens to provide W-9 forms and SSN/TIN. Some smaller Thai banks may be less aware of FATCA requirements, but major banks comply.",
+      "currencyCode": "THB"
+    },
+    "pitfalls": [
+      "Thailand's 2024 tax change now taxes foreign income remitted to Thailand in the same calendar year - major shift from prior territorial system",
+      "No totalization agreement means potential double Social Security taxation if working in Thailand",
+      "Thai retirement visa holders may inadvertently become Thai tax residents (180+ days) without realizing the tax implications",
+      "Thai bank interest withholding tax (15%) can be claimed as FTC but requires proper documentation",
+      "Border runs for visa renewals must be carefully documented to maintain FEIE physical presence records"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,000-$2,000",
+      "comparedToUS": "50-70% lower than US average",
+      "notes": "Thailand offers exceptional value. Bangkok is pricier but still affordable by Western standards. Chiang Mai is a popular, very affordable expat hub. Beach destinations like Phuket and Koh Samui vary widely. Private healthcare is high quality and affordable."
+    },
+    "faqs": [
+      {
+        "question": "How did Thailand's 2024 tax change affect US expats?",
+        "answer": "Before 2024, Thailand used a territorial system where only Thai-source income was taxed. Starting January 2024, foreign income remitted to Thailand in the same calendar year it was earned is now taxable. This means US expats transferring income to Thai bank accounts may now owe Thai tax on that income, creating new Foreign Tax Credit opportunities but also new compliance obligations."
+      },
+      {
+        "question": "Can I use the FEIE while living in Thailand?",
+        "answer": "Yes. Thailand is a popular destination for FEIE qualification. The low cost of living means many expats' income falls below the FEIE exclusion amount ($130,000 for 2025). Both the Physical Presence Test and Bona Fide Residence Test can work, though the lack of a permanent visa option for many expats makes the physical presence test more common."
+      },
+      {
+        "question": "Is there a totalization agreement between the US and Thailand?",
+        "answer": "No. There is no totalization agreement between the US and Thailand. This means if you work in Thailand and contribute to Thailand's social security system, you may also owe US self-employment tax or Social Security tax, resulting in potential double taxation on social insurance contributions."
+      },
+      {
+        "question": "Do I report Thai bank accounts on FBAR?",
+        "answer": "Yes. All Thai bank accounts count toward the $10,000 aggregate threshold for FBAR filing (FinCEN 114). This includes savings accounts, fixed deposits, and any financial accounts at Thai institutions. The deadline is April 15 with automatic extension to October 15."
+      },
+      {
+        "question": "How does the Thailand Elite Visa affect my tax situation?",
+        "answer": "The Thailand Elite Visa (now Thailand Privilege) grants long-term residence but does not automatically make you a Thai tax resident. You become a Thai tax resident by spending 180+ days in Thailand in a calendar year. The visa itself supports a bona fide residence FEIE claim if you establish genuine ties to Thailand."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Thailand: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Thailand. 2024 tax changes, FBAR reporting, FEIE eligibility, and cross-border filing tips.",
+      "keywords": ["expat taxes Thailand", "FBAR Thailand", "US tax filing Thailand", "American expats Thailand", "FEIE Thailand", "Thailand tax changes 2024", "US Thailand tax treaty", "Thailand remittance tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "japan",
+    "name": "Japan",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddef\ud83c\uddf5",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 2003,
+      "keyProvisions": [
+        "Zero withholding on dividends for 10%+ corporate ownership, 10% otherwise",
+        "Zero withholding on interest payments",
+        "Pension income taxed only in country of residence",
+        "Reduced royalty withholding rate of 0%"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Japan is geographically distant from the US, making the 330-day test easier to meet. However, business trips to the US and home visits must still be tracked. Japan's strict immigration system means your visa status is well documented.",
+      "bonaFideNotes": "A Japanese residence card (zairyu card), registration at city hall (juminhyo), and a My Number (individual number) strongly support bona fide residence. Japanese tax filings (kakutei shinkoku) provide additional evidence.",
+      "commonVisaTypes": ["Engineer/Specialist in Humanities Visa", "Highly Skilled Professional Visa", "Spouse Visa", "Business Manager Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "National progressive rates: 5% to 45%, plus flat 10% local inhabitant tax (prefectural + municipal), plus 2.1% reconstruction surtax on national tax",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["MUFG Bank (Mitsubishi UFJ)", "Sumitomo Mitsui Banking Corporation (SMBC)", "Mizuho Bank", "Japan Post Bank"],
+      "fbarNotes": "All Japanese bank accounts, including yucho (postal savings), brokerage accounts, and insurance products with cash value must be reported on FBAR if aggregate balances exceed $10,000. Japanese nenkin (pension) accounts may also be reportable.",
+      "fatcaCompliance": "Japan signed a Model 2 IGA with the US in 2013, meaning Japanese banks report directly to the IRS (not through Japanese tax authorities). Major Japanese banks comply with FATCA but may require additional documentation from US citizens.",
+      "currencyCode": "JPY"
+    },
+    "pitfalls": [
+      "Japan's combined tax rate (national + local + reconstruction surtax) can exceed 55%, making tax planning critical",
+      "Japanese iDeCo and NISA accounts are not recognized as tax-advantaged by the IRS",
+      "The 5-year and 10-year rules for non-permanent resident taxation create complex transition periods",
+      "Japanese exit tax on unrealized gains (over ¥100 million in assets) applies when leaving Japan",
+      "Local inhabitant tax is assessed on January 1 each year and billed through the following June - timing departures is important"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,000-$3,500",
+      "comparedToUS": "Comparable to mid-tier US cities; Tokyo comparable to major US metros",
+      "notes": "Tokyo is expensive for housing but daily living costs (food, transport) are reasonable. Other cities like Osaka, Fukuoka, and Sapporo are significantly cheaper. Japan's national health insurance is comprehensive and affordable."
+    },
+    "faqs": [
+      {
+        "question": "How high are total taxes in Japan for US expats?",
+        "answer": "Japan's combined tax burden can be very high: up to 45% national income tax, plus approximately 10% local inhabitant tax, plus 2.1% reconstruction surtax. Effective rates can exceed 55% for high earners. The good news is these high rates generate substantial Foreign Tax Credits that typically eliminate US tax liability."
+      },
+      {
+        "question": "Are my Japanese NISA and iDeCo tax-free for US purposes?",
+        "answer": "No. Japan's NISA (Nippon Individual Savings Account) and iDeCo (individual defined contribution pension) are not recognized as tax-advantaged by the IRS. Income earned inside these accounts is taxable on your US return. NISA investments may also trigger PFIC (Passive Foreign Investment Company) reporting if they hold Japanese mutual funds."
+      },
+      {
+        "question": "What is Japan's exit tax and does it affect Americans?",
+        "answer": "Japan imposes an exit tax on unrealized capital gains for individuals who hold over ¥100 million in financial assets and have lived in Japan for 5+ of the last 10 years. If you leave Japan, you may owe tax on unrealized gains. This tax may be creditable on your US return if you subsequently realize those gains."
+      },
+      {
+        "question": "How does the US-Japan totalization agreement work?",
+        "answer": "The agreement prevents double Social Security/Nenkin contributions. US workers temporarily assigned to Japan (up to 5 years) remain on US Social Security. Locally employed workers contribute to Japanese Nenkin. Credits from both systems can be combined. This is particularly valuable since Japan requires 10 years of contributions for pension eligibility."
+      },
+      {
+        "question": "When should I use FEIE vs. FTC in Japan?",
+        "answer": "Given Japan's very high combined tax rates, the Foreign Tax Credit is almost always more advantageous. Japanese taxes typically far exceed US taxes on the same income, generating excess FTC carryovers. The FEIE might help if you have significant US-source income alongside modest Japanese income."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Japan: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Japan. NISA/iDeCo rules, tax treaty benefits, FBAR, FEIE, and filing strategies.",
+      "keywords": ["expat taxes Japan", "FBAR Japan", "US tax filing Japan", "American expats Japan", "FEIE Japan", "US Japan tax treaty", "NISA US tax", "iDeCo US tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "australia",
+    "name": "Australia",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\udde6\ud83c\uddfa",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1982,
+      "keyProvisions": [
+        "Reduced withholding on dividends (15% general, 5% for 10%+ corporate ownership with conditions)",
+        "Reduced withholding on interest (10%) and royalties (5%)",
+        "Superannuation provisions for pension portability",
+        "Capital gains provisions with residence-country primary taxation"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Australia's distance from the US makes the 330-day test straightforward unless you travel frequently. The Australian financial year runs July 1 to June 30, which does not align with the US tax year and complicates FTC calculations.",
+      "bonaFideNotes": "An Australian permanent resident visa, a valid work visa (such as the 482 or 494), and registration with the ATO (Australian Taxation Office) with a TFN (Tax File Number) strongly support bona fide residence.",
+      "commonVisaTypes": ["Skilled Worker Visa (subclass 482)", "Permanent Resident Visa (subclass 189/190)", "Partner Visa", "Working Holiday Visa (subclass 417)"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates: 0% (up to AUD 18,200), 19%, 32.5%, 37%, and 45% (above AUD 190,000), plus 2% Medicare levy",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Commonwealth Bank", "Westpac", "ANZ", "National Australia Bank (NAB)"],
+      "fbarNotes": "All Australian bank accounts, superannuation balances, and investment accounts must be reported on FBAR if aggregate balances exceed $10,000. Superannuation funds are particularly important - these are often high-value accounts that must be reported.",
+      "fatcaCompliance": "Australia signed a Model 1 IGA with the US in 2014. Australian banks and financial institutions report US person data to the ATO, which shares with the IRS. Australian banks generally accept US citizens with standard FATCA documentation.",
+      "currencyCode": "AUD"
+    },
+    "pitfalls": [
+      "Australian superannuation is taxed as a foreign trust by the IRS, requiring complex Forms 3520/3520-A annually",
+      "Mismatched tax years (Australia: July-June, US: January-December) complicate Foreign Tax Credit calculations",
+      "Australian franking credits (dividend imputation) have no US equivalent and create FTC complications",
+      "Australian Working Holiday Visa holders face a flat 15% tax from the first dollar, which may not match treaty provisions",
+      "Employer superannuation contributions (Superannuation Guarantee) are taxable income for US purposes"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,500-$4,000",
+      "comparedToUS": "Comparable to or slightly higher than major US cities",
+      "notes": "Sydney and Melbourne are among the world's most expensive cities for housing. Brisbane, Perth, and Adelaide offer lower costs. Regional areas are significantly cheaper. Medicare provides public healthcare, but private health insurance is common and incentivized."
+    },
+    "faqs": [
+      {
+        "question": "How is Australian superannuation taxed for US expats?",
+        "answer": "Australian superannuation is a major compliance issue. The IRS treats super funds as foreign trusts, potentially requiring Forms 3520 and 3520-A. Employer contributions to super are taxable income for US purposes (even though they are tax-advantaged in Australia). You must also report super balances on FBAR and potentially FATCA Form 8938."
+      },
+      {
+        "question": "What are Australian franking credits and how do they affect my US taxes?",
+        "answer": "Franking credits (dividend imputation credits) represent tax already paid at the corporate level on dividends. The US has no equivalent system. For FTC purposes, you may be able to claim the underlying corporate tax as a credit, but the mechanics are complex. Consult a cross-border tax professional."
+      },
+      {
+        "question": "How do I handle the different US and Australian tax years?",
+        "answer": "Australia's tax year runs July 1 to June 30, while the US uses January to December. For Foreign Tax Credits, you must allocate Australian taxes to the correct US tax year. This often requires splitting Australian tax assessments across two US tax years. Detailed records are essential."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Americans in Australia?",
+        "answer": "Australia's tax rates (up to 45% plus 2% Medicare levy) are generally high enough that the Foreign Tax Credit provides more benefit. Australian taxes typically exceed US taxes, generating carryover credits. However, the mismatched tax years and franking credit complications require careful analysis."
+      },
+      {
+        "question": "How does the US-Australia totalization agreement work?",
+        "answer": "The agreement coordinates Social Security between the two countries. Temporary US workers in Australia (up to 5 years) stay on US Social Security. Locally employed workers are covered by Australia's system. Notably, Australia's Age Pension is means-tested and residency-based, not contribution-based, creating unique interactions with the totalization agreement."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Australia: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Australia. Superannuation reporting, franking credits, FBAR rules, and filing strategies.",
+      "keywords": ["expat taxes Australia", "FBAR Australia", "US tax filing Australia", "American expats Australia", "Australian superannuation US tax", "FEIE Australia", "US Australia tax treaty", "franking credits US tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "costa-rica",
+    "name": "Costa Rica",
+    "region": "Latin America",
+    "flag": "\ud83c\udde8\ud83c\uddf7",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Costa Rica's proximity to the US makes the 330-day physical presence test achievable but requires careful tracking of US trips. Many expats use the perpetual tourist strategy (border runs every 90 days), but this may weaken FEIE claims.",
+      "bonaFideNotes": "A Costa Rican DIMEX (cédula de residencia), registration with the Tributación Directa (tax authority), and a local CCSS (social security) membership support bona fide residence. Pensionado or Rentista visa status provides strong evidence.",
+      "commonVisaTypes": ["Pensionado Visa (Retiree)", "Rentista Visa (Fixed Income)", "Inversionista Visa (Investor)", "Digital Nomad Visa (2022)"]
+    },
+    "localTax": {
+      "system": "territorial",
+      "rates": "Only Costa Rican-source income is taxed. Employment income: 0-25%. Business income: 5-30%. Capital gains: 15%.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Banco Nacional de Costa Rica", "Banco de Costa Rica (BCR)", "BAC Credomatic", "Scotiabank Costa Rica"],
+      "fbarNotes": "All Costa Rican bank accounts (colón and dollar-denominated) must be reported on FBAR if aggregate foreign balances exceed $10,000. Many US expats maintain both colón and USD accounts in Costa Rica, both of which count.",
+      "fatcaCompliance": "Costa Rica signed a Model 1 IGA with the US in 2017. Costa Rican banks are increasingly FATCA-compliant and require US citizens to declare their US tax status. Some smaller banks may be less familiar with FATCA requirements.",
+      "currencyCode": "CRC"
+    },
+    "pitfalls": [
+      "No tax treaty means no treaty-based relief for double taxation - rely entirely on FEIE or FTC",
+      "No totalization agreement creates risk of double Social Security taxation for employed expats",
+      "Perpetual tourist status (visa runs) does not establish tax residency and weakens FEIE bona fide residence claims",
+      "Costa Rica's territorial system means limited local taxes paid, which reduces Foreign Tax Credit benefits",
+      "Rental income from Costa Rican property is taxable in both Costa Rica and the US with no treaty relief"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,200-$2,500",
+      "comparedToUS": "30-50% lower than US average",
+      "notes": "Costa Rica is more expensive than most Central American countries but offers excellent healthcare and infrastructure. The Central Valley (San José area) offers lower costs than beach towns. Private healthcare is high quality and affordable."
+    },
+    "faqs": [
+      {
+        "question": "Does Costa Rica's territorial tax system mean I do not pay local taxes?",
+        "answer": "If your income is sourced outside Costa Rica (remote work for a US employer, US investments, US pensions), it is generally not taxable in Costa Rica under the territorial system. However, any income earned within Costa Rica (local employment, Costa Rican rental property, local business) is taxable. You still owe US tax on worldwide income regardless."
+      },
+      {
+        "question": "Is the FEIE beneficial for US expats in Costa Rica?",
+        "answer": "Yes, the FEIE is often the best strategy in Costa Rica. Since the territorial system means you may pay little or no Costa Rican tax on foreign-source income, there are few Foreign Tax Credits available. The FEIE can exclude up to $130,000 (2025) of foreign earned income from US taxation."
+      },
+      {
+        "question": "Is there a tax treaty between the US and Costa Rica?",
+        "answer": "No. There is no income tax treaty between the US and Costa Rica. This means no treaty-based withholding reductions, no mutual agreement procedures, and no treaty-based residency tie-breakers. You must rely on the FEIE, Foreign Tax Credit, or housing exclusion to reduce double taxation."
+      },
+      {
+        "question": "Do I need to file FBAR for my Costa Rican accounts?",
+        "answer": "Yes. All Costa Rican bank and financial accounts count toward the $10,000 aggregate threshold for FBAR (FinCEN 114). This includes colón accounts, dollar accounts, and any investment or insurance accounts with cash value held at Costa Rican financial institutions."
+      },
+      {
+        "question": "How does the Pensionado Visa affect my US taxes?",
+        "answer": "The Pensionado Visa requires proof of at least $1,000/month in pension income. This pension income remains taxable on your US return. The visa grants Costa Rican residency, which supports FEIE qualification. However, pension income itself is not eligible for FEIE (only earned income qualifies), so you may need other strategies for pension income."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Costa Rica: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Costa Rica. Territorial tax system, FBAR reporting, FEIE eligibility, and filing tips.",
+      "keywords": ["expat taxes Costa Rica", "FBAR Costa Rica", "US tax filing Costa Rica", "American expats Costa Rica", "FEIE Costa Rica", "Costa Rica territorial tax", "Pensionado Visa taxes", "Costa Rica Digital Nomad Visa tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "panama",
+    "name": "Panama",
+    "region": "Latin America",
+    "flag": "\ud83c\uddf5\ud83c\udde6",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Panama's proximity to the US makes the 330-day test achievable with careful planning. The country's use of the US dollar simplifies financial tracking. Document all US trips including connecting flights through US airports.",
+      "bonaFideNotes": "A Panamanian cédula (residency card) through the Friendly Nations Visa, Pensionado Visa, or other residency programs strongly supports bona fide residence. Registration with the DGI (tax authority) adds supporting evidence.",
+      "commonVisaTypes": ["Friendly Nations Visa", "Pensionado Visa", "Self-Economic Solvency Visa", "Digital Nomad Visa (2022)"]
+    },
+    "localTax": {
+      "system": "territorial",
+      "rates": "Only Panama-source income is taxed. Employment: 0-25%. Corporate: 25%. Capital gains on real estate: 10%. No tax on foreign-source income.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Banco General", "Banistmo (Bancolombia)", "BAC International Bank", "Global Bank"],
+      "fbarNotes": "All Panamanian bank accounts must be reported on FBAR if aggregate foreign balances exceed $10,000. Despite Panama using the US dollar, accounts at Panamanian banks are still foreign accounts. Panama's banking secrecy has decreased significantly but accounts still require FBAR reporting.",
+      "fatcaCompliance": "Panama signed a Model 1 IGA with the US in 2014. Panamanian banks report US person data to the DGI, which shares with the IRS. Panama has moved away from banking secrecy and most banks require FATCA documentation from US citizens.",
+      "currencyCode": "USD"
+    },
+    "pitfalls": [
+      "Despite using the US dollar, Panamanian bank accounts are still foreign accounts requiring FBAR reporting",
+      "No tax treaty means no treaty-based relief for any double taxation situations",
+      "Panama's territorial system generates minimal local taxes, limiting Foreign Tax Credit benefits",
+      "Panama's previous reputation as a tax haven increases IRS scrutiny of US expats' Panama-based finances",
+      "No totalization agreement means potential double Social Security taxation for employed workers"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,200-$2,800",
+      "comparedToUS": "30-50% lower than US average, but Panama City can be comparable to mid-tier US cities",
+      "notes": "Panama City is modern and relatively expensive by Latin American standards. The interior and beach areas like Boquete and Pedasi are much more affordable. Using the US dollar eliminates currency risk. Healthcare quality is good, especially in Panama City."
+    },
+    "faqs": [
+      {
+        "question": "If Panama uses the US dollar, do I still need to file FBAR?",
+        "answer": "Yes. FBAR reporting is based on where the account is held, not the currency. Accounts at Panamanian financial institutions are foreign accounts regardless of being denominated in US dollars. If your aggregate foreign account balances exceed $10,000 at any point during the year, you must file FinCEN 114."
+      },
+      {
+        "question": "Does Panama's territorial tax system benefit US expats?",
+        "answer": "It simplifies your Panamanian tax situation since foreign-source income is not taxed in Panama. However, as a US citizen, you still owe US tax on worldwide income. The FEIE is typically the best strategy since minimal Panamanian taxes mean minimal Foreign Tax Credits."
+      },
+      {
+        "question": "What is the Friendly Nations Visa and how does it affect taxes?",
+        "answer": "The Friendly Nations Visa grants permanent residency to citizens of about 50 countries, including the US. It requires opening a Panamanian bank account with at least $5,000 and either employment, a business, or real estate investment in Panama. The visa supports FEIE bona fide residence claims but does not change your US tax obligations."
+      },
+      {
+        "question": "Is there a tax treaty between the US and Panama?",
+        "answer": "No. There is no income tax treaty between the US and Panama. This means no treaty-based withholding reductions and no mutual agreement procedures. You must rely entirely on the FEIE, Foreign Tax Credit, or housing exclusion to mitigate any double taxation."
+      },
+      {
+        "question": "How does Panama's Pensionado Visa work for US retirees' taxes?",
+        "answer": "The Pensionado Visa requires proof of at least $1,000/month in pension income and grants numerous discounts (healthcare, dining, entertainment). The pension income is not taxed in Panama (territorial system). However, it remains taxable on your US return and pension income does not qualify for FEIE (only earned income qualifies)."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Panama: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Panama. Territorial tax, dollar economy, FBAR reporting, FEIE eligibility, and filing tips.",
+      "keywords": ["expat taxes Panama", "FBAR Panama", "US tax filing Panama", "American expats Panama", "FEIE Panama", "Panama territorial tax", "Friendly Nations Visa taxes", "Panama Pensionado taxes"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "colombia",
+    "name": "Colombia",
+    "region": "Latin America",
+    "flag": "\ud83c\udde8\ud83c\uddf4",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Colombia allows tourist stays of up to 180 days per year. For the 330-day physical presence test, track days carefully including travel to neighboring countries. Colombia's visa system has become more structured for long-term stays.",
+      "bonaFideNotes": "A Colombian cédula de extranjería (foreigner ID), registration with DIAN (tax authority), and a valid visa (M or R type) support bona fide residence. Colombian tax residency triggers at 183 days of presence in any 365-day period.",
+      "commonVisaTypes": ["M Visa (Migrant - various subcategories)", "R Visa (Resident)", "V Visa (Visitor/Digital Nomad)", "Retirement Visa (M category)"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "For tax residents (183+ days): progressive rates from 0% to 39%. Non-residents pay flat 35% on Colombian-source income only.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Bancolombia", "Banco de Bogotá", "Davivienda", "BBVA Colombia"],
+      "fbarNotes": "All Colombian bank accounts, CDTs (certificates of deposit), and investment accounts must be reported on FBAR if aggregate foreign balances exceed $10,000. Colombian fiduciary accounts (fiducias) also count as foreign financial accounts.",
+      "fatcaCompliance": "Colombia signed a Model 1 IGA with the US in 2015. Colombian banks are increasingly FATCA-compliant and require US citizens to provide their SSN/TIN. Major banks like Bancolombia have established FATCA compliance procedures.",
+      "currencyCode": "COP"
+    },
+    "pitfalls": [
+      "Becoming a Colombian tax resident (183 days) triggers worldwide taxation at rates up to 39%",
+      "No tax treaty means no treaty-based relief for double taxation - must rely on FEIE or FTC",
+      "No totalization agreement creates risk of double Social Security taxation",
+      "Colombia's own foreign asset reporting requirements (declaración de activos en el exterior) exist alongside US FBAR",
+      "Colombian pension contributions may not be deductible for US tax purposes"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,000-$2,000",
+      "comparedToUS": "50-70% lower than US average",
+      "notes": "Colombia offers excellent value. Medellín and Bogotá are popular expat hubs with moderate costs. Cartagena is pricier due to tourism. Smaller cities like Bucaramanga and Pereira are very affordable. Healthcare quality is high, especially in major cities."
+    },
+    "faqs": [
+      {
+        "question": "When do I become a Colombian tax resident?",
+        "answer": "You become a Colombian tax resident if you spend 183 or more days in Colombia within any consecutive 365-day period. Once you are a tax resident, Colombia taxes your worldwide income at progressive rates up to 39%. Non-residents pay only 35% on Colombian-source income."
+      },
+      {
+        "question": "Is the FEIE or FTC better for Colombia?",
+        "answer": "If you become a Colombian tax resident, the relatively high tax rates (up to 39%) may make the Foreign Tax Credit beneficial. If you are not a Colombian tax resident and earn primarily foreign-source income, the FEIE is typically better since you will have minimal Colombian taxes to credit."
+      },
+      {
+        "question": "Is there a tax treaty between the US and Colombia?",
+        "answer": "No. There is no income tax treaty between the US and Colombia. This means no reduced withholding rates, no mutual agreement procedures, and no treaty-based tie-breaker rules. Double taxation prevention relies entirely on unilateral measures like the FEIE, FTC, and housing exclusion."
+      },
+      {
+        "question": "Do I report Colombian bank accounts on FBAR?",
+        "answer": "Yes. All Colombian bank accounts, CDTs, fiduciary accounts, and brokerage accounts count toward the $10,000 aggregate threshold for FBAR filing. The volatile COP/USD exchange rate means account balances should be converted at the year-end rate for threshold testing and at the applicable rate for reporting."
+      },
+      {
+        "question": "How does Colombia's Digital Nomad Visa affect my taxes?",
+        "answer": "Colombia's Digital Nomad Visa (V-type) allows stays of up to 2 years. If you exceed 183 days in Colombia, you become a tax resident subject to worldwide taxation. Income from remote work for foreign companies was previously exempt from Colombian tax, but enforcement is increasing. Your US tax obligations remain unchanged."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Colombia: Tax Treaty, FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Colombia. No US-Colombia tax treaty exists. Tax residency rules, FBAR reporting, FEIE eligibility, and filing strategies.",
+      "keywords": ["expat taxes Colombia", "FBAR Colombia", "US tax filing Colombia", "American expats Colombia", "FEIE Colombia", "Colombia tax resident", "Colombia Digital Nomad Visa tax", "Medellín expat taxes", "US Colombia tax treaty", "Colombia tax treaty"]
+    },
+    "relatedBlogSlugs": ["us-colombia-tax-treaty-expats", "fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines"]
+  },
+  {
+    "slug": "ecuador",
+    "name": "Ecuador",
+    "region": "Latin America",
+    "flag": "\ud83c\uddea\ud83c\udde8",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Ecuador's dollarized economy and straightforward visa system make it appealing for FEIE qualification. Track days carefully if you make US visits or travel to other South American countries. Ecuador does not count partial days as full days of presence. Because Ecuador is on the equator, many expats do not leave during the winter months, making it easier to maintain 330+ days. The Galápagos Islands count as Ecuadorian territory for Physical Presence Test purposes, but transit through the US to reach them counts against your days.",
+      "bonaFideNotes": "An Ecuadorian cédula (obtained with any resident visa), registration with the SRI (Servicio de Rentas Internas), and local ties such as property ownership, utility accounts, and club memberships strongly support bona fide residence. Ecuador's professional, retiree (Jubilado), and investor visas all work well for establishing bona fide residence. Owning real estate in Cuenca, Quito, or the coast adds substantial evidence of intent. Joining local organizations, obtaining an Ecuadorian driver's license, and registering with IESS further strengthen the claim.",
+      "commonVisaTypes": ["Jubilado Visa (Retiree)", "Professional Visa", "Investor Visa", "Rentista Visa", "UNASUR Visa"]
+    },
+    "localTax": {
+      "system": "territorial",
+      "rates": "Only Ecuadorian-source income is taxed. Progressive rates from 0% to 37% on local income. Foreign-source income (US pensions, Social Security, investment income from outside Ecuador) is generally not taxed in Ecuador.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Banco Pichincha", "Banco del Pacífico", "Banco Guayaquil", "Banco del Austro"],
+      "fbarNotes": "All Ecuadorian bank accounts must be reported on FBAR if aggregate foreign balances exceed $10,000 at any point during the year. Despite Ecuador using the US dollar, accounts at Ecuadorian banks are foreign accounts. Many expats hold accounts at multiple banks (Pichincha for daily use, Austro or Guayaquil for savings), and all balances aggregate for the threshold. Fixed-term deposits (pólizas de acumulación) at Ecuadorian banks or cooperativas also count.",
+      "fatcaCompliance": "Ecuador has not signed a formal IGA with the US, but Ecuadorian banks are increasingly aware of FATCA requirements. Banco Pichincha and other major banks may ask for your SSN. Smaller banks and cooperativas (credit unions) may be less FATCA-compliant, but this does not remove your FBAR obligation.",
+      "currencyCode": "USD"
+    },
+    "pitfalls": [
+      "Despite using the US dollar, Ecuadorian bank accounts are still foreign accounts requiring FBAR reporting - this is the most common mistake Americans in Ecuador make",
+      "No tax treaty with the US means no treaty-based relief for any double taxation situations",
+      "No totalization agreement means US Social Security recipients in Ecuador may face complex benefit calculations",
+      "Ecuadorian cooperativas (credit unions) are popular but are still foreign financial institutions for FBAR purposes",
+      "Ecuador's exit tax (impuesto a la salida de divisas) of 5% on money leaving the country is not creditable as an income tax for FTC purposes",
+      "Selling Ecuadorian real estate triggers US capital gains tax reporting even if the sale is tax-free in Ecuador; the gain must be reported on Schedule D",
+      "Rental income from Ecuadorian property is taxable in the US and must be reported on Schedule E; deductions for depreciation, maintenance, and management fees apply",
+      "Ecuadorian health insurance premiums (including IESS contributions and private plans) are not deductible as self-employed health insurance unless you have self-employment income in the US and meet specific requirements"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,000-$2,000",
+      "comparedToUS": "50-70% lower than US average",
+      "notes": "Ecuador is one of the most affordable expat destinations in Latin America. Cuenca is the most popular expat city, offering excellent healthcare, mild climate, and very low costs. Quito is slightly more expensive. Coastal cities like Salinas and beach towns are affordable. The dollarized economy eliminates currency exchange risk. Healthcare through IESS (public system) is available to visa holders, and excellent private care is very affordable."
+    },
+    "faqs": [
+      {
+        "question": "Is my US pension or Social Security taxed in Ecuador?",
+        "answer": "No. Ecuador uses a territorial tax system, meaning only income sourced within Ecuador is subject to Ecuadorian tax. US pensions, Social Security benefits, US investment income, and other foreign-source income are generally not taxed in Ecuador. However, all of this income remains taxable on your US federal return."
+      },
+      {
+        "question": "Do I need to file FBAR for my Ecuadorian bank accounts even though Ecuador uses the dollar?",
+        "answer": "Yes, absolutely. FBAR filing is based on where the financial institution is located, not the currency of the account. Accounts at Banco Pichincha, Banco del Austro, cooperativas, or any Ecuadorian financial institution are foreign accounts. If your aggregate balances exceed $10,000 at any point during the year, you must file FinCEN 114."
+      },
+      {
+        "question": "Can I use the FEIE while living in Ecuador?",
+        "answer": "Yes, and the FEIE is typically the best strategy for Americans in Ecuador. Since Ecuador's territorial system means your foreign-source income is not taxed locally, you will have minimal Ecuadorian taxes available for Foreign Tax Credits. The FEIE can exclude up to $130,000 (2025) of foreign earned income. For retirees with pension/Social Security income, note that the FEIE only applies to earned income, not pensions."
+      },
+      {
+        "question": "What are the tax implications of Ecuador's Jubilado (retiree) visa?",
+        "answer": "The Jubilado Visa requires proof of stable monthly pension or Social Security income (for current thresholds, see our visa partner EcuaPass). This income is not taxed in Ecuador (territorial system) but remains taxable on your US return. The visa grants residency that supports FEIE qualification for any earned income. It also provides access to IESS healthcare and various retiree discounts on utilities, transportation, and entertainment."
+      },
+      {
+        "question": "Is there a tax treaty between the US and Ecuador?",
+        "answer": "No. There is no income tax treaty between the US and Ecuador, and there is no totalization agreement for Social Security. This means no treaty-based withholding reductions and no coordination of Social Security benefits. Tax relief depends entirely on unilateral US provisions like the FEIE, Foreign Tax Credit, and housing exclusion."
+      },
+      {
+        "question": "What are the US tax consequences of selling property in Ecuador?",
+        "answer": "When you sell Ecuadorian real estate, you must report the capital gain or loss on your US tax return (Schedule D). The gain is calculated as the difference between your US-dollar adjusted basis and the US-dollar sale proceeds, using the exchange rates at purchase and sale. Ecuador does not tax capital gains on real estate for individuals in most cases, but the US does. Proper documentation of purchase price, improvement costs, and exchange rates is essential."
+      },
+      {
+        "question": "Can I deduct Ecuadorian health insurance premiums on my US tax return?",
+        "answer": "If you are self-employed and have self-employment income reported on your US return, you may be able to deduct Ecuadorian health insurance premiums (including IESS contributions and private plan premiums) as self-employed health insurance. This deduction is taken on Schedule 1 of Form 1040. If you are not self-employed, health insurance premiums are generally not deductible unless you itemize deductions and your total medical expenses exceed 7.5% of AGI."
+      },
+      {
+        "question": "How do Ecuadorian cooperativas (credit unions) affect my FBAR and FATCA reporting?",
+        "answer": "Ecuadorian cooperativas such as JEP, CPN, and Cooperativa de la Policía are foreign financial institutions for FBAR purposes. CDs (pólizas de acumulación), savings accounts, and checking accounts at cooperativas must be reported on your FBAR if your aggregate foreign balances exceed $10,000. Interest earned on cooperative accounts is taxable US income. Some cooperativas are not FATCA-compliant, but this does not remove your personal reporting obligation."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Ecuador: FBAR, FEIE & Filing Guide (2026)",
+      "description": "The definitive guide to US tax obligations for Americans in Ecuador. Territorial tax benefits, FBAR reporting for dollar accounts, FEIE qualification, Jubilado visa tax implications, property sale rules, and filing tips from an expat in Cuenca.",
+      "keywords": ["expat taxes Ecuador", "FBAR Ecuador", "US tax filing Ecuador", "American expats Ecuador", "FEIE Ecuador", "Ecuador territorial tax", "Cuenca expat taxes", "Ecuador retiree taxes", "Jubilado visa US tax", "Ecuador property sale US tax", "Ecuador cooperativa FBAR", "Cuenca tax preparer", "Ecuador digital nomad tax"]
+    },
+    "relatedBlogSlugs": ["us-taxes-americans-living-ecuador", "fbar-ecuador-cds-property-sales", "common-tax-mistakes-americans-ecuador", "moving-to-ecuador-tax-checklist-americans", "retiring-to-ecuador-tax-benefits", "ecuador-visa-types-us-tax-implications", "social-security-ecuador-taxes"]
+  },
+  {
+    "slug": "israel",
+    "name": "Israel",
+    "region": "Middle East",
+    "flag": "\ud83c\uddee\ud83c\uddf1",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1975,
+      "keyProvisions": [
+        "Reduced withholding on dividends (25% general, 12.5% for 10%+ corporate ownership)",
+        "Reduced withholding on interest (17.5%) and royalties (15%)",
+        "Pension income provisions",
+        "New immigrant (Oleh) tax exemptions recognized"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Israel's small size and security situation may prompt travel to neighboring countries or the US. Track all days carefully for the 330-day test. Reserve duty (miluim) for dual citizens does not affect FEIE eligibility but complicates scheduling.",
+      "bonaFideNotes": "An Israeli teudat zehut (ID card) through Aliyah or residency, registration with the Israel Tax Authority (mas hachnasa), and a teudat oleh (new immigrant certificate) if applicable strongly support bona fide residence.",
+      "commonVisaTypes": ["Aliyah (Jewish Immigration)", "A/1 Temporary Resident Visa", "B/1 Work Visa", "Expert Visa"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive rates from 10% to 50% on employment income. Capital gains: 25-30%. New immigrants (Olim) receive a 10-year exemption on foreign-source income.",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["Bank Hapoalim", "Bank Leumi", "Israel Discount Bank", "Mizrahi Tefahot"],
+      "fbarNotes": "All Israeli bank accounts, kupot gemel (provident funds), keren hishtalmut (education funds), and brokerage accounts must be reported on FBAR if aggregate balances exceed $10,000. Israeli pension funds (kupat pensiya) and managers' insurance (bituach menahalim) also count.",
+      "fatcaCompliance": "Israel signed a Model 1 IGA with the US in 2014. Israeli banks actively report US person data and are highly FATCA-compliant. Israeli banks are familiar with US citizen requirements due to the large American-Israeli population.",
+      "currencyCode": "ILS"
+    },
+    "pitfalls": [
+      "The 10-year Oleh (new immigrant) tax exemption on foreign income does not exempt you from US worldwide taxation",
+      "Israeli kupot gemel and keren hishtalmut are not recognized as tax-advantaged by the IRS and require annual reporting",
+      "Israeli mutual funds (kranot neemanut) are PFICs for US purposes, requiring Form 8621",
+      "The US-Israel treaty is one of the oldest (1975) and has provisions that are less favorable than modern treaties",
+      "Dual US-Israeli citizens may have military reserve obligations that complicate scheduling around tax deadlines"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,500-$4,000",
+      "comparedToUS": "Comparable to major US cities; Tel Aviv is among the world's most expensive cities",
+      "notes": "Tel Aviv is extremely expensive, especially for housing. Jerusalem and Haifa are somewhat lower. Peripheral cities like Beer Sheva and towns in the north offer better value. Healthcare is universal through kupot cholim (health funds) and is high quality."
+    },
+    "faqs": [
+      {
+        "question": "How does the Oleh (new immigrant) tax exemption interact with US taxes?",
+        "answer": "Israel grants new immigrants (Olim) a 10-year exemption on foreign-source income and capital gains. This is a major benefit for Israeli tax purposes. However, as a US citizen, you still owe US tax on worldwide income regardless of the Oleh exemption. The exemption means you will have less Israeli tax to claim as Foreign Tax Credits during this period."
+      },
+      {
+        "question": "Are Israeli pension funds and keren hishtalmut reported to the IRS?",
+        "answer": "Yes. Israeli pension funds (kupat pensiya), managers' insurance (bituach menahalim), keren hishtalmut (education funds), and kupot gemel (provident funds) must be reported on FBAR and potentially FATCA Form 8938. Employer contributions may be taxable income for US purposes. These accounts are not recognized as tax-advantaged by the IRS."
+      },
+      {
+        "question": "Should I use the FEIE or FTC in Israel?",
+        "answer": "Israel's high tax rates (up to 50%) generally make the Foreign Tax Credit more advantageous. Israeli taxes usually exceed US taxes, generating carryover credits. However, during the 10-year Oleh exemption period, you may pay little Israeli tax on foreign income, making the FEIE more valuable."
+      },
+      {
+        "question": "How does the US-Israel totalization agreement work?",
+        "answer": "The agreement prevents double Social Security/Bituach Leumi (National Insurance) contributions. US workers temporarily in Israel stay on US Social Security. Locally employed workers pay Bituach Leumi. Credits from both systems can be combined for benefit eligibility. This is especially important for Olim who split their working years between countries."
+      },
+      {
+        "question": "Are Israeli mutual funds considered PFICs?",
+        "answer": "Yes. Israeli mutual funds (kranot neemanut) and most Israeli ETFs are classified as Passive Foreign Investment Companies (PFICs) by the IRS. This triggers complex Form 8621 reporting and potentially punitive tax treatment. US expats in Israel should consider holding US-listed ETFs in US brokerage accounts to avoid PFIC complications."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Israel: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Israel. Oleh exemption, pension reporting, FBAR rules, FEIE, and filing strategies.",
+      "keywords": ["expat taxes Israel", "FBAR Israel", "US tax filing Israel", "American expats Israel", "Aliyah tax implications", "FEIE Israel", "US Israel tax treaty", "Oleh tax exemption US"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "uae",
+    "name": "United Arab Emirates",
+    "region": "Middle East",
+    "flag": "\ud83c\udde6\ud83c\uddea",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "The UAE is popular for the physical presence test due to the lack of personal income tax. However, many expats travel frequently for business or leisure, which can jeopardize the 330-day requirement. The UAE's Golden Visa program helps establish long-term presence.",
+      "bonaFideNotes": "A UAE residence visa, Emirates ID, and established local ties (housing, employment, banking) support bona fide residence. The absence of income tax means you will not have local tax filings to support your claim, so other evidence of genuine residence is important.",
+      "commonVisaTypes": ["Employment Visa", "Golden Visa (10-year)", "Green Visa (5-year)", "Freelancer/Self-Sponsored Visa"]
+    },
+    "localTax": {
+      "system": "none",
+      "rates": "No personal income tax. 9% corporate tax introduced in June 2023 (on profits above AED 375,000). 5% VAT on goods and services.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Emirates NBD", "First Abu Dhabi Bank (FAB)", "Abu Dhabi Commercial Bank (ADCB)", "Mashreq Bank"],
+      "fbarNotes": "All UAE bank accounts must be reported on FBAR if aggregate foreign balances exceed $10,000. UAE expats often maintain high-balance accounts due to salary structures (housing allowances, end-of-service gratuity). Dubai and Abu Dhabi financial center accounts are also reportable.",
+      "fatcaCompliance": "The UAE signed a Model 1 IGA with the US in 2015. UAE banks are highly FATCA-compliant and require US citizens to declare their US tax status and provide their SSN/TIN. Some banks have dedicated US person onboarding processes.",
+      "currencyCode": "AED"
+    },
+    "pitfalls": [
+      "No local income tax means zero Foreign Tax Credits available - the FEIE is your primary tool for reducing US tax",
+      "No tax treaty means no treaty-based protections or reduced withholding rates",
+      "End-of-service gratuity payments are taxable for US purposes even though they are not taxed in the UAE",
+      "UAE corporate tax (9% from 2023) may affect US expats who own UAE businesses, creating new compliance requirements",
+      "High salaries in the UAE may exceed the FEIE exclusion amount, leaving excess income fully taxable by the US"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,500-$5,000",
+      "comparedToUS": "Comparable to or higher than major US cities, especially Dubai and Abu Dhabi",
+      "notes": "Dubai and Abu Dhabi are expensive, particularly for housing, education, and dining. However, no income tax significantly increases take-home pay. Northern Emirates (Sharjah, Ajman, Ras Al Khaimah) are more affordable. Healthcare is good but can be expensive without employer-provided insurance."
+    },
+    "faqs": [
+      {
+        "question": "If the UAE has no income tax, do I still owe US taxes?",
+        "answer": "Yes. US citizens and green card holders owe US tax on worldwide income regardless of where they live. The UAE's lack of income tax actually means you have no Foreign Tax Credits to offset your US liability. The FEIE (excluding up to $130,000 for 2025) and the Foreign Housing Exclusion are your primary tools for reducing US tax."
+      },
+      {
+        "question": "What if my UAE salary exceeds the FEIE exclusion amount?",
+        "answer": "Many UAE expat packages exceed the FEIE exclusion. The Foreign Housing Exclusion can shelter additional income used for qualifying housing expenses above a base amount. Any income above both exclusions is taxable at your normal US rate. With no UAE taxes paid, there are no FTCs available."
+      },
+      {
+        "question": "Is my end-of-service gratuity taxable in the US?",
+        "answer": "Yes. Under UAE labor law, employees receive an end-of-service gratuity based on years of service. While this is not taxed in the UAE, it is taxable compensation for US purposes. It may qualify for FEIE exclusion if received in the same year as your foreign earned income, but planning the timing is important."
+      },
+      {
+        "question": "How does the new UAE corporate tax affect US expat business owners?",
+        "answer": "The 9% corporate tax (effective June 2023 on profits above AED 375,000) affects US expats who own UAE businesses. This corporate tax may be creditable on your US return via the Foreign Tax Credit. Additionally, your UAE company may be classified as a Controlled Foreign Corporation (CFC) requiring Form 5471 reporting."
+      },
+      {
+        "question": "Do I need to file FBAR for my UAE accounts?",
+        "answer": "Yes. All UAE bank accounts, investment accounts, and other financial accounts count toward the $10,000 aggregate FBAR threshold. UAE expats often hold high-balance accounts (salary accounts, savings, DIFC accounts), making FBAR filing very common. The AED is pegged to the USD, simplifying balance conversion."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in the UAE: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in the UAE. Zero income tax strategies, FBAR reporting, FEIE maximization, and filing tips.",
+      "keywords": ["expat taxes UAE", "FBAR UAE", "US tax filing UAE", "American expats UAE", "FEIE UAE", "Dubai expat taxes", "UAE no income tax US citizens", "Abu Dhabi expat taxes"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "singapore",
+    "name": "Singapore",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddf8\ud83c\uddec",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Singapore's small size means most of your life is contained in one country, making the 330-day test straightforward. Business travel to regional offices in Malaysia, Indonesia, or other ASEAN countries counts as days outside the US. Track all US trips.",
+      "bonaFideNotes": "A Singapore Employment Pass, S Pass, Permanent Resident status, or EntrePass strongly supports bona fide residence. IRAS (Inland Revenue Authority of Singapore) tax filings and CPF (Central Provident Fund) contributions provide additional evidence.",
+      "commonVisaTypes": ["Employment Pass", "S Pass", "EntrePass (Entrepreneur)", "Permanent Resident"]
+    },
+    "localTax": {
+      "system": "territorial",
+      "rates": "Only Singapore-source income is taxed. Progressive rates from 0% (first SGD 20,000) to 22% (above SGD 320,000). No capital gains tax. No tax on foreign-source income even if remitted.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["DBS Bank", "OCBC Bank", "United Overseas Bank (UOB)", "Standard Chartered Singapore"],
+      "fbarNotes": "All Singapore bank accounts, CPF balances, SRS (Supplementary Retirement Scheme) accounts, and brokerage accounts must be reported on FBAR if aggregate balances exceed $10,000. CPF is mandatory for employees and can accumulate significant balances.",
+      "fatcaCompliance": "Singapore signed a Model 1 IGA with the US in 2014. Singapore banks are highly FATCA-compliant and require US citizens to provide their SSN/TIN. Singapore's reputation as a financial center means banks have robust compliance programs.",
+      "currencyCode": "SGD"
+    },
+    "pitfalls": [
+      "No tax treaty means no treaty-based withholding reductions or mutual agreement procedures",
+      "CPF (Central Provident Fund) contributions are mandatory but not recognized as tax-advantaged by the IRS",
+      "Singapore's territorial system means minimal local tax paid, limiting FTC benefits - FEIE is usually better",
+      "No totalization agreement creates potential double Social Security/CPF taxation",
+      "SRS (Supplementary Retirement Scheme) contributions are not deductible for US tax purposes"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,500-$5,000",
+      "comparedToUS": "Comparable to or higher than major US cities, especially for housing and cars",
+      "notes": "Singapore is one of the world's most expensive cities for housing, cars (COE system), and education. However, food (hawker centers) and public transport are very affordable. Healthcare is world-class with a mix of public subsidies and private options. No state/local tax equivalent."
+    },
+    "faqs": [
+      {
+        "question": "Does Singapore's territorial tax system help US expats?",
+        "answer": "Singapore's territorial system means only Singapore-source income is taxed, and foreign-source income is not taxed even if remitted. This is great for Singapore tax purposes, but it means you have fewer Foreign Tax Credits available for your US return. The FEIE is typically more beneficial for Americans in Singapore."
+      },
+      {
+        "question": "How is CPF (Central Provident Fund) treated for US taxes?",
+        "answer": "CPF contributions (both employee and employer portions) are mandatory for employees in Singapore. The IRS does not recognize CPF as a tax-qualified retirement plan. Employer CPF contributions are taxable income on your US return. CPF balances must be reported on FBAR and potentially FATCA Form 8938."
+      },
+      {
+        "question": "Is there a tax treaty between the US and Singapore?",
+        "answer": "No. Despite the strong US-Singapore economic relationship, there is no income tax treaty. This means no treaty-based withholding reductions and no mutual agreement procedures. A Limited Income Tax Treaty exists only for shipping and aircraft income. You must rely on FEIE, FTC, and housing exclusion."
+      },
+      {
+        "question": "Can I use the Foreign Housing Exclusion in Singapore?",
+        "answer": "Yes, and it is especially valuable in Singapore given the high housing costs. The Foreign Housing Exclusion allows you to exclude qualifying housing expenses above a base amount (16% of the FEIE limit). Singapore is one of the locations where the IRS grants a higher housing expense limit due to the high cost of living."
+      },
+      {
+        "question": "Do I report my SRS account to the IRS?",
+        "answer": "Yes. The SRS (Supplementary Retirement Scheme) is a voluntary retirement account. While contributions are tax-deductible in Singapore, they are NOT deductible for US tax purposes. Investment income within SRS is taxable for US purposes. The account must be reported on FBAR and potentially FATCA Form 8938."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Singapore: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in Singapore. CPF reporting, territorial tax, FBAR rules, FEIE, and housing exclusion tips.",
+      "keywords": ["expat taxes Singapore", "FBAR Singapore", "US tax filing Singapore", "American expats Singapore", "FEIE Singapore", "CPF US tax", "Singapore territorial tax", "Singapore housing exclusion"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "foreign-tax-credit-guide"]
+  },
+  {
+    "slug": "philippines",
+    "name": "Philippines",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddf5\ud83c\udded",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1976,
+      "keyProvisions": [
+        "Reduced withholding on dividends (25% general, 20% for 10%+ corporate ownership)",
+        "Reduced withholding on interest (15%) and royalties (15%)",
+        "Pension and Social Security provisions",
+        "Government service exemptions"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "The Philippines is far from the US, making the 330-day test easier to meet. However, frequent travel to other ASEAN countries or home visits to the US must be tracked. Philippine immigration stamps in your passport provide good documentation.",
+      "bonaFideNotes": "A Philippine Special Resident Retiree's Visa (SRRV), 13(a) Marriage Visa, or work visa (9g) with an ACR I-Card (Alien Certificate of Registration) support bona fide residence. BIR (Bureau of Internal Revenue) registration and a TIN provide additional evidence.",
+      "commonVisaTypes": ["SRRV (Special Resident Retiree's Visa)", "13(a) Marriage Visa", "9(g) Work Visa", "SIRV (Special Investor's Resident Visa)"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "For residents: progressive rates from 0% (up to PHP 250,000) to 35% (above PHP 8 million). Non-residents: flat 25% on Philippine-source income.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["BDO Unibank", "Bank of the Philippine Islands (BPI)", "Metrobank", "Land Bank of the Philippines"],
+      "fbarNotes": "All Philippine bank accounts, including peso and dollar-denominated accounts, time deposits, and investment accounts must be reported on FBAR if aggregate balances exceed $10,000. Many expats hold both peso and USD accounts at Philippine banks.",
+      "fatcaCompliance": "The Philippines signed a Model 1 IGA with the US in 2015. Major Philippine banks comply with FATCA and require US citizens to provide SSN/TIN. Some rural banks and smaller institutions may be less familiar with FATCA requirements.",
+      "currencyCode": "PHP"
+    },
+    "pitfalls": [
+      "Becoming a Philippine tax resident triggers worldwide taxation at rates up to 35%",
+      "No totalization agreement means potential double Social Security/SSS taxation",
+      "The US-Philippines treaty is one of the oldest (1976) with less favorable terms than modern treaties",
+      "Philippine BIR compliance can be slow and bureaucratic, complicating Foreign Tax Credit documentation",
+      "SRRV visa holders may inadvertently become tax residents without realizing the implications"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$800-$1,800",
+      "comparedToUS": "60-75% lower than US average",
+      "notes": "The Philippines is one of the most affordable expat destinations. Manila (Makati, BGC) is the priciest area. Cebu, Davao, Dumaguete, and other provincial cities are very affordable. Healthcare quality varies widely - excellent private hospitals in Manila and Cebu, more limited elsewhere."
+    },
+    "faqs": [
+      {
+        "question": "When do I become a Philippine tax resident?",
+        "answer": "You are generally considered a Philippine tax resident if you stay in the Philippines for more than 180 days in a calendar year. Resident aliens are taxed on worldwide income at progressive rates up to 35%. Non-resident aliens are taxed only on Philippine-source income at a flat 25%."
+      },
+      {
+        "question": "How does the SRRV affect my US tax obligations?",
+        "answer": "The SRRV (Special Resident Retiree's Visa) grants permanent residence. If you spend 180+ days in the Philippines, you become a tax resident subject to worldwide income taxation. Your US tax obligations remain unchanged. The SRRV supports a bona fide residence FEIE claim. Pension income used to qualify for the SRRV is taxable on your US return."
+      },
+      {
+        "question": "Is the FEIE or FTC better in the Philippines?",
+        "answer": "It depends on your income level and Philippine tax status. If you are a Philippine tax resident paying high local taxes, the FTC may offset your US liability. If you earn primarily foreign-source income that is not taxed in the Philippines, the FEIE is more valuable. Many retirees with pension income (which does not qualify for FEIE) benefit from FTC on Philippine taxes paid."
+      },
+      {
+        "question": "Do I report Philippine bank accounts on FBAR?",
+        "answer": "Yes. All Philippine bank accounts (peso and dollar-denominated), time deposits, and investment accounts count toward the $10,000 aggregate FBAR threshold. This includes accounts at major banks like BDO, BPI, and Metrobank as well as smaller rural banks."
+      },
+      {
+        "question": "Is there a totalization agreement between the US and Philippines?",
+        "answer": "No. There is no Social Security totalization agreement between the US and Philippines. If you work in the Philippines and contribute to SSS (Social Security System) and PhilHealth, you may also owe US self-employment tax or Social Security tax on the same income. Plan accordingly to minimize double social insurance contributions."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in the Philippines: FBAR, FEIE & Filing Guide",
+      "description": "Complete guide to US tax obligations for Americans in the Philippines. SRRV tax rules, FBAR reporting, FEIE eligibility, and filing tips.",
+      "keywords": ["expat taxes Philippines", "FBAR Philippines", "US tax filing Philippines", "American expats Philippines", "FEIE Philippines", "SRRV tax implications", "US Philippines tax treaty", "Philippines retiree taxes"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"]
+  },
+  {
+    "slug": "switzerland",
+    "name": "Switzerland",
+    "region": "Europe",
+    "flag": "\ud83c\udde8\ud83c\udded",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1996,
+      "keyProvisions": [
+        "The U.S.-Switzerland income-tax treaty coordinates taxation of specified income and provides double-tax relief subject to its terms",
+        "Pension, dividend, interest, and capital-gain results depend on the treaty article and the taxpayer's residence status",
+        "Treaty benefits do not replace U.S. worldwide-income reporting or information returns"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "All full days outside the United States count toward the 330-day Physical Presence Test. Frequent travel between Swiss cantons and neighboring countries should be recorded with dated travel evidence.",
+      "bonaFideNotes": "A Swiss residence permit, local registration, housing, employment or business records, and an established home can support a Bona Fide Residence analysis, but the facts must be reviewed for the full tax year.",
+      "commonVisaTypes": ["Residence Permit B", "Residence Permit L", "Swiss employment permit", "Retirement or financially independent residence analysis"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Federal direct tax plus cantonal and communal income taxes; rates, wealth taxes, and filing rules vary significantly by canton and municipality.",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["UBS", "Zürcher Kantonalbank", "Raiffeisen Switzerland", "PostFinance"],
+      "fbarNotes": "Swiss bank, securities, pension, and other reportable financial accounts may count toward the $10,000 aggregate FBAR threshold. Keep the highest balance and currency-conversion records.",
+      "fatcaCompliance": "Swiss financial institutions participate in FATCA information exchange. A U.S. person may be asked for a W-9, U.S. tax identification number, and supporting status documentation.",
+      "currencyCode": "CHF"
+    },
+    "pitfalls": [
+      "Assuming a Swiss residence permit automatically determines Swiss tax residence",
+      "Overlooking cantonal and communal differences in income and wealth taxation",
+      "Treating Pillar 2 or Pillar 3a accounts as identical to U.S. retirement accounts",
+      "Failing to reconcile Swiss account statements with FBAR and Form 8938 reporting",
+      "Assuming treaty relief eliminates U.S. filing or PFIC analysis for Swiss funds"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$3,000-$5,500",
+      "comparedToUS": "Often higher than the U.S. average, especially in Zurich, Geneva, and Zug",
+      "notes": "Housing, health insurance, and daily services are major budget variables. Compare canton-level costs and tax rates together rather than using a national average alone."
+    },
+    "faqs": [
+      {
+        "question": "Does Switzerland tax U.S. citizens on worldwide income?",
+        "answer": "Swiss tax residence generally brings worldwide-income and, in many cantons, wealth-tax considerations. The exact result depends on residence, domicile, canton, income type, and the U.S.-Switzerland treaty. U.S. citizens also continue to report worldwide income to the IRS."
+      },
+      {
+        "question": "Are Swiss Pillar 2 and Pillar 3a accounts reportable to the U.S.?",
+        "answer": "The answer depends on the account structure, ownership, and applicable filing threshold. Analyze FBAR, Form 8938, treaty, pension, and PFIC questions separately rather than assuming that a Swiss label creates U.S. tax deferral."
+      },
+      {
+        "question": "Is there a U.S.-Switzerland Social Security agreement?",
+        "answer": "Yes, a U.S.-Switzerland totalization agreement is in force, but coverage depends on the work arrangement and certificate rules. It does not resolve income-tax, FBAR, or pension-reporting questions."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Switzerland: FBAR, FEIE & Swiss Tax Guide",
+      "description": "A practical tax guide for Americans in Switzerland covering tax residence, cantonal taxes, Swiss accounts, FBAR, FEIE, treaties, and Social Security coordination.",
+      "keywords": ["expat taxes Switzerland", "FBAR Switzerland", "US tax filing Switzerland", "American expats Switzerland", "FEIE Switzerland", "Swiss Pillar 2 US tax"]
+    },
+    "relatedBlogSlugs": ["fbar-requirements-americans-abroad", "feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "fbar-closed-accounts-reporting"],
+    "officialSources": [
+      {"label": "Swiss Federal Tax Administration: The Swiss Tax System", "href": "https://www.estv.admin.ch/dam/estv/en/dokumente/allgemein/Dokumentation/Publikationen/schweizer_steuersystem/ch-steuersystem.pdf.download.pdf/CH-Steuersystem_2019_e.pdf"},
+      {"label": "U.S. Treasury: tax treaties", "href": "https://home.treasury.gov/policy-issues/tax-policy/treaties"},
+      {"label": "IRS: Tax Guide for U.S. Citizens and Resident Aliens Abroad", "href": "https://www.irs.gov/publications/p54"}
+    ]
+  },
+  {
+    "slug": "sweden",
+    "name": "Sweden",
+    "region": "Europe",
+    "flag": "\ud83c\uddf8\ud83c\uddea",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1994,
+      "keyProvisions": [
+        "The U.S.-Sweden treaty coordinates residence, employment, pension, dividend, interest, and capital-gain taxation",
+        "Treaty residence and source rules can change which country has primary taxing rights",
+        "Treaty benefits do not remove U.S. citizenship-based filing or foreign-account reporting"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Days in Sweden and other countries outside the United States can count toward the Physical Presence Test, but U.S. visits reduce the available 12-month test window.",
+      "bonaFideNotes": "Swedish population registration, a residence permit, a home, employment, and durable personal and economic ties can support a Bona Fide Residence analysis. Keep records for the arrival and departure year.",
+      "commonVisaTypes": ["Work permit", "EU Blue Card", "Residence permit for studies", "Residence permit for family or long-term residence"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Municipal income tax applies broadly, with national income tax for higher income; rates and deductions should be confirmed for the relevant tax year.",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["SEB", "Swedbank", "Handelsbanken", "Nordea"],
+      "fbarNotes": "Swedish bank, investment, and qualifying pension accounts may be reportable on FBAR when the aggregate foreign-account threshold is exceeded. Retain annual statements and highest-balance evidence.",
+      "fatcaCompliance": "Swedish financial institutions participate in FATCA reporting and commonly request U.S. person documentation, including a W-9 and Social Security number.",
+      "currencyCode": "SEK"
+    },
+    "pitfalls": [
+      "Confusing Swedish population registration with the full tax-residence analysis",
+      "Overlooking municipal and national tax layers when comparing a Swedish salary",
+      "Assuming a Swedish pension or investment account receives U.S. tax-deferred treatment",
+      "Failing to report foreign income in Sweden even when treaty relief or a credit may apply",
+      "Using the FEIE without separately evaluating Swedish tax and U.S. Social Security rules"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,000-$3,800",
+      "comparedToUS": "Comparable to or above the U.S. average in Stockholm; lower in many smaller cities",
+      "notes": "Housing availability, municipal taxes, childcare, and winter transportation costs can materially change the budget."
+    },
+    "faqs": [
+      {
+        "question": "When can Sweden treat an American as unlimited tax liable?",
+        "answer": "Sweden's Tax Agency says domicile, regular stay, or significant connections can create unlimited tax liability, which generally reaches all forms of income. Review the facts and treaty tie-breaker before relying on a day-count shortcut."
+      },
+      {
+        "question": "Do I still file a U.S. return while living in Sweden?",
+        "answer": "Generally yes. U.S. citizens and resident aliens continue to report worldwide income, and Swedish tax paid may be relevant to a foreign-tax-credit analysis. FBAR and Form 8938 may also apply."
+      },
+      {
+        "question": "Is there a U.S.-Sweden totalization agreement?",
+        "answer": "Yes, a totalization agreement is in force, but the correct coverage depends on whether you are an employee, self-employed, temporarily assigned, or locally insured. Income-tax and account-reporting questions remain separate."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Sweden: FEIE, FBAR & Swedish Tax Guide",
+      "description": "Understand U.S. and Swedish tax obligations for Americans living in Sweden, including tax residence, foreign income, FBAR, FEIE, treaty relief, and Social Security.",
+      "keywords": ["expat taxes Sweden", "FBAR Sweden", "US tax filing Sweden", "American expats Sweden", "FEIE Sweden", "Swedish tax resident US citizen"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "fbar-requirements-americans-abroad", "social-security-abroad-taxation"],
+    "officialSources": [
+      {"label": "Skatteverket: liability for taxation", "href": "https://www.skatteverket.se/servicelankar/otherlanguages/inenglishengelska/individualsandemployees/newinswedenandwillbeemployedhere/liabilityfortaxation.4.676f4884175c97df41930a7.html"},
+      {"label": "Skatteverket: declaring foreign income", "href": "https://www.skatteverket.se/servicelankar/otherlanguages/englishengelska/individualsandemployees/declaringtaxesforindividuals/howtofileyourtaxreturn/declaringyourforeignincomefortaxation.4.676f4884175c97df41930b7.html"},
+      {"label": "U.S. Treasury: tax treaties", "href": "https://home.treasury.gov/policy-issues/tax-policy/treaties"}
+    ]
+  },
+  {
+    "slug": "ireland",
+    "name": "Ireland",
+    "region": "Europe",
+    "flag": "\ud83c\uddee\ud83c\uddea",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1997,
+      "keyProvisions": [
+        "The U.S.-Ireland treaty coordinates residence and source rules for employment, pensions, dividends, interest, and business income",
+        "Treaty relief depends on the income article, residence status, and required documentation",
+        "The treaty does not replace U.S. worldwide-income reporting or FBAR and FATCA obligations"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Time in Ireland counts as time outside the United States for the Physical Presence Test. Track U.S. travel, including short business and family trips, across the rolling 12-month period.",
+      "bonaFideNotes": "An Irish residence permission, home, employment, family, and tax registration can support a Bona Fide Residence analysis. Irish tax residence and domicile are separate concepts and should be documented independently.",
+      "commonVisaTypes": ["Employment permit", "Stamp 0 retirement or financially independent permission", "Stamp 1 work permission", "Stamp 4 residence permission"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Irish income tax, Universal Social Charge, and PRSI can apply; residence, ordinary residence, domicile, remittance, and treaty rules affect the result.",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["AIB", "Bank of Ireland", "Permanent TSB", "Revolut Ireland"],
+      "fbarNotes": "Irish current, deposit, investment, and pension accounts may count toward the U.S. FBAR threshold. Do not assume that an Irish tax exemption removes a U.S. reporting requirement.",
+      "fatcaCompliance": "Irish financial institutions participate in FATCA exchange and may request a W-9 and U.S. taxpayer identification number from American customers.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "Treating Irish tax residence, ordinary residence, and domicile as interchangeable",
+      "Overlooking the remittance-basis analysis for a non-Irish-domiciled resident",
+      "Assuming a U.S. pension or IRA has identical treatment in Ireland",
+      "Failing to coordinate Irish PAYE, USC, and PRSI with the U.S. return",
+      "Ignoring the U.S.-Ireland treaty limitation-on-benefits and pension provisions"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$2,000-$3,700",
+      "comparedToUS": "Comparable to or above the U.S. average in Dublin; often lower outside the capital",
+      "notes": "Housing supply and rent are the largest variables. Budget separately for private health coverage, transportation, and currency movements."
+    },
+    "faqs": [
+      {
+        "question": "Does Ireland tax an American resident on worldwide income?",
+        "answer": "Revenue states that an individual who is resident and domiciled in Ireland is generally chargeable on worldwide income, subject to treaty relief. A non-Irish-domiciled resident may require a different remittance and source analysis."
+      },
+      {
+        "question": "Can I claim the FEIE while living in Ireland?",
+        "answer": "Potentially, for qualifying foreign earned income if you satisfy the Physical Presence Test or Bona Fide Residence Test. The FEIE does not cover pensions or investment income and does not resolve Irish tax or U.S. self-employment-tax questions."
+      },
+      {
+        "question": "Is there a U.S.-Ireland Social Security agreement?",
+        "answer": "Yes, a U.S.-Ireland totalization agreement is in force. Verify coverage for your employment or self-employment facts and keep certificates of coverage where applicable."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Ireland: FEIE, FBAR & Irish Tax Guide",
+      "description": "A planning guide for Americans in Ireland covering residence, domicile, remittance rules, the U.S.-Ireland treaty, FEIE, FBAR, and Social Security.",
+      "keywords": ["expat taxes Ireland", "FBAR Ireland", "US tax filing Ireland", "American expats Ireland", "FEIE Ireland", "Ireland tax resident US citizen"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "2026-expat-tax-deadlines", "fbar-requirements-americans-abroad", "tax-residency-without-living-there-7-countries"],
+    "officialSources": [
+      {"label": "Irish Revenue: tax residence", "href": "https://www.revenue.ie/en/jobs-and-pensions/tax-residence/index.aspx"},
+      {"label": "U.S. Treasury: tax treaties", "href": "https://home.treasury.gov/policy-issues/tax-policy/treaties"},
+      {"label": "IRS: Tax Guide for U.S. Citizens and Resident Aliens Abroad", "href": "https://www.irs.gov/publications/p54"}
+    ]
+  },
+  {
+    "slug": "new-zealand",
+    "name": "New Zealand",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddf3\ud83c\uddff",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1982,
+      "keyProvisions": [
+        "The U.S.-New Zealand treaty and later protocol coordinate residence and source rules for cross-border income",
+        "The treaty can affect pensions, employment, investment income, and foreign-tax-credit outcomes",
+        "Treaty rules do not replace U.S. citizenship-based filing or New Zealand reporting"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "New Zealand's distance from the United States can make the 330-day test achievable, but trips to the United States and nearby countries must still be tracked precisely.",
+      "bonaFideNotes": "A New Zealand visa, home, IRD number, employment, and established personal ties can support a Bona Fide Residence analysis. Immigration status and tax residence are separate questions under Inland Revenue guidance.",
+      "commonVisaTypes": ["Accredited Employer Work Visa", "Skilled residence pathway", "Visitor or retirement visa analysis", "Entrepreneur or investor residence pathway"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Progressive individual income tax applies; New Zealand tax residents generally report worldwide income, with a possible temporary exemption for certain new or returning residents.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["ANZ", "ASB", "BNZ", "Westpac New Zealand"],
+      "fbarNotes": "New Zealand bank, investment, and qualifying superannuation accounts may count toward the U.S. FBAR threshold. Keep statements in NZD and document conversion to U.S. dollars.",
+      "fatcaCompliance": "New Zealand financial institutions participate in automatic financial-account information exchange and may request U.S. tax-residency documentation.",
+      "currencyCode": "NZD"
+    },
+    "pitfalls": [
+      "Confusing New Zealand immigration status with tax-residency status",
+      "Missing the permanent-place-of-abode test even when the 183-day test is not met",
+      "Assuming the temporary exemption for new residents covers every type of overseas income",
+      "Overlooking Foreign Investment Fund rules for non-New Zealand investments",
+      "Assuming the lack of a totalization agreement is resolved by claiming the FEIE"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,800-$3,400",
+      "comparedToUS": "Comparable to the U.S. average in Auckland and Wellington; lower in many regional areas",
+      "notes": "Housing, imported goods, and travel to the United States can materially affect the cost comparison."
+    },
+    "faqs": [
+      {
+        "question": "When does New Zealand consider me a tax resident?",
+        "answer": "Inland Revenue says tax residence is different from immigration status. The 183-day and permanent-place-of-abode tests are key starting points, but ties and departure facts can matter."
+      },
+      {
+        "question": "Does New Zealand tax overseas income?",
+        "answer": "Generally yes for New Zealand tax residents. Inland Revenue says worldwide income can include foreign interest, dividends, rent, salary, pensions, and other income, although a temporary exemption may apply to certain new residents."
+      },
+      {
+        "question": "Is there a U.S.-New Zealand totalization agreement?",
+        "answer": "The United States and New Zealand do not have a Social Security totalization agreement in force. That makes the employment and self-employment contribution analysis especially important; the income-tax treaty is a separate instrument."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in New Zealand: FEIE, FBAR & NZ Tax Guide",
+      "description": "Understand U.S. and New Zealand tax obligations for Americans living in New Zealand, including residency tests, overseas income, FIF issues, FBAR, FEIE, and treaty relief.",
+      "keywords": ["expat taxes New Zealand", "FBAR New Zealand", "US tax filing New Zealand", "American expats New Zealand", "FEIE New Zealand", "New Zealand tax resident US citizen"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "fbar-requirements-americans-abroad", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"],
+    "officialSources": [
+      {"label": "New Zealand Inland Revenue: tax residency status", "href": "https://www.ird.govt.nz/topics/tax-residency/tax-residency-status"},
+      {"label": "New Zealand Inland Revenue: overseas income", "href": "https://www.ird.govt.nz/income-tax/income-tax-for-individuals/types-of-individual-income/overseas-income"},
+      {"label": "U.S. Treasury: tax treaties", "href": "https://home.treasury.gov/policy-issues/tax-policy/treaties"}
+    ]
+  },
+  {
+    "slug": "greece",
+    "name": "Greece",
+    "region": "Europe",
+    "flag": "\ud83c\uddec\ud83c\uddf7",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1950,
+      "keyProvisions": [
+        "The U.S.-Greece income-tax convention was signed in 1950 and operates with its later protocol and ratification history",
+        "Residence, pension, real-estate, dividend, and interest provisions must be matched to the taxpayer's facts",
+        "The treaty does not remove U.S. worldwide-income reporting or Greek filing obligations"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Days in Greece and elsewhere outside the United States count for the Physical Presence Test. A Golden Visa or other residence authorization does not itself establish the Bona Fide Residence Test.",
+      "bonaFideNotes": "A Greek tax number, residence permit, home, registration, and durable personal and economic ties may support bona fide residence. Keep a day-count and determine Greek tax residence separately from immigration residence.",
+      "commonVisaTypes": ["Digital Nomad Visa", "Financially independent person residence permit", "Golden Visa", "Work or family residence permit"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Greek tax residents generally report worldwide income; employment, pension, business, capital, and property income use different rules and special regimes may apply to eligible new residents.",
+      "totalizationAgreement": true
+    },
+    "banking": {
+      "majorBanks": ["National Bank of Greece", "Piraeus Bank", "Eurobank", "Alpha Bank"],
+      "fbarNotes": "Greek bank, investment, and qualifying pension accounts may count toward the $10,000 FBAR threshold. Keep annual statements and euro-to-dollar conversion records.",
+      "fatcaCompliance": "Greek financial institutions participate in FATCA information exchange and may request U.S. tax forms and taxpayer-identification details.",
+      "currencyCode": "EUR"
+    },
+    "pitfalls": [
+      "Assuming a Greek Golden Visa automatically creates or avoids Greek tax residence",
+      "Overlooking Greek presumptive-income and property-related rules",
+      "Treating Article 5A, 5B, or 5C incentives as interchangeable",
+      "Failing to reconcile Greek tax certificates with U.S. foreign-tax-credit claims",
+      "Ignoring Greek accounts and real estate in U.S. information-return analysis"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$1,300-$2,700",
+      "comparedToUS": "Often below the U.S. average, though Athens and popular islands can be materially higher",
+      "notes": "Housing seasonality, island logistics, health insurance, and property ownership costs can change the budget substantially."
+    },
+    "faqs": [
+      {
+        "question": "Does a Greek Golden Visa make me a Greek tax resident?",
+        "answer": "Not automatically. AADE describes tax residence using residence, center-of-vital-interests, and day-count criteria. Immigration permission and tax residence should be analyzed separately."
+      },
+      {
+        "question": "Does Greece tax U.S. pension income?",
+        "answer": "Potentially, depending on residence, pension type, Greek domestic law, and the U.S.-Greece treaty. Obtain the applicable tax-residence certificate and classify the pension before assuming an exemption or credit."
+      },
+      {
+        "question": "Is there a U.S.-Greece Social Security agreement?",
+        "answer": "Yes, a totalization agreement is in force, but its coverage depends on the work and insurance facts. It does not answer income-tax, FBAR, or Form 8938 questions."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Greece: Golden Visa, FEIE & FBAR Guide",
+      "description": "A current planning guide for Americans in Greece covering tax residence, Golden Visa questions, special regimes, U.S.-Greece treaty relief, FEIE, and FBAR.",
+      "keywords": ["expat taxes Greece", "FBAR Greece", "US tax filing Greece", "American expats Greece", "FEIE Greece", "Greece Golden Visa US taxes"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "fbar-requirements-americans-abroad", "2026-expat-tax-deadlines", "best-countries-retire-taxes-american-retirees"],
+    "officialSources": [
+      {"label": "AADE: tax residence for natural persons", "href": "https://www.aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-residence-natural-persons-itc"},
+      {"label": "IRS: Greece tax treaty documents", "href": "https://www.irs.gov/businesses/international-businesses/greece-tax-treaty-documents"},
+      {"label": "AADE: tax incentives for new tax residents", "href": "https://aade.gr/en/greeks-abroad-non-residents/income-taxation/tax-incentives-order-attract-new-tax-residents"}
+    ]
+  },
+  {
+    "slug": "malaysia",
+    "name": "Malaysia",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddf2\ud83c\uddfe",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Days spent in Malaysia count toward the Physical Presence Test, but travel around Southeast Asia and U.S. visits must be tracked by full day.",
+      "bonaFideNotes": "A Malaysian pass, local housing, tax file, employment or business activity, and consistent residence facts may support bona fide residence. The immigration pass does not by itself determine tax residence.",
+      "commonVisaTypes": ["Employment Pass", "Malaysia My Second Home (MM2H)", "Professional Visit Pass", "Dependent or long-term social visit pass"]
+    },
+    "localTax": {
+      "system": "territorial",
+      "rates": "Resident individuals generally use progressive Malaysian rates; non-residents are subject to different treatment. Foreign income received in Malaysia and any exemptions require current source-and-receipt analysis.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Maybank", "CIMB Bank", "Public Bank", "RHB Bank"],
+      "fbarNotes": "Malaysian bank, brokerage, and qualifying retirement accounts may count toward the U.S. FBAR threshold. Convert ringgit balances to U.S. dollars using a consistent method.",
+      "fatcaCompliance": "Malaysian financial institutions participate in FATCA information exchange and may request a W-9 or other U.S. tax-status documentation.",
+      "currencyCode": "MYR"
+    },
+    "pitfalls": [
+      "Using the 182-day rule without reviewing Malaysian residence and source rules",
+      "Assuming all foreign income received in Malaysia has the same exemption treatment",
+      "Assuming the absence of a comprehensive U.S. income-tax treaty eliminates Malaysian filing obligations",
+      "Overlooking bank, investment, and retirement-account reporting to the IRS",
+      "Ignoring the lack of a U.S.-Malaysia totalization agreement for working arrangements"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$900-$2,000",
+      "comparedToUS": "Often 40-65% lower than the U.S. average, with Kuala Lumpur and Penang varying by neighborhood",
+      "notes": "Rent, imported goods, school fees, insurance, and currency movements are the main variables for American households."
+    },
+    "faqs": [
+      {
+        "question": "When is an American a Malaysian tax resident?",
+        "answer": "Malaysia's Inland Revenue Board uses residence tests that include days present, with different consequences for residents and non-residents. Use the current official guidance and the facts of the arrival or departure year rather than relying only on visa duration."
+      },
+      {
+        "question": "Does Malaysia tax foreign income received in Malaysia?",
+        "answer": "The treatment depends on the taxpayer, income, source, and current exemption rules. LHDN states that scope depends on residence and that foreign income received in Malaysia can be subject to specific rules; obtain current advice before remitting or restructuring income."
+      },
+      {
+        "question": "Is there a U.S.-Malaysia income-tax treaty?",
+        "answer": "The United States does not currently have a comprehensive income-tax treaty with Malaysia listed in the standard Treasury treaty materials. That does not remove Malaysian-source tax, U.S. filing, foreign tax credits, or information-return duties."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Malaysia: FEIE, FBAR & Malaysia Tax Guide",
+      "description": "Understand U.S. tax filing and Malaysian tax-residence issues for Americans in Malaysia, including MM2H, foreign income, FEIE, FBAR, FATCA, and treaty limits.",
+      "keywords": ["expat taxes Malaysia", "FBAR Malaysia", "US tax filing Malaysia", "American expats Malaysia", "FEIE Malaysia", "MM2H US taxes"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "fbar-requirements-americans-abroad", "2026-expat-tax-deadlines", "tax-residency-without-living-there-7-countries"],
+    "officialSources": [
+      {"label": "Malaysia Inland Revenue Board: who is taxable", "href": "https://www.hasil.gov.my/en/individual/introduction-individual-income-tax/who-is-taxable/?bt_warnabg=4"},
+      {"label": "Malaysia Inland Revenue Board: non-resident individuals", "href": "https://www.hasil.gov.my/en/individual/individual-life-cycle/income-declaration/non-resident/"},
+      {"label": "IRS: Tax Guide for U.S. Citizens and Resident Aliens Abroad", "href": "https://www.irs.gov/publications/p54"}
+    ]
+  },
+  {
+    "slug": "indonesia",
+    "name": "Indonesia",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddee\ud83c\udde9",
+    "taxTreaty": {
+      "exists": true,
+      "yearSigned": 1988,
+      "keyProvisions": [
+        "The U.S.-Indonesia treaty coordinates source and residence rules for specified income",
+        "Treaty benefits generally require the taxpayer to meet residence, beneficial-owner, and documentation conditions",
+        "Treaty relief does not remove U.S. worldwide-income reporting, FBAR, or FATCA compliance"
+      ]
+    },
+    "feie": {
+      "physicalPresenceNotes": "Indonesia's distance from the United States can help with the 330-day test, but trips to Singapore, Australia, Bali, and the United States should be recorded by full day.",
+      "bonaFideNotes": "A residence or work permit, local tax registration, housing, and an intention to reside can support a Bona Fide Residence analysis. Indonesia's domestic tax-subject rules and immigration status should be checked separately.",
+      "commonVisaTypes": ["Work KITAS", "Investor KITAS", "Second Home Visa", "Retirement or family residence route"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Domestic tax subjects generally include foreign citizens who reside in Indonesia, exceed the applicable presence test, or intend to reside; Indonesian-source income of non-residents can be subject to withholding.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Bank Mandiri", "Bank Central Asia (BCA)", "Bank Rakyat Indonesia (BRI)", "Bank Negara Indonesia (BNI)"],
+      "fbarNotes": "Indonesian bank, investment, and retirement accounts may count toward the U.S. FBAR threshold. Preserve rupiah statements and the annual highest-balance conversion support.",
+      "fatcaCompliance": "Indonesian financial institutions participate in automatic financial-account information exchange and may request U.S. tax forms and taxpayer-identification details.",
+      "currencyCode": "IDR"
+    },
+    "pitfalls": [
+      "Treating a KITAS or other visa as a complete answer to Indonesian tax-subject status",
+      "Overlooking the more-than-183-days or intention-to-reside analysis",
+      "Assuming foreign income is outside Indonesian tax without reviewing current domestic rules and treaty eligibility",
+      "Failing to document treaty residence and beneficial-owner status for withholding relief",
+      "Ignoring the lack of a U.S.-Indonesia totalization agreement"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$900-$2,200",
+      "comparedToUS": "Often 45-70% lower than the U.S. average, with Jakarta and Bali varying sharply",
+      "notes": "Housing, private health care, schooling, local transport, and imported goods can change the budget more than national averages suggest."
+    },
+    "faqs": [
+      {
+        "question": "When does Indonesia treat a foreign citizen as a domestic tax subject?",
+        "answer": "Indonesia's Directorate General of Taxes describes residence, more than 183 days in a 12-month period, or an intention to reside as important criteria. Confirm the classification for the exact tax year and visa facts."
+      },
+      {
+        "question": "Can an American use the U.S.-Indonesia tax treaty?",
+        "answer": "Possibly, if the taxpayer is a resident of a treaty country, is the beneficial owner where required, and provides the documentation required for the specific payment. Treaty eligibility does not replace either country's filing obligations."
+      },
+      {
+        "question": "Does Indonesia have a Social Security totalization agreement with the United States?",
+        "answer": "No totalization agreement is currently in force. A remote employee or self-employed person should analyze U.S. Social Security tax, Indonesian social insurance, and local employment rules separately."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Indonesia: FEIE, FBAR & Indonesia Tax Guide",
+      "description": "A practical guide for Americans in Indonesia covering tax-subject status, KITAS and Second Home questions, foreign income, FEIE, FBAR, FATCA, and treaty relief.",
+      "keywords": ["expat taxes Indonesia", "FBAR Indonesia", "US tax filing Indonesia", "American expats Indonesia", "FEIE Indonesia", "KITAS US taxes"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "fbar-requirements-americans-abroad", "2026-expat-tax-deadlines", "digital-nomad-tax-residency"],
+    "officialSources": [
+      {"label": "Indonesia Directorate General of Taxes: tax return reporting for foreign citizens", "href": "https://pajak.go.id/en/artikel/tax-return-reporting-foreign-citizens-indonesia"},
+      {"label": "Indonesia Directorate General of Taxes: tax treaty guidance", "href": "https://www.pajak.go.id/en/everything-you-should-know-about-tax-treaty"},
+      {"label": "IRS: Tax Guide for U.S. Citizens and Resident Aliens Abroad", "href": "https://www.irs.gov/publications/p54"}
+    ]
+  },
+  {
+    "slug": "vietnam",
+    "name": "Vietnam",
+    "region": "Asia-Pacific",
+    "flag": "\ud83c\uddfb\ud83c\uddf3",
+    "taxTreaty": {
+      "exists": false,
+      "yearSigned": null,
+      "keyProvisions": []
+    },
+    "feie": {
+      "physicalPresenceNotes": "Days in Vietnam count for the 330-day Physical Presence Test, but travel to Thailand, Singapore, or the United States must be recorded accurately.",
+      "bonaFideNotes": "A Vietnamese residence card, permitted work or business activity, local home, and durable ties may support a Bona Fide Residence analysis. Immigration permission and tax residence should be documented separately.",
+      "commonVisaTypes": ["Work permit and temporary residence card", "Investor visa or temporary residence card", "Expert or business visa", "Family residence route"]
+    },
+    "localTax": {
+      "system": "worldwide",
+      "rates": "Vietnamese tax residents generally have taxable income from inside and outside Vietnam; non-residents are generally taxed on Vietnam-source income under separate rules.",
+      "totalizationAgreement": false
+    },
+    "banking": {
+      "majorBanks": ["Vietcombank", "BIDV", "VietinBank", "Techcombank"],
+      "fbarNotes": "Vietnamese bank, investment, and qualifying pension accounts may count toward the U.S. FBAR threshold. Keep dong statements and a supportable conversion method.",
+      "fatcaCompliance": "Vietnamese financial institutions may request U.S. tax-residency information under automatic information-exchange and FATCA procedures; confirm onboarding requirements with the institution.",
+      "currencyCode": "VND"
+    },
+    "pitfalls": [
+      "Using 183 days as the only Vietnam residence test when a habitual-residence rule may also apply",
+      "Assuming a residence card automatically determines the income-tax result",
+      "Failing to classify salary, business, rental, investment, and foreign income separately",
+      "Assuming the absence of a comprehensive U.S. income-tax treaty eliminates local tax",
+      "Ignoring Vietnamese accounts and U.S. foreign-account reporting"
+    ],
+    "costOfLiving": {
+      "monthlyEstimate": "$800-$1,900",
+      "comparedToUS": "Often 50-75% lower than the U.S. average, with Ho Chi Minh City and Hanoi above many regional areas",
+      "notes": "Housing, international schooling, private medical care, transport, and imported goods are the main household variables."
+    },
+    "faqs": [
+      {
+        "question": "When is an American a Vietnam tax resident?",
+        "answer": "Vietnam's personal income-tax rules generally look to the 183-day test and habitual-residence factors. Review the relevant calendar or 12-month period, housing, and residence documentation instead of relying only on a visa label."
+      },
+      {
+        "question": "Does Vietnam tax a resident's foreign income?",
+        "answer": "Vietnamese law generally includes income inside and outside Vietnam for resident individuals, while non-residents are generally taxed on Vietnam-source income. The classification and income category matter, and current local guidance should control."
+      },
+      {
+        "question": "Is there a U.S.-Vietnam income-tax treaty?",
+        "answer": "The United States does not currently have a comprehensive income-tax treaty with Vietnam listed in the standard Treasury treaty materials. U.S. citizens still file worldwide, and Vietnamese-source tax and withholding can still apply."
+      }
+    ],
+    "seo": {
+      "title": "US Expat Taxes in Vietnam: FEIE, FBAR & Vietnam Tax Guide",
+      "description": "Understand U.S. filing and Vietnamese tax-residence issues for Americans in Vietnam, including 183-day rules, foreign income, FEIE, FBAR, FATCA, and treaty limits.",
+      "keywords": ["expat taxes Vietnam", "FBAR Vietnam", "US tax filing Vietnam", "American expats Vietnam", "FEIE Vietnam", "Vietnam tax resident US citizen"]
+    },
+    "relatedBlogSlugs": ["feie-vs-foreign-tax-credit", "fbar-requirements-americans-abroad", "2026-expat-tax-deadlines", "digital-nomad-tax-residency"],
+    "officialSources": [
+      {"label": "Vietnam Ministry of Justice legal database: personal income tax law", "href": "https://vbpl.moj.gov.vn/botainguyen/Pages/vbpqen-toanvan.aspx?ItemID=10782"},
+      {"label": "U.S. Treasury: tax treaties", "href": "https://home.treasury.gov/policy-issues/tax-policy/treaties"},
+      {"label": "IRS: Tax Guide for U.S. Citizens and Resident Aliens Abroad", "href": "https://www.irs.gov/publications/p54"}
+    ]
+  }
+]

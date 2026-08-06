@@ -1,0 +1,35 @@
+<svg width="1128" height="191" viewBox="0 0 1128 191" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a"/>
+      <stop offset="100%" style="stop-color:#1e293b"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1128" height="191" fill="url(#bgGradient)"/>
+
+  <!-- Decorative circles -->
+  <circle cx="1050" cy="95" r="120" fill="#d97706" opacity="0.1"/>
+  <circle cx="1000" cy="140" r="80" fill="#d97706" opacity="0.05"/>
+
+  <!-- Logo icon -->
+  <g transform="translate(80, 45)">
+    <path d="M0 30C0 22.268 6.268 16 14 16H54L72 34H136C143.732 34 150 40.268 150 48V120C150 127.732 143.732 134 136 134H14C6.268 134 0 127.732 0 120V30Z" fill="#334155"/>
+    <path d="M0 48C0 40.268 6.268 34 14 34H136C143.732 34 150 40.268 150 48V120C150 127.732 143.732 134 136 134H14C6.268 134 0 127.732 0 120V48Z" fill="#475569"/>
+    <circle cx="75" cy="84" r="32" fill="#fefdfb" stroke="#d97706" stroke-width="3"/>
+    <ellipse cx="75" cy="84" rx="32" ry="12" stroke="#d97706" stroke-width="2.5" fill="none"/>
+    <ellipse cx="75" cy="84" rx="12" ry="32" stroke="#d97706" stroke-width="2.5" fill="none"/>
+    <line x1="43" y1="84" x2="107" y2="84" stroke="#d97706" stroke-width="2.5"/>
+  </g>
+
+  <!-- Text -->
+  <text x="260" y="85" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#ffffff">File</text>
+  <text x="332" y="85" font-family="Georgia, serif" font-size="48" font-weight="bold" fill="#d97706">Abroad</text>
+
+  <!-- Tagline -->
+  <text x="260" y="130" font-family="system-ui, sans-serif" font-size="20" fill="#94a3b8">U.S. Tax Filing for Americans Living Overseas</text>
+
+  <!-- CTA hint -->
+  <text x="260" y="160" font-family="system-ui, sans-serif" font-size="14" fill="#64748b">fileabroad.com</text>
+</svg>

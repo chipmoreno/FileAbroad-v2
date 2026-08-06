@@ -1,0 +1,697 @@
+[
+  {
+    "slug": "digital-nomads",
+    "name": "Digital Nomads",
+    "headline": "Tax Filing for Digital Nomads Living Abroad",
+    "description": "US tax obligations follow you wherever you work. FileAbroad helps digital nomads navigate FEIE qualification across multiple countries, self-employment tax, and the filing path that fits a borderless lifestyle.",
+    "painPoints": [
+      "You move between countries and aren't sure which country counts for FEIE qualification.",
+      "You work remotely for a US company and wonder if your income qualifies for the Foreign Earned Income Exclusion.",
+      "You are self-employed and unsure how SE tax applies when you are outside the US.",
+      "You have no fixed tax home and worry about state tax obligations chasing you.",
+      "You have never filed from abroad and don't know where to start."
+    ],
+    "howWeHelp": [
+      "Review your travel history to determine whether you meet the Physical Presence Test (330 days) or can establish a Bona Fide Residence.",
+      "Calculate whether the FEIE or the Foreign Tax Credit saves you more, based on the countries where you pay tax.",
+      "Prepare Schedule C and quarterly estimated tax payments for self-employed nomads.",
+      "Screen catch-up filing options if you are behind on returns or FBARs.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "FEIE Guide", "href": "/guides/feie-guide" },
+      { "label": "FEIE vs Foreign Tax Credit", "href": "/guides/foreign-tax-credit-guide" },
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" }
+    ],
+    "relevantTools": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Do digital nomads have to file US taxes?",
+        "answer": "Yes. US citizens and green card holders must file a federal tax return on worldwide income regardless of where they live or work. The Foreign Earned Income Exclusion and Foreign Tax Credit can reduce or eliminate your US tax liability, but the filing obligation remains."
+      },
+      {
+        "question": "Can I claim the FEIE if I move between countries?",
+        "answer": "Yes. The Physical Presence Test only requires 330 full days in foreign countries during any 12-month period—the days do not need to be in the same country. You can qualify while moving between multiple countries. The Bona Fide Residence Test requires establishing residence in one specific foreign country for an uninterrupted period that includes a full calendar year."
+      },
+      {
+        "question": "Do I owe self-employment tax as a digital nomad?",
+        "answer": "Yes, unless a Totalization Agreement applies. The FEIE excludes your income from income tax but does not reduce self-employment tax (Social Security and Medicare). If you are self-employed abroad, you generally still owe SE tax at 15.3% on your net self-employment income. A Totalization Agreement between the US and your country of residence may exempt you if you are paying into that country's social security system."
+      },
+      {
+        "question": "Which state taxes apply to digital nomads?",
+        "answer": "State tax obligations depend on your domicile and residency rules, not where you temporarily work. Some states (California, Virginia, South Carolina) aggressively tax former residents until domicile is formally terminated. Others (Texas, Florida, Nevada) have no income tax. FileAbroad reviews your state ties and recommends a domicile strategy when appropriate."
+      },
+      {
+        "question": "What if I haven't filed taxes since becoming a nomad?",
+        "answer": "The Streamlined Filing Compliance Procedures may be an option if your failure to file was non-willful and you meet the foreign residency requirements. Streamlined Foreign Offshore allows qualifying expats to file 3 years of tax returns and 6 years of FBARs with specified penalty treatment. FileAbroad screens these cases after a paid consultation."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Digital Nomads | US Expat Tax Help",
+      "description": "US tax filing for digital nomads. FEIE qualification across multiple countries, self-employment tax, state tax traps, and catch-up filing. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["digital nomad taxes", "digital nomad US tax", "expat tax digital nomad", "FEIE digital nomad", "self employment tax abroad", "nomad tax filing"]
+    }
+  },
+  {
+    "slug": "retirees",
+    "name": "Retirees Abroad",
+    "headline": "Tax Filing for Americans Retiring Abroad",
+    "description": "Retirement abroad brings unique US tax questions: Social Security, foreign pensions, RMDs, Medicare, and state tax persistence. FileAbroad helps retirees file accurately while preserving income and peace of mind.",
+    "painPoints": [
+      "You receive Social Security and aren't sure how it is taxed from abroad.",
+      "You have a foreign pension or retirement account and don't know the US reporting requirements.",
+      "You need to take RMDs from IRAs or 401(k)s and aren't sure how to do it from overseas.",
+      "You worry about losing Medicare eligibility or coverage while living outside the US.",
+      "Your former state still sends tax bills even though you no longer live there."
+    ],
+    "howWeHelp": [
+      "Prepare your annual return with proper reporting of Social Security, pension income, and investment distributions.",
+      "Coordinate foreign pension reporting with Form 8938, FBAR, and treaty-based positions when applicable.",
+      "Calculate Required Minimum Distributions (RMDs) and Roth conversion strategies from abroad.",
+      "Review state tax domicile and recommend steps to terminate persistent state obligations.",
+      "Screen whether a Streamlined catch-up is needed if returns were missed during the transition abroad."
+    ],
+    "relevantContent": [
+      { "label": "Foreign Pensions US Tax Guide", "href": "/guides/foreign-pensions-guide" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "State Tax Guides", "href": "/state-taxes" },
+      { "label": "FEIE vs Foreign Tax Credit", "href": "/guides/foreign-tax-credit-guide" }
+    ],
+    "relevantTools": [
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Is my Social Security taxable if I live abroad?",
+        "answer": "Yes. Up to 85% of your Social Security benefits may be subject to US federal income tax depending on your combined income. Living abroad does not exempt Social Security from taxation. Some foreign countries tax Social Security under their local laws, but the US has treaties or totalization agreements with many countries that prevent double taxation."
+      },
+      {
+        "question": "How are foreign pensions taxed in the US?",
+        "answer": "Foreign pension income is generally taxable in the US. The tax treatment depends on whether the US has a tax treaty with the pension country, whether the pension is treated as a trust (requiring Forms 3520/3520-A), and whether the pension fund contains PFICs (requiring Form 8621). Some treaties allow deferred taxation until distribution; others require current reporting of employer contributions. This is one of the most complex areas of expat tax."
+      },
+      {
+        "question": "Can I contribute to an IRA while living abroad?",
+        "answer": "You can contribute to a Traditional or Roth IRA from abroad if you have taxable compensation. However, if you exclude all your income under the FEIE, you may not have enough taxable compensation to support an IRA contribution. Many retirees use the Foreign Tax Credit instead of the FEIE to preserve IRA contribution eligibility. The contribution limits for 2025 are $7,000 ($8,000 if age 50+)."
+      },
+      {
+        "question": "Do I still need to take RMDs from abroad?",
+        "answer": "Yes. Required Minimum Distributions from traditional IRAs, 401(k)s, and similar retirement plans still apply regardless of where you live. The penalty for missing an RMD is 25% of the amount that should have been withdrawn (reduced to 10% if corrected within two years under SECURE 2.0). FileAbroad calculates RMDs and includes them in your annual filing scope."
+      },
+      {
+        "question": "Will I lose Medicare if I move abroad?",
+        "answer": "You do not lose Medicare eligibility by moving abroad, but Medicare generally does not cover healthcare outside the US (with limited exceptions near the border or on cruises). Most retirees abroad purchase local health insurance or private expat health coverage. You should carefully evaluate whether to keep paying Medicare Part B premiums ($185/month in 2025) while abroad, as discontinuing them may result in lifelong late-enrollment penalties."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Retirees Abroad | US Expat Tax Help",
+      "description": "US tax filing for Americans retiring abroad. Social Security, foreign pensions, RMDs, IRA contributions, Medicare, and state tax termination. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["retiree taxes abroad", "retirement abroad taxes", "social security abroad", "foreign pension US tax", "RMD abroad", "expat retiree tax"]
+    }
+  },
+  {
+    "slug": "accidental-americans",
+    "name": "Accidental Americans",
+    "headline": "Tax Filing for Accidental Americans Abroad",
+    "description": "Born in the US to foreign parents? Dual citizen at birth? You may be a US taxpayer even if you have never lived there. FileAbroad helps accidental Americans understand their obligations and find the right compliance path—including renunciation when appropriate.",
+    "painPoints": [
+      "You just learned you are a US citizen and may have years of unfiled tax returns.",
+      "Your foreign bank has threatened to close your account because of FATCA.",
+      "You are unsure whether the Streamlined Filing Procedures apply to your situation.",
+      "You are considering renouncing US citizenship and want to understand the tax consequences.",
+      "You have never had a Social Security Number and don't know how to get one from abroad."
+    ],
+    "howWeHelp": [
+      "Screen your facts to determine filing requirements, years unfiled, and applicable catch-up paths.",
+      "Review whether the Streamlined Foreign Offshore Procedures fit your situation or whether another path is more appropriate.",
+      "Prepare required returns and FBARs within a written scope after a paid consultation.",
+      "Identify whether exit tax (Form 8854) applies if you are considering renunciation.",
+      "Refer complex willfulness questions or high-exposure cases to appropriate legal counsel."
+    ],
+    "relevantContent": [
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "Streamlined Filing Guide", "href": "/guides/streamlined-filing-guide" },
+      { "label": "Exit Tax Guide", "href": "/guides/exit-tax-guide" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Catch-Up Program Finder", "href": "/tools/catch-up-program" }
+    ],
+    "relevantTools": [
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Catch-Up Program Finder", "href": "/tools/catch-up-program" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "What is an accidental American?",
+        "answer": "An accidental American is someone who acquired US citizenship at birth (usually by being born in the United States to non-US parents, or by having a US citizen parent) but has never lived in the US or considered themselves American. The US taxes its citizens on worldwide income regardless of residence, which means accidental Americans often discover filing obligations only when a foreign bank asks for a US tax identification number."
+      },
+      {
+        "question": "Do accidental Americans really have to file US taxes?",
+        "answer": "Yes. Under current US law, citizenship-based taxation applies to all US citizens, including those who have never lived in the US. There is no exception for accidental Americans. However, the Foreign Earned Income Exclusion, Foreign Tax Credit, and treaty benefits often reduce or eliminate any actual US tax liability. The filing obligation remains even when no tax is owed."
+      },
+      {
+        "question": "What if I have never filed and don't have a Social Security Number?",
+        "answer": "You will need to apply for a Social Security Number (SSN) or an Individual Taxpayer Identification Number (ITIN) before you can file. ITIN applications can be submitted from abroad with your tax return (Form W-7). The process requires certified copies of your passport and can take several weeks to months. FileAbroad can coordinate ITIN application preparation within an accepted scope."
+      },
+      {
+        "question": "Can I use the Streamlined Procedures as an accidental American?",
+        "answer": "Many accidental Americans qualify for the Streamlined Foreign Offshore Procedures if their failure to file was non-willful and they meet the foreign residency requirements. Streamlined allows qualifying taxpayers to file 3 years of tax returns and 6 years of FBARs with specified penalty treatment. You must certify non-willfulness under penalties of perjury. FileAbroad screens these cases after a paid consultation."
+      },
+      {
+        "question": "Should I renounce my US citizenship?",
+        "answer": "Renunciation is a permanent, irrevocable decision with significant legal, travel, and financial consequences. Before renouncing, you must be compliant with US tax filing for the 5 years prior to renunciation. If your net worth exceeds $2 million or your average annual net income tax liability exceeds certain thresholds, you may be a 'covered expatriate' subject to exit tax (Form 8854). FileAbroad can review your facts and refer you to qualified legal counsel for the renunciation decision itself."
+      }
+    ],
+    "seo": {
+      "title": "Tax Help for Accidental Americans | US Citizenship Tax Filing",
+      "description": "Tax filing for accidental Americans who never lived in the US. Streamlined catch-up, FBAR, exit tax, and renunciation consequences. Start with a consultation for a written scope.",
+      "keywords": ["accidental American taxes", "accidental American filing", "US citizenship born abroad taxes", "streamlined accidental American", "renounce US citizenship tax", "exit tax accidental American"]
+    }
+  },
+  {
+    "slug": "business-owners",
+    "name": "Business Owners Abroad",
+    "headline": "Tax Filing for American Business Owners Abroad",
+    "description": "Own a foreign corporation, LLC, or partnership? FileAbroad helps US business owners abroad navigate Form 5471, GILTI, Subpart F, and foreign entity tax planning.",
+    "painPoints": [
+      "You own a foreign corporation and are unsure about CFC rules and Form 5471 filing.",
+      "You have heard about GILTI tax and want to know if it applies to your business.",
+      "You are considering forming a foreign LLC and want to understand the US tax classification.",
+      "You have a foreign partnership and are unsure about Form 8865 and Section 1446 withholding.",
+      "You need to optimize your business structure to minimize US and foreign tax."
+    ],
+    "howWeHelp": [
+      "Analyze your foreign entity structure and determine US tax classification (corporation, partnership, disregarded entity).",
+      "Prepare Form 5471, Form 8865, or Form 8858 as required by your entity type.",
+      "Calculate GILTI inclusions, Subpart F income, and foreign tax credit limitations.",
+      "Advise on entity restructuring, Section 962 elections, and treaty benefits.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "CFC Guide", "href": "/guides/cfc-guide" },
+      { "label": "Foreign Trusts Guide", "href": "/guides/foreign-trusts-guide" },
+      { "label": "Form 5471", "href": "/forms/5471-foreign-corporation" },
+      { "label": "GILTI Blog Post", "href": "/blog/gilti-individual-cfc-owners" },
+      { "label": "Foreign LLC Tax", "href": "/blog/foreign-llc-abroad-us-tax" }
+    ],
+    "relevantTools": [
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" },
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Do I need to file Form 5471 for my foreign corporation?",
+        "answer": "Yes, if you are a US person who owns 10% or more of a foreign corporation, or if the corporation is a Controlled Foreign Corporation (CFC) and you are a US shareholder. Form 5471 reports the corporation's income, balance sheet, and your share of Subpart F and GILTI income."
+      },
+      {
+        "question": "What is GILTI and does it apply to me?",
+        "answer": "Global Intangible Low-Taxed Income (GILTI) is a US tax on certain income earned by Controlled Foreign Corporations (CFCs) that exceeds a 10% return on tangible assets. If you own a CFC, you may have a GILTI inclusion on your personal tax return. A Section 962 election can reduce the tax rate."
+      },
+      {
+        "question": "Should I form a foreign LLC or a foreign corporation?",
+        "answer": "The optimal structure depends on your income level, foreign tax rate, and long-term goals. A foreign LLC may be classified as a disregarded entity, partnership, or corporation for US tax purposes. A foreign corporation may trigger CFC and GILTI rules. Each structure has different reporting and tax implications."
+      },
+      {
+        "question": "Can I avoid US tax on my foreign business income?",
+        "answer": "Generally no. US citizens and residents are taxed on worldwide income, including income from foreign businesses. The FEIE may exclude earned income up to the limit, but it does not apply to business profits distributed as dividends. The Foreign Tax Credit can reduce double taxation. Proper entity structuring is essential."
+      },
+      {
+        "question": "Do I need to file Form 8865 for my foreign partnership?",
+        "answer": "Yes, if you are a US person with an interest in a foreign partnership. Form 8865 reports the partnership's income, deductions, and your share of partnership items. If the partnership has US effectively connected income, Section 1446 withholding may also apply."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Business Owners Abroad | US Expat Tax",
+      "description": "US tax filing for American business owners abroad. CFC, GILTI, Form 5471, foreign LLCs, partnerships, and entity structuring. Start with a consultation for a written scope.",
+      "keywords": ["business owner taxes abroad", "foreign corporation US tax", "CFC rules", "GILTI tax", "Form 5471", "foreign LLC tax"]
+    }
+  },
+  {
+    "slug": "crypto-investors",
+    "name": "Crypto Investors Abroad",
+    "headline": "Tax Filing for American Crypto Investors Living Abroad",
+    "description": "Crypto taxes are complex for expats. FileAbroad helps American crypto investors abroad report gains, staking income, DeFi yields, and NFT sales while staying compliant with US and foreign tax rules.",
+    "painPoints": [
+      "You trade crypto on foreign exchanges and are unsure about US reporting requirements.",
+      "You earn staking rewards or DeFi yield and don't know how to report them.",
+      "You have NFT sales and are unsure about capital gains vs. ordinary income treatment.",
+      "You are unsure whether crypto holdings trigger FBAR or Form 8938 reporting.",
+      "You need to reconcile transactions across multiple exchanges and wallets."
+    ],
+    "howWeHelp": [
+      "Review your exchange and wallet transaction history to identify taxable events.",
+      "Classify income types: capital gains, staking rewards, mining income, airdrops, DeFi yields.",
+      "Determine FBAR and Form 8938 obligations for foreign exchange accounts.",
+      "Prepare required schedules and forms for crypto income reporting.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Crypto Blog", "href": "/blog/crypto-taxes-americans-abroad-2026" }
+    ],
+    "relevantTools": [
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "How are crypto gains taxed for US expats?",
+        "answer": "Crypto gains are taxed as capital gains (short-term or long-term) for US taxpayers regardless of where you live. Short-term gains (held less than one year) are taxed at ordinary income rates. Long-term gains (held more than one year) are taxed at preferential rates (0%, 15%, or 20%). Foreign tax credits may apply if you paid tax to your country of residence."
+      },
+      {
+        "question": "Do I need to report crypto on FBAR?",
+        "answer": "It depends. If your crypto is held on a foreign exchange that is considered a foreign financial institution, and the aggregate value of all your foreign financial accounts exceeds $10,000, you must file FBAR. Crypto held in personal wallets (non-custodial) is generally not reportable on FBAR but may be reportable on Form 8938 if thresholds are met."
+      },
+      {
+        "question": "How are staking rewards and DeFi yields taxed?",
+        "answer": "Staking rewards and DeFi yields are generally taxed as ordinary income at fair market value when received. Subsequent sales of the rewarded tokens trigger capital gains or losses. The IRS has issued guidance that treats staking rewards as income, but the exact characterization of DeFi yields (interest, rental, or other) depends on the specific protocol."
+      },
+      {
+        "question": "Do I pay tax in my country of residence on crypto gains?",
+        "answer": "It depends on your country of residence. Some countries tax crypto gains as capital gains, others as ordinary income, and some have no crypto tax at all. You may be able to claim a foreign tax credit on your US return for crypto tax paid abroad. Proper documentation of foreign tax paid is essential."
+      },
+      {
+        "question": "What records do I need for crypto tax reporting?",
+        "answer": "You need a complete transaction history including: date of each acquisition and disposition, fair market value in USD at the time of transaction, cost basis, fees, and the character of each transaction (trade, staking, mining, airdrop, etc.). Most exchanges provide CSV exports. Third-party tools like CoinTracker or Koinly can help organize the data."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Crypto Investors Abroad | US Expat Crypto Tax",
+      "description": "US tax filing for American crypto investors living abroad. Gains, staking, DeFi, NFTs, FBAR, and foreign exchange reporting. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["crypto taxes abroad", "expat crypto tax", "bitcoin tax abroad", "staking rewards tax", "DeFi tax", "NFT tax expat"]
+    }
+  },
+  {
+    "slug": "green-card-holders",
+    "name": "Green Card Holders Abroad",
+    "headline": "Tax Filing for Green Card Holders Living Abroad",
+    "description": "Green card holders abroad have unique US tax obligations. FileAbroad helps permanent residents navigate filing requirements, exit tax risks, and the consequences of abandoning green card status.",
+    "painPoints": [
+      "You have a green card and are unsure whether you must file US taxes from abroad.",
+      "Your green card has expired and you are unsure about your tax obligations.",
+      "You are considering abandoning your green card and want to understand the tax consequences.",
+      "You are unsure whether you qualify for the FEIE as a green card holder.",
+      "You need to determine whether you are a long-term resident subject to exit tax."
+    ],
+    "howWeHelp": [
+      "Review your green card status and days in the US to determine tax residency.",
+      "Prepare your annual return with proper foreign income reporting and FEIE or FTC optimization.",
+      "Analyze whether you are a long-term resident and subject to exit tax (Form 8854).",
+      "Advise on the tax implications of abandoning green card status vs. naturalization.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "Exit Tax Guide", "href": "/guides/exit-tax-guide" },
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" }
+    ],
+    "relevantTools": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Do green card holders have to file US taxes from abroad?",
+        "answer": "Yes. US permanent residents (green card holders) are subject to US tax on worldwide income regardless of where they live. This is the same rule that applies to US citizens. The FEIE, FTC, and treaty benefits are available to green card holders just as they are to citizens."
+      },
+      {
+        "question": "Does an expired green card affect my tax obligations?",
+        "answer": "An expired green card does not automatically end your US tax obligations. You remain a lawful permanent resident for tax purposes until your status is formally terminated by USCIS or a court. If your green card has expired and you have been absent from the US for an extended period, consult an immigration attorney about your status."
+      },
+      {
+        "question": "What is the exit tax for green card holders?",
+        "answer": "Green card holders who are 'long-term residents' (held green card status in 8 of the last 15 years) may be subject to the exit tax when they abandon their green card. The exit tax applies if you are a 'covered expatriate' based on net worth, average tax liability, or tax compliance certification. Form 8854 is required."
+      },
+      {
+        "question": "Can green card holders claim the FEIE?",
+        "answer": "Yes. Green card holders can claim the Foreign Earned Income Exclusion if they meet the Physical Presence Test or Bona Fide Residence Test, just like US citizens. The FEIE limit for 2025 is $130,000 per person."
+      },
+      {
+        "question": "Should I abandon my green card or naturalize?",
+        "answer": "This is a personal and legal decision with significant tax implications. Naturalization makes you a US citizen permanently subject to US tax and exit tax. Abandoning a green card may trigger exit tax if you are a long-term resident. Consult both an immigration attorney and a tax specialist before deciding."
+      }
+    ],
+    "seo": {
+      "title": "U.S. Green Card Tax Filing Service: Worldwide Income & Exit Tax",
+      "description": "US tax filing for green card holders living abroad. FEIE, exit tax, green card abandonment, and long-term resident rules. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["green card holder taxes abroad", "permanent resident tax abroad", "green card exit tax", "abandon green card tax", "expat green card tax"]
+    }
+  },
+  {
+    "slug": "military-contractors",
+    "name": "Military & Contractors Abroad",
+    "headline": "Tax Filing for Military and Contractors Overseas",
+    "description": "Military personnel, contractors, and federal employees overseas have unique tax rules. FileAbroad helps you navigate combat zone exclusions, foreign earned income rules, and state tax obligations.",
+    "painPoints": [
+      "You are unsure whether combat zone pay is taxable.",
+      "You are a contractor working on a US base and are unsure about FEIE eligibility.",
+      "You need to understand how the Servicemembers Civil Relief Act affects your state taxes.",
+      "You have income from both US and foreign sources and are unsure how to report it.",
+      "You need to file state taxes but are unsure which state is your domicile."
+    ],
+    "howWeHelp": [
+      "Determine whether your overseas income qualifies for the combat zone exclusion, FEIE, or neither.",
+      "Prepare your return with proper allocation of US and foreign income.",
+      "Advise on state tax domicile and the Servicemembers Civil Relief Act.",
+      "Calculate foreign tax credits for tax paid to host countries.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" },
+      { "label": "FEIE Guide", "href": "/guides/feie-guide" },
+      { "label": "State Tax Guides", "href": "/state-taxes" }
+    ],
+    "relevantTools": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Is combat zone pay taxable?",
+        "answer": "No. Military pay received while serving in a combat zone is excluded from gross income for federal tax purposes. This includes basic pay, reenlistment bonuses, and incentive pay. Officers are limited to the highest enlisted pay plus imminent danger pay. The exclusion does not apply to civilian contractors."
+      },
+      {
+        "question": "Can contractors claim the FEIE?",
+        "answer": "It depends. Contractors working overseas may qualify for the FEIE if they meet the Physical Presence Test or Bona Fide Residence Test. However, if you are working on a US military base and your tax home is considered to be in the US, you may not qualify. Each case requires individual analysis."
+      },
+      {
+        "question": "How does the Servicemembers Civil Relief Act affect state taxes?",
+        "answer": "The SCRA allows military personnel to maintain their state of legal residence (domicile) for tax purposes regardless of where they are stationed. If your legal residence is a no-income-tax state like Texas or Florida, you can avoid state income tax even if stationed in a high-tax state. This does not apply to civilian contractors."
+      },
+      {
+        "question": "Do I owe state tax if I am stationed abroad?",
+        "answer": "For military personnel, state tax depends on your state of legal residence (domicile), not your duty station. If your domicile is a state with income tax, you may owe state tax. If your domicile is a no-tax state, you generally do not. Civilian contractors are subject to the state tax rules of their actual state of residence."
+      },
+      {
+        "question": "Can I exclude housing allowances from tax?",
+        "answer": "Military Basic Allowance for Housing (BAH) and Overseas Housing Allowance (OHA) are generally not taxable for military personnel. Civilian contractors do not receive these military-specific exclusions, but they may qualify for the Foreign Housing Exclusion or Deduction under the FEIE if eligible."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Military & Contractors Abroad | US Expat Tax",
+      "description": "US tax filing for military personnel and contractors overseas. Combat zone exclusion, FEIE, SCRA, state tax domicile. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["military taxes abroad", "contractor taxes overseas", "combat zone tax", "SCR state tax", "military expat tax"]
+    }
+  },
+  {
+    "slug": "freelancers",
+    "name": "Freelancers & Remote Workers",
+    "headline": "Tax Filing for Freelancers and Remote Workers Abroad",
+    "description": "Self-employed abroad? FileAbroad helps freelancers and remote workers navigate Schedule C, self-employment tax, quarterly estimates, and FEIE optimization.",
+    "painPoints": [
+      "You are self-employed abroad and are unsure how to report income on Schedule C.",
+      "You are confused about self-employment tax (15.3%) and whether it applies abroad.",
+      "You need to make quarterly estimated tax payments but are unsure how much to pay.",
+      "You are unsure whether the FEIE applies to your freelance income.",
+      "You have clients in multiple countries and are unsure about sourcing rules."
+    ],
+    "howWeHelp": [
+      "Prepare your Schedule C with proper expense deductions and home office allocation.",
+      "Calculate self-employment tax and advise on Totalization Agreement exemptions.",
+      "Set up quarterly estimated tax payments and provide vouchers.",
+      "Optimize FEIE vs FTC strategy for freelance income.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "FEIE Guide", "href": "/guides/feie-guide" },
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "Quarterly Tax Calculator", "href": "/tools/quarterly-tax-calculator" }
+    ],
+    "relevantTools": [
+      { "label": "Quarterly Tax Calculator", "href": "/tools/quarterly-tax-calculator" },
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Do freelancers have to pay self-employment tax abroad?",
+        "answer": "Yes. Self-employed Americans abroad must pay US self-employment tax (15.3%) on net earnings unless a Totalization Agreement exempts them. The FEIE excludes income from income tax but does not reduce self-employment tax. Most countries popular with freelancers do not have Totalization Agreements with the US."
+      },
+      {
+        "question": "Can I claim the FEIE on freelance income?",
+        "answer": "Yes, if you meet the Physical Presence Test or Bona Fide Residence Test. Freelance income is considered earned income and qualifies for the FEIE. However, the FEIE does not apply to passive income (dividends, interest, capital gains) or to income earned in the US."
+      },
+      {
+        "question": "Do I need to make quarterly estimated tax payments from abroad?",
+        "answer": "Yes, if you expect to owe at least $1,000 in tax for the year after subtracting withholding and credits. Quarterly payments are due April 15, June 15, September 15, and January 15. You can pay electronically from abroad using EFTPS or Direct Pay."
+      },
+      {
+        "question": "Can I deduct home office expenses from abroad?",
+        "answer": "Yes, if you use part of your foreign home exclusively and regularly for business. You can deduct a portion of rent, utilities, and other housing expenses. The foreign housing deduction (Form 2555) is available if you are self-employed and claim the FEIE."
+      },
+      {
+        "question": "Do I need a foreign business entity?",
+        "answer": "Not necessarily. Many freelancers operate as sole proprietors (Schedule C). However, forming a foreign entity may provide liability protection, local tax benefits, or Totalization Agreement advantages. The US tax implications of foreign entities are complex and require professional analysis."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Freelancers Abroad | US Expat Tax",
+      "description": "US tax filing for freelancers and remote workers abroad. Schedule C, self-employment tax, quarterly estimates, and FEIE optimization. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["freelancer taxes abroad", "remote worker taxes", "self employment tax abroad", "Schedule C abroad", "quarterly taxes expats"]
+    }
+  },
+  {
+    "slug": "teachers",
+    "name": "International School Teachers",
+    "headline": "Tax Filing for International School Teachers Abroad",
+    "description": "Teaching abroad comes with unique tax questions. FileAbroad helps international school teachers navigate FEIE, foreign housing, state tax, and pension reporting.",
+    "painPoints": [
+      "You are unsure whether your teaching income qualifies for the FEIE.",
+      "You receive housing from your school and are unsure how to report it.",
+      "You have a teacher pension from your host country and are unsure about US reporting.",
+      "You are unsure whether you can contribute to a US retirement account from abroad.",
+      "You need to file state taxes but are unsure which state is your domicile."
+    ],
+    "howWeHelp": [
+      "Determine FEIE eligibility based on your contract length and residence status.",
+      "Calculate the foreign housing exclusion or deduction for employer-provided housing.",
+      "Advise on pension reporting and treaty benefits for teacher pensions.",
+      "Optimize IRA contribution eligibility and retirement planning.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "Foreign Pension Article", "href": "/blog/australian-superannuation-us-taxpayers" },
+      { "label": "Foreign Pensions US Tax Guide", "href": "/guides/foreign-pensions-guide" },
+      { "label": "State Tax Guides", "href": "/state-taxes" }
+    ],
+    "relevantTools": [
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Does teaching income qualify for the FEIE?",
+        "answer": "Yes, if you meet the Physical Presence Test or Bona Fide Residence Test. Teaching income is earned income and qualifies for the FEIE. Many teachers on multi-year contracts can establish bona fide residence, while those on shorter contracts may use the Physical Presence Test."
+      },
+      {
+        "question": "How is employer-provided housing taxed?",
+        "answer": "If your school provides housing, the fair market value of the housing is generally taxable income. However, the Foreign Housing Exclusion (Form 2555) may exclude a portion of the housing cost if you qualify for the FEIE. The exclusion is limited to 30% of the FEIE limit ($39,870 for 2025) minus a base amount ($20,240)."
+      },
+      {
+        "question": "Are teacher pensions from abroad taxable in the US?",
+        "answer": "Generally yes, unless a tax treaty exempts them. Many US tax treaties have provisions for government service pensions or teacher pensions. For example, the US-UK treaty generally exempts UK teacher pensions from US tax if the recipient is a UK resident. Each treaty is different and requires individual analysis."
+      },
+      {
+        "question": "Can I contribute to a 403(b) or IRA while teaching abroad?",
+        "answer": "You can contribute to an IRA if you have taxable compensation. However, if you exclude all your income under the FEIE, you may not have enough taxable compensation to support a contribution. Many teachers use the Foreign Tax Credit instead of the FEIE to preserve IRA contribution eligibility."
+      },
+      {
+        "question": "Do teachers get any special tax treaty benefits?",
+        "answer": "Yes. Many US tax treaties have specific articles for teachers and researchers that exempt teaching income from host-country tax for a limited period (typically 2 years). This does not exempt the income from US tax, but it may reduce or eliminate foreign tax, making the FEIE or FTC more valuable."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Teachers Abroad | International School Tax",
+      "description": "US tax filing for international school teachers abroad. FEIE, housing, pensions, treaty benefits, and state tax. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["teacher taxes abroad", "international school teacher tax", "teaching abroad taxes", "teacher pension abroad", "expat teacher tax"]
+    }
+  },
+  {
+    "slug": "dual-citizens",
+    "name": "Dual Citizens Abroad",
+    "headline": "Tax Filing for Dual Citizens Living Abroad",
+    "description": "Dual citizens face complex tax obligations in both countries. FileAbroad helps dual citizens navigate US and foreign tax rules, treaty benefits, and compliance requirements.",
+    "painPoints": [
+      "You are unsure whether you must file taxes in both countries.",
+      "You are confused about which country has the primary right to tax your income.",
+      "You have a foreign passport and are unsure whether it affects your US tax obligations.",
+      "You need to understand how tax treaties apply to your specific situation.",
+      "You are unsure about FBAR and FATCA reporting for your foreign accounts."
+    ],
+    "howWeHelp": [
+      "Review your citizenship status and tax residency in both countries.",
+      "Apply treaty tie-breaker rules and article-specific benefits.",
+      "Prepare your US return with proper foreign income reporting.",
+      "Advise on FBAR, Form 8938, and other foreign asset reporting.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "Foreign Tax Credit Guide", "href": "/guides/foreign-tax-credit-guide" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" }
+    ],
+    "relevantTools": [
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Do dual citizens have to file US taxes?",
+        "answer": "Yes. US citizens, including dual citizens, are subject to US tax on worldwide income regardless of where they live. Your foreign citizenship does not eliminate your US tax obligations. However, tax treaties, the FEIE, and the FTC can reduce or eliminate double taxation."
+      },
+      {
+        "question": "Which country taxes my income first?",
+        "answer": "It depends on the type of income and the tax treaty. Generally, employment income is taxed in the country of residence, business profits are taxed where the business is located, and passive income (dividends, interest) is taxed in the source country with a foreign tax credit available in the residence country. Each treaty article addresses specific income types."
+      },
+      {
+        "question": "Can I renounce my US citizenship to avoid US tax?",
+        "answer": "Renunciation eliminates future US tax obligations but may trigger the exit tax if you are a covered expatriate. It is a permanent, irrevocable decision with significant legal and travel consequences. You must also be compliant with US tax filing for the 5 years prior to renunciation. Consult an immigration attorney and tax specialist before deciding."
+      },
+      {
+        "question": "Do I need to report foreign accounts on FBAR?",
+        "answer": "Yes, if the aggregate value of all your foreign financial accounts exceeded $10,000 at any time during the year. This applies to all US persons, including dual citizens. FBAR is filed separately from your tax return and has its own penalties."
+      },
+      {
+        "question": "Can I use a foreign tax credit for tax paid to my other country?",
+        "answer": "Yes. The US Foreign Tax Credit allows you to claim a dollar-for-dollar credit for income taxes paid to a foreign country. This prevents double taxation on the same income. The credit is limited to the US tax liability on foreign-source income. Excess credits can be carried forward 10 years."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Dual Citizens Abroad | US Expat Tax",
+      "description": "US tax filing for dual citizens living abroad. Treaty benefits, tie-breaker rules, foreign tax credits, and compliance. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["dual citizen taxes", "dual citizen tax filing", "US foreign dual tax", "expat dual citizen tax", "tax treaty dual citizen"]
+    }
+  },
+  {
+    "slug": "married-foreign-spouse",
+    "name": "Married to a Foreign Spouse",
+    "headline": "Tax Filing for Americans Married to Foreign Spouses",
+    "description": "Married to a non-US person? FileAbroad helps you navigate joint vs. separate filing, foreign spouse elections, FBAR reporting, and cross-border tax planning.",
+    "painPoints": [
+      "You are unsure whether to file jointly or separately with your foreign spouse.",
+      "You are confused about the non-resident alien spouse election (Section 6013(g)).",
+      "You are unsure whether your foreign spouse's accounts need to be reported on FBAR.",
+      "You need to understand how your foreign spouse's income affects your US tax.",
+      "You are considering gifting assets to your foreign spouse and are unsure about gift tax."
+    ],
+    "howWeHelp": [
+      "Analyze joint vs. separate filing scenarios to determine the optimal strategy.",
+      "Prepare the non-resident alien spouse election (Form 6013(g)) if beneficial.",
+      "Determine FBAR and Form 8938 reporting requirements for spousal accounts.",
+      "Advise on gift tax rules for transfers to a foreign spouse ($185,000 annual exclusion for 2025).",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "relevantTools": [
+      { "label": "FBAR Checker", "href": "/tools/fbar-checker" },
+      { "label": "Tax Savings Estimator", "href": "/tools/tax-savings-estimator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Can I file jointly with my foreign spouse?",
+        "answer": "Yes, if you make the non-resident alien spouse election under Section 6013(g). This election treats your foreign spouse as a US resident for tax purposes, allowing you to file jointly. The election applies to the current year and all future years until revoked. Both spouses must report worldwide income."
+      },
+      {
+        "question": "Does my foreign spouse need an ITIN?",
+        "answer": "If you file jointly, your foreign spouse needs an ITIN (Individual Taxpayer Identification Number). You can apply for an ITIN by filing Form W-7 with your tax return. The process requires certified copies of your spouse's passport and can take several weeks."
+      },
+      {
+        "question": "Do I report my foreign spouse's accounts on FBAR?",
+        "answer": "It depends. If you have signature authority or a financial interest in your spouse's foreign accounts, you must report them on FBAR. Joint accounts are always reportable. Accounts solely in your spouse's name are generally not reportable by you, but may be reportable by your spouse if they are a US person."
+      },
+      {
+        "question": "Can I gift assets to my foreign spouse?",
+        "answer": "Yes, but special rules apply. For 2025, you can gift up to $185,000 per year to a non-citizen spouse without gift tax (this is a separate limit from the unlimited marital deduction for citizen spouses). Gifts above this amount require filing Form 709 and may consume your lifetime exemption ($13.99 million for 2025)."
+      },
+      {
+        "question": "How does my foreign spouse's income affect my US tax?",
+        "answer": "If you file separately, your foreign spouse's income generally does not affect your US tax. If you file jointly (via the 6013(g) election), you must include your spouse's worldwide income on your joint return. This may increase your tax liability but also provides access to higher standard deductions and lower joint tax brackets."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Americans Married to Foreign Spouses",
+      "description": "US tax filing for Americans married to non-US spouses. Joint filing, FBAR, gift tax, and cross-border planning. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["married to foreign spouse tax", "non resident alien spouse", "foreign spouse filing jointly", "FBAR foreign spouse", "gift tax foreign spouse"]
+    }
+  },
+  {
+    "slug": "content-creators",
+    "name": "Content Creators Abroad",
+    "headline": "Tax Filing for YouTubers, Influencers & Content Creators Abroad",
+    "description": "Creating content from abroad? FileAbroad helps YouTubers, influencers, and digital creators navigate self-employment tax, platform income, and international tax obligations.",
+    "painPoints": [
+      "You earn income from YouTube, TikTok, or other platforms and are unsure how to report it.",
+      "You receive brand deals from both US and foreign companies and are unsure about sourcing.",
+      "You need to deduct equipment, software, and travel expenses for content creation.",
+      "You are unsure whether the FEIE applies to your content creation income.",
+      "You have team members or contractors abroad and are unsure about payroll obligations."
+    ],
+    "howWeHelp": [
+      "Prepare your Schedule C with proper income and expense classification.",
+      "Determine whether platform income is self-employment income or royalty income.",
+      "Optimize FEIE vs FTC strategy for creator income.",
+      "Advise on quarterly estimated tax payments and self-employment tax.",
+      "Provide a written scope and exact quote before any work begins."
+    ],
+    "relevantContent": [
+      { "label": "FEIE Guide", "href": "/guides/feie-guide" },
+      { "label": "Expat Tax Guide", "href": "/guides/expat-tax-guide" },
+      { "label": "Quarterly Tax Calculator", "href": "/tools/quarterly-tax-calculator" }
+    ],
+    "relevantTools": [
+      { "label": "Quarterly Tax Calculator", "href": "/tools/quarterly-tax-calculator" },
+      { "label": "FEIE Calculator", "href": "/tools/feie-calculator" }
+    ],
+    "pricingNote": "Scope is determined after a paid consultation and written review of the relevant years, forms, records, and complexity.",
+    "faqs": [
+      {
+        "question": "Is YouTube income self-employment income?",
+        "answer": "Generally yes. Income from YouTube AdSense, sponsorships, and brand deals is typically treated as self-employment income (Schedule C) if you are actively creating content. Passive income from pre-existing content with minimal ongoing effort may be treated as royalty income. The distinction affects self-employment tax and deduction eligibility."
+      },
+      {
+        "question": "Can I deduct content creation expenses?",
+        "answer": "Yes. Ordinary and necessary business expenses are deductible, including camera equipment, software subscriptions, internet costs, travel for content creation, and home office expenses. Keep detailed records and receipts. Equipment over $2,500 per item may need to be depreciated rather than expensed immediately."
+      },
+      {
+        "question": "Do I pay tax in my country of residence on content income?",
+        "answer": "It depends on your country of residence. Most countries tax residents on worldwide income, including content creation income from US platforms. You may be able to claim a foreign tax credit on your US return for tax paid to your country of residence. Proper documentation is essential."
+      },
+      {
+        "question": "Should I form an LLC or corporation for my content business?",
+        "answer": "An LLC can provide liability protection and may offer tax benefits, but it also adds complexity (separate tax return, payroll if you have employees). For most solo creators, operating as a sole proprietor (Schedule C) is simplest. Consider an LLC once your income exceeds $75,000-$100,000 annually or you have significant liability risk."
+      },
+      {
+        "question": "How do I report cryptocurrency payments from sponsors?",
+        "answer": "Crypto payments are taxable as ordinary income at fair market value when received. You must report the USD equivalent on your tax return. Subsequent changes in the crypto's value trigger capital gains or losses when you sell or exchange it. Keep detailed records of the date, amount, and fair market value of each crypto payment."
+      }
+    ],
+    "seo": {
+      "title": "Tax Filing for Content Creators Abroad | YouTuber Tax",
+      "description": "US tax filing for YouTubers, influencers, and content creators living abroad. Self-employment tax, platform income, deductions, and FEIE. Start with a consultation to receive a written scope and next step.",
+      "keywords": ["YouTuber taxes abroad", "content creator tax", "influencer tax abroad", "digital creator tax", "self employment tax content creator"]
+    }
+  }
+]
