@@ -26,6 +26,7 @@ export default function Header() {
     { label: dict.nav.guides, href: '/guides' },
     { label: dict.nav.faq, href: '/faq' },
     { label: dict.nav.about, href: '/about' },
+    { label: dict.nav.contact, href: '/contact' },
   ];
 
   useEffect(() => {
