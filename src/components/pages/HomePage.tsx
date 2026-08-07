@@ -16,10 +16,10 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
   const isEnglish = locale === 'en';
 
   const services = [
-    { label: 'Form 1040', title: home.serviceAnnualTitle, description: home.serviceAnnualDesc, href: '/services/tax-filing' },
-    { label: 'FinCEN 114', title: servicesCopy.fbarFiling, description: servicesCopy.fbarFilingDesc, href: '/services/fbar-filing' },
-    { label: 'Form 8938', title: servicesCopy.fatcaCompliance, description: servicesCopy.fatcaComplianceDesc, href: '/services/fatca-compliance' },
-    { label: 'Catch-up', title: home.serviceStreamlinedTitle, description: home.serviceStreamlinedDesc, href: '/services/streamlined-filing' },
+    { label: 'Annual Return', title: home.serviceAnnualTitle, description: home.serviceAnnualDesc, href: '/services/tax-filing' },
+    { label: 'FBAR', title: servicesCopy.fbarFiling, description: servicesCopy.fbarFilingDesc, href: '/services/fbar-filing' },
+    { label: 'FATCA', title: servicesCopy.fatcaCompliance, description: servicesCopy.fatcaComplianceDesc, href: '/services/fatca-compliance' },
+    { label: 'Catch-Up', title: home.serviceStreamlinedTitle, description: home.serviceStreamlinedDesc, href: '/services/streamlined-filing' },
   ];
   const steps = [
     [process.step1Title, process.step1Description],
@@ -48,23 +48,26 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
       <section className="overflow-hidden pb-24 pt-2 lg:pb-32 lg:pt-4">
         <div className="mx-auto grid max-w-7xl items-center gap-14 px-6 lg:grid-cols-[1.1fr_.9fr] lg:px-8">
           <div>
-            <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">
-              {isEnglish ? 'U.S. Expat Tax Services from Ecuador' : home.heroLabel}
+            <p className="text-xs font-semibold uppercase tracking-widest text-accent">
+              {isEnglish ? 'U.S. Expat Tax Prep — Based in Cuenca, Ecuador' : home.heroLabel}
             </p>
             <h1 className="mt-6 max-w-4xl text-5xl font-light leading-[1.05] tracking-tight text-foreground sm:text-6xl lg:text-7xl">
-              {isEnglish ? 'Tax filing for Americans living abroad.' : `${home.heroTitle} ${home.heroTitleEmphasis}`}
+              {isEnglish ? 'Stop overpaying — or under-filing — the IRS while living abroad.' : `${home.heroTitle} ${home.heroTitleEmphasis}`}
             </h1>
             <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground sm:text-xl">
-              {isEnglish ? 'Work directly with one preparer for annual returns, FBAR, FATCA, foreign tax credits, and carefully screened catch-up filings.' : home.heroDescription}
+              {isEnglish ? 'Most expats either miss credits that would save them thousands, or forget a form that carries a $10,000+ penalty. I live in Ecuador, file my own expat return every year, and work directly with you from first review to filing. Every engagement starts with a paid consultation so we can map your exact situation before any preparation begins.' : home.heroDescription}
             </p>
-            <div className="mt-8">
+            <div className="mt-8 flex flex-col sm:flex-row gap-4">
               <Link href={localizeHref('/intake')} className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground transition-opacity hover:opacity-90">
-                {isEnglish ? 'Get Started' : home.heroCtaPrimary}<ArrowRight className="h-4 w-4" />
+                {isEnglish ? 'Reach Out About Your Filing' : home.heroCtaPrimary}<ArrowRight className="h-4 w-4" />
+              </Link>
+              <Link href={localizeHref('/consultation')} className="inline-flex items-center justify-center gap-2 rounded-lg border border-accent px-6 py-3 font-semibold text-accent transition-opacity hover:bg-accent/5">
+                {isEnglish ? 'See How Consultations Work' : home.heroCtaSecondary}
               </Link>
             </div>
             <ul className="mt-10 grid gap-5 sm:grid-cols-3">
-              {[home.heroTrustPoint1, isEnglish ? 'Fixed scope before work' : home.heroTrustPoint2, home.trustReviewBeforeFiling].map((point) => (
-                <li key={point} className="border-l border-muted pl-6 text-sm leading-relaxed text-muted-foreground">{point}</li>
+              {[home.heroTrustPoint1, isEnglish ? 'You approve the scope and price before preparation begins' : home.heroTrustPoint2, isEnglish ? 'PTIN holder and IRS e-file provider, living in Ecuador' : home.heroTrustPoint3].map((point) => (
+                <li key={point} className="border-l-2 border-accent pl-6 text-sm leading-relaxed text-muted-foreground">{point}</li>
               ))}
             </ul>
           </div>
@@ -159,10 +162,10 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
           </div>
           <div>
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{dict.about.heroLabel}</p>
-            <h2 className="mt-6 text-3xl font-medium tracking-tight text-foreground sm:text-4xl">{isEnglish ? 'One preparer, from first review to filing.' : home.aboutHeading}</h2>
+            <h2 className="mt-6 text-3xl font-medium tracking-tight text-foreground sm:text-4xl">{isEnglish ? 'I started FileAbroad because I could not find a preparer who actually lives abroad.' : home.aboutHeading}</h2>
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted-foreground">{home.aboutDescription}</p>
             <blockquote className="mt-8 border-l-2 border-accent pl-6 text-lg italic leading-relaxed text-foreground">
-              {isEnglish ? '“You should know who is preparing your return, what is included, and what happens next.”' : home.heroCardDescription}
+              {isEnglish ? '“You should know who is preparing your return, what is included, and what happens next — because they have filed the same forms themselves.”' : home.heroCardDescription}
             </blockquote>
             <div className="mt-8 flex flex-wrap gap-x-6 gap-y-3 text-sm font-semibold">
               <Link href={localizeHref('/about')} className="link-underline text-accent">{home.heroCardLink}</Link>
@@ -178,7 +181,7 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
             <p className="text-xs font-semibold uppercase tracking-widest text-muted-foreground">{home.faqSectionLabel}</p>
             <h2 className="mt-6 text-3xl font-medium tracking-tight text-foreground sm:text-4xl">{home.faqHeading}</h2>
             <p className="mt-6 leading-relaxed text-muted-foreground">{home.faqDescription}</p>
-            <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-foreground px-5 py-3 text-sm font-semibold text-background">{isEnglish ? 'Get Started' : home.aboutCtaIntake}</Link>
+            <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-foreground px-5 py-3 text-sm font-semibold text-background">{isEnglish ? 'Reach Out About Your Filing' : home.aboutCtaIntake}</Link>
           </div>
           <div>
             {faqs.slice(0, 6).map((faq) => (
@@ -197,10 +200,10 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
 
       <section className="bg-foreground py-24 text-background">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
-          <p className="text-xs font-semibold uppercase tracking-widest text-background/70">{isEnglish ? 'Ready to file?' : home.faqSectionLabel}</p>
-          <h2 className="mt-6 text-3xl font-medium tracking-tight sm:text-4xl">{isEnglish ? 'Start your filing path' : dict.faq.ctaTitle}</h2>
-          <p className="mx-auto mt-6 max-w-xl leading-relaxed text-background/75">{isEnglish ? 'Share the broad facts, identify the right filing path, and receive a clear written scope before preparation begins.' : dict.faq.ctaDescription}</p>
-          <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground">{isEnglish ? 'Get Started' : home.aboutCtaIntake}</Link>
+          <p className="text-xs font-semibold uppercase tracking-widest text-background/70">{isEnglish ? 'Ready to clarify your situation?' : home.faqSectionLabel}</p>
+          <h2 className="mt-6 text-3xl font-medium tracking-tight sm:text-4xl">{isEnglish ? 'Tell me about your filing situation' : dict.faq.ctaTitle}</h2>
+          <p className="mx-auto mt-6 max-w-xl leading-relaxed text-background/75">{isEnglish ? 'Share the broad facts and I will personally review them. If FileAbroad can accept the work, we schedule a paid consultation and you receive a written scope before any preparation begins.' : dict.faq.ctaDescription}</p>
+          <Link href={localizeHref('/intake')} className="mt-8 inline-flex rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground">{isEnglish ? 'Reach Out About Your Filing' : home.aboutCtaIntake}</Link>
         </div>
       </section>
     </>

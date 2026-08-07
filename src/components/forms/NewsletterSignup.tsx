@@ -77,10 +77,10 @@ export default function NewsletterSignup() {
             </div>
             <div>
               <h3 className="font-sans text-2xl font-bold text-foreground">
-                The FileAbroad Brief
+                Free Download: 2026 Expat Tax Deadline Calendar
               </h3>
               <p className="text-sm mt-1 text-muted-foreground">
-                Get the 2026 Expat Filing Deadline Calendar — FEIE limits, FBAR dates, and extension rules on one page. Occasional updates after that; no automated sequence.
+                One page with the deadlines most expats miss: FEIE limits, FBAR due dates, extension rules, and the form that triggers automatic penalties if forgotten. Enter your email and I will send it directly.
               </p>
             </div>
           </div>
@@ -104,10 +104,10 @@ export default function NewsletterSignup() {
               className="whitespace-nowrap bg-primary px-5 text-white hover:bg-foreground"
             >
               {status === 'loading' ? (
-                'Subscribing...'
+                'Sending...'
               ) : (
                 <>
-                  Subscribe
+                  Send Me the Calendar
                   <ArrowRight className="w-4 h-4 ml-2" />
                 </>
               )}

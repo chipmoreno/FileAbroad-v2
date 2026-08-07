@@ -71,15 +71,15 @@ export default function ConsultationLandingPage({ locale = 'en', pathway = 'gene
       <section className="border-y border-border bg-surface-elevated py-8 md:py-12">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
-            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-secondary">{data.label} · consultation-first process</p>
+            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-accent">{data.label} · paid consultation · written scope</p>
             <h1 className="max-w-4xl font-sans text-4xl font-bold leading-tight text-foreground md:text-6xl">{data.title}</h1>
             <p className="mt-6 max-w-3xl text-xl leading-relaxed text-muted-foreground">{data.description}</p>
             <div className="mt-8">
               <Link href={localized('/intake')} className="inline-flex items-center justify-center gap-2 rounded-md bg-primary px-7 py-4 text-lg font-bold text-primary-foreground hover:bg-foreground">
-                Get Started <ArrowRight className="h-5 w-5" />
+                Start an Intake <ArrowRight className="h-5 w-5" />
               </Link>
             </div>
-            <p className="mt-4 text-sm text-muted-foreground">Share broad facts first. The accepted scope, documents, and next step are confirmed in writing.</p>
+            <p className="mt-4 text-sm text-muted-foreground"><strong>No cost for the intake review.</strong> I review every intake personally and reply within one business day. If FileAbroad can accept the work, we schedule a paid consultation where you receive a written scope, document checklist, and flat quote — all yours to keep even if you do not proceed.</p>
           </div>
           <aside className="border-t-4 border-secondary bg-background p-7 shadow-sm">
             <div className="flex items-center gap-3 text-secondary"><ShieldCheck className="h-6 w-6" /><p className="text-xs font-bold uppercase tracking-[0.18em]">What the consultation clarifies</p></div>

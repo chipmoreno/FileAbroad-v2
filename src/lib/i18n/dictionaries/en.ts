@@ -33,17 +33,17 @@ const en: SiteDictionary = {
     ecuaPassLink: 'EcuaPass',
   },
   home: {
-    heroLabel: 'U.S. expat tax preparation · Clear scope · Direct communication',
-    heroTitle: 'A clear U.S. tax filing path for Americans abroad.',
-    heroTitleEmphasis: 'Prepared with Chip.',
+    heroLabel: 'U.S. Expat Tax Prep — Based in Cuenca, Ecuador',
+    heroTitle: 'Stop overpaying — or under-filing — the IRS while living abroad.',
+    heroTitleEmphasis: '',
     heroDescription:
-      'Federal returns, FEIE, FBAR, foreign tax credits, and catch-up filings, with a clear written scope before preparation begins.',
-    heroCtaPrimary: 'Start a free filing review',
-    heroCtaSecondary: 'See the consultation process',
-    heroMicrocopy: 'Three-minute intake · Personal reply within one business day',
-    heroTrustPoint1: 'Work directly with Chip',
-    heroTrustPoint2: 'You approve the quote before work begins',
-    heroTrustPoint3: 'PTIN holder · IRS e-file participant',
+      'Most expats either miss credits that would save them thousands, or forget a form that carries a $10,000+ penalty. I live in Ecuador, file my own expat return every year, and work directly with you from first review to filing. Every engagement starts with a paid consultation so we can map your exact situation before any preparation begins.',
+    heroCtaPrimary: 'Reach Out About Your Filing',
+    heroCtaSecondary: 'See How Consultations Work',
+    heroMicrocopy: 'I review every intake personally and reply within one business day',
+    heroTrustPoint1: 'Work directly with Chip — not a call center',
+    heroTrustPoint2: 'You approve the scope and price before preparation begins',
+    heroTrustPoint3: 'PTIN holder and IRS e-file provider, living in Ecuador',
     heroCardTitle: "Hi, I'm Chip Moreno.",
     heroCardDescription:
       'Chip Moreno lives in Ecuador and handles accepted filings from initial review through submission.',
@@ -73,7 +73,7 @@ const en: SiteDictionary = {
     serviceAnnualTitle: 'Annual Expat Return',
     serviceAnnualPrice: 'Consultation first',
     serviceAnnualDesc:
-      'A straightforward federal return after the facts and accepted scope are reviewed.',
+      'Most expats qualify to pay little or no U.S. tax — but only if Form 2555 or 1116 is filed correctly and supported by the right records. I review your Physical Presence Test, foreign residence status, and every credit you qualify for before any preparation begins.',
     serviceAnnualFeature1: 'Form 1040 preparation',
     serviceAnnualFeature2: 'Form 2555 or 1116 when applicable',
     serviceAnnualFeature3: 'One FBAR when required',
@@ -92,7 +92,7 @@ const en: SiteDictionary = {
     serviceStreamlinedTitle: 'Streamlined Catch-Up',
     serviceStreamlinedPrice: 'Consultation first',
     serviceStreamlinedDesc:
-      'Preparation for qualifying Streamlined Foreign Offshore cases after a focused assessment.',
+      'The IRS Streamlined Foreign Offshore procedure allows some expats to file past returns without certain penalties — but eligibility is strict and the certification is your responsibility. I review your facts in a paid consultation to see if this path fits before any preparation begins.',
     serviceStreamlinedFeature1: 'Required tax years and FBAR periods',
     serviceStreamlinedFeature2: 'Written document checklist',
     serviceStreamlinedFeature3: 'Key scope questions and required forms',
@@ -101,9 +101,9 @@ const en: SiteDictionary = {
     servicesFooterFbar: 'FBAR filing within written scope',
     servicesFooterConsultations: 'Consultation options',
     servicesFooterAllServices: 'View all services',
-    aboutHeading: 'Not sure which service fits?',
+    aboutHeading: 'I started FileAbroad because I could not find a preparer who actually lives abroad.',
     aboutDescription:
-      'Send only broad facts through the approved channel. A paid consultation identifies the next step; legal or representation questions may require another qualified professional.',
+      'Most expat tax firms are call centers in Ohio. You fill out a form, a junior preparer you have never met does your return, and you get a bill. I do the opposite: you work directly with me from the first fact review to the final filing. I live in Ecuador. I file my own FBAR every year. I know what a cedula is, why your Ecuadorian pension is not a 401(k), and which travel days count for the Physical Presence Test — because I count my own. Every engagement starts with a paid consultation so we can map your exact situation before any preparation begins.',
     aboutCtaWhatsApp: 'Ask a general question',
     aboutCtaIntake: 'Book a consultation',
     faqSectionLabel: 'Before you start',
@@ -122,7 +122,7 @@ const en: SiteDictionary = {
       'Federal return preparation with accepted foreign income reporting, credit, and exclusion forms defined in a written scope.',
     fbarFiling: 'FBAR Filing',
     fbarFilingDesc:
-      'Report your foreign bank accounts with FinCEN Form 114. Required if your foreign accounts exceed $10,000 at any point during the year.',
+      'If your foreign accounts totaled over $10,000 at any point — even for one day — you generally must file FBAR. The penalty for non-willful violations starts at $10,000 per account. I review your account history, aggregate the values correctly, and file before the deadline.',
     fatcaCompliance: 'FATCA Compliance',
     fatcaComplianceDesc:
       'Form 8938 preparation when filing status, residency, and specified foreign financial assets create a reporting requirement.',
@@ -141,9 +141,9 @@ const en: SiteDictionary = {
       'Review state-residency questions separately from your federal return. Moving abroad does not, by itself, end a state filing obligation.',
     ctaTitle: 'Not sure which service fits?',
     ctaDescription:
-      'Book a consultation to identify the right next step before preparation begins.',
-    ctaButton: 'Book a consultation',
-    learnMore: 'Learn more',
+      'Reach out and I will personally review your facts. If FileAbroad can accept the work, we schedule a paid consultation to identify the right next step before preparation begins.',
+    ctaButton: 'Reach Out About Your Filing',
+    learnMore: 'See how this works',
   },
   about: {
     pageTitle: 'About Chip Moreno',

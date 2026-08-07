@@ -12,8 +12,8 @@ export const consultationPathways: ConsultationPathwayData[] = [
   {
     slug: 'general',
     label: 'General consultation',
-    title: 'Get a written scope for your U.S. expat tax situation',
-    description: 'Start with a focused consultation when your income, accounts, filing history, or move makes the next step difficult to identify.',
+    title: 'Map Your Expat Filing Situation Before You Spend a Dollar on Preparation',
+    description: 'Most expats either over-file or under-file. In a paid consultation, I review your country, income, accounts, and filing history to map exactly what is required — and what is not — before any preparation work begins.',
     questions: [
       'Which years and returns may need attention?',
       'Which forms, accounts, or income sources should be reviewed?',
@@ -23,8 +23,8 @@ export const consultationPathways: ConsultationPathwayData[] = [
   {
     slug: 'pfic',
     label: 'PFIC consultation',
-    title: 'Review foreign funds before PFIC reporting becomes a surprise',
-    description: 'Use this path if you hold foreign mutual funds, ETFs, unit trusts, insurance products, or pension investments and need to map the Form 8621 questions.',
+    title: 'Foreign Funds and PFICs: The Surprise Tax Bill Most Expats Never See Coming',
+    description: 'Foreign mutual funds, ETFs, and pension investments can trigger PFIC rules and Form 8621 — often with harsh tax consequences. If you hold foreign investment products, use this paid consultation path to map the reporting questions before they become a problem.',
     questions: [
       'Which holdings may be PFICs and how are they owned?',
       'Are annual information statements available for an election?',
@@ -34,8 +34,8 @@ export const consultationPathways: ConsultationPathwayData[] = [
   {
     slug: 'streamlined',
     label: 'Streamlined consultation',
-    title: 'Map your catch-up filing path before preparing anything',
-    description: 'Use this path when you may need Streamlined Foreign Offshore Procedures, prior returns, FBARs, or a careful review of facts that FileAbroad cannot decide for you.',
+    title: 'The Penalty-Free Catch-Up Window: Do You Qualify?',
+    description: 'The IRS Streamlined program allows some expats to file past returns without certain penalties — but eligibility is strict and the certification is your responsibility. In a paid consultation, I review your facts to see if this path fits and what records you will need.',
     questions: [
       'Which filing years and FBAR periods are potentially incomplete?',
       'What facts and records are available for the required certification?',
@@ -45,8 +45,8 @@ export const consultationPathways: ConsultationPathwayData[] = [
   {
     slug: 'business-abroad',
     label: 'Business abroad consultation',
-    title: 'Scope foreign business and entity reporting before filing',
-    description: 'Use this path if you own or operate a foreign company, partnership, online business, or investment vehicle and need to identify the reporting questions first.',
+    title: 'Own a Business Abroad? The Reporting Rules Are a Minefield.',
+    description: 'Foreign companies, partnerships, and online businesses can trigger Forms 5471, 8858, 8865, and 8992 — often without the owner realizing it. In a paid consultation, I identify the entity and ownership questions that must be answered before any return can be prepared.',
     questions: [
       'What entity classification and ownership facts need to be documented?',
       'Could Forms 5471, 8858, 8865, 8992, or related schedules be involved?',

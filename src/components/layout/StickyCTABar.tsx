@@ -94,10 +94,10 @@ export default function StickyCTABar() {
             <button type="button" onClick={() => setIsExitIntentOpen(false)} className="absolute right-4 top-4 rounded-full p-1.5 text-muted-foreground hover:bg-muted" aria-label="Close consultation prompt">
               <X className="h-4 w-4" />
             </button>
-            <p className="text-xs font-bold uppercase tracking-[0.18em] text-secondary">Before you go</p>
-            <h2 id="exit-intent-title" className="mt-3 font-sans text-3xl font-bold text-foreground">Your situation deserves a written next step.</h2>
-            <p className="mt-4 leading-relaxed text-muted-foreground">Book a consultation to review the facts behind your filing path. Do not send Social Security numbers, account numbers, passports, or tax documents through this page.</p>
-            <Link href="/consultation" onClick={() => setIsExitIntentOpen(false)} className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground hover:bg-foreground">Get Started</Link>
+            <p className="text-xs font-bold uppercase tracking-[0.18em] text-accent">Before you go</p>
+            <h2 id="exit-intent-title" className="mt-3 font-sans text-3xl font-bold text-foreground">Are You Sure You Know What You Owe?</h2>
+            <p className="mt-4 leading-relaxed text-muted-foreground">Most expats either overpay by thousands or miss a form that triggers penalties. I review your situation personally and reply within one business day. No tax documents here — just the facts.</p>
+            <Link href="/intake" onClick={() => setIsExitIntentOpen(false)} className="mt-6 inline-flex items-center justify-center rounded-md bg-primary px-6 py-3 font-bold text-primary-foreground hover:bg-foreground">Reach Out About Your Filing</Link>
           </div>
         </div>
       )}
@@ -109,10 +109,10 @@ export default function StickyCTABar() {
           </div>
           <div className="min-w-0">
             <p className="text-sm font-semibold text-foreground">
-              Not sure which filing path fits?
+              Unsure about your expat filing situation?
             </p>
             <p className="text-xs text-muted-foreground">
-              Ask a general question. Do not send tax documents here.
+              Reach out and I will personally review your facts. No tax documents here.
             </p>
           </div>
         </div>
