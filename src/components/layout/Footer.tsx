@@ -1,5 +1,6 @@
 import Link from 'next/link';
 
+import NewsletterSignup from '@/components/forms/NewsletterSignup';
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
 import { type Locale, defaultLocale } from '@/lib/i18n/config';
 
@@ -23,6 +24,9 @@ export default function Footer({ locale = defaultLocale }: { locale?: Locale }) 
 
   return (
     <footer className="bg-[#1c1917] text-[#faf9f7]">
+      <div className="mx-auto max-w-7xl px-6 pt-16 lg:px-8">
+        <NewsletterSignup />
+      </div>
       <div className="mx-auto max-w-7xl px-6 py-20 lg:px-8">
         <div className="grid gap-12 sm:grid-cols-2 lg:grid-cols-4">
           <div>

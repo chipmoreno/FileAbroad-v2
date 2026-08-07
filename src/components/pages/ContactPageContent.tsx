@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Send, CheckCircle2, Mail } from "@/components/icons";
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import NewsletterSignup from "@/components/forms/NewsletterSignup";
 import { trackConversionEvent } from "@/components/analytics/ConversionTracking";
 import type { Locale } from "@/lib/i18n/config";
 
@@ -229,6 +230,7 @@ export default function ContactPageContent({
           </div>
         </section>
       </main>
+      <NewsletterSignup />
       <Footer locale={locale} />
     </>
   );

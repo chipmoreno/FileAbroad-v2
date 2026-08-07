@@ -2,6 +2,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowRight } from '@/components/icons';
 import { homepageFaqs, type FAQ } from '@/lib/faq-data';
+import NewsletterSignup from '@/components/forms/NewsletterSignup';
 
 import { getDictionary, localizePath } from '@/lib/i18n/utils';
 import { defaultLocale, type Locale } from '@/lib/i18n/config';
@@ -191,6 +192,8 @@ export default function HomePage({ locale = defaultLocale }: { locale?: Locale }
           </div>
         </div>
       </section>
+
+      <NewsletterSignup />
 
       <section className="bg-foreground py-24 text-background">
         <div className="mx-auto max-w-3xl px-6 text-center lg:px-8">
