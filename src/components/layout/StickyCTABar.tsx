@@ -117,12 +117,14 @@ export default function StickyCTABar() {
           </div>
         </div>
         <div className="flex shrink-0 items-center gap-2">
-          <Link
-            href="/consultation"
-            className="inline-flex min-h-12 items-center gap-2 rounded-md bg-secondary px-4 py-2.5 text-sm font-bold text-secondary-foreground hover:bg-secondary/90"
+          <a
+            href={`https://wa.me/${process.env.NEXT_PUBLIC_WHATSAPP_NUMBER || '593962848410'}?text=${encodeURIComponent("Hi Chip — I saw your site and have a question about my filing situation. [FA-MOBILE]")}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex min-h-12 items-center gap-2 rounded-md bg-[#25D366] px-4 py-2.5 text-sm font-bold text-white hover:bg-[#128C7E]"
           >
-            Book a consultation
-          </Link>
+            WhatsApp Chip
+          </a>
           <button
             type="button"
             onClick={dismiss}

@@ -5,9 +5,9 @@ import HomePage from '@/components/pages/HomePage';
 import { generateHreflang } from '@/lib/i18n/utils';
 
 export const metadata: Metadata = {
-  title: 'US Expat Tax Prep by Chip Moreno | Ecuador-Based PTIN Holder for Americans Abroad',
+  title: 'US Expat Tax Filing & FBAR | Chip Moreno in Ecuador',
   description:
-    'Stop overpaying or under-filing the IRS while living abroad. Work directly with Chip Moreno in Cuenca, Ecuador — PTIN holder and IRS e-file provider. Paid consultation first. Written scope before any preparation.',
+    'Americans abroad: stop overpaying or missing penalty-triggering forms. Work directly with Chip — PTIN holder, IRS e-file provider, based in Cuenca. Paid consultation. Written scope first.',
   alternates: {
     canonical: 'https://fileabroad.com',
     languages: generateHreflang('/'),

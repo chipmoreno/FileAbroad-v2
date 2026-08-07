@@ -3,8 +3,8 @@ import EditorialServicePage from '@/components/services/EditorialServicePage';
 import { getDictionary } from '@/lib/i18n/utils';
 
 export const metadata: Metadata = {
-  title: 'US Expat Tax Filing Service | File from Abroad',
-  description: 'One-on-one U.S. expat tax preparation from abroad, with accepted foreign-reporting work listed in a written scope before preparation.',
+  title: 'US Expat Tax Filing Online | Work Directly With Chip in Ecuador',
+  description: 'Most expats overpay or miss forms that trigger penalties. I review your situation personally, identify every credit you qualify for, and file correctly. PTIN holder. IRS e-file. Every engagement starts with a paid consultation.',
   alternates: { canonical: 'https://fileabroad.com/services/expat-tax-filing' },
 };
 

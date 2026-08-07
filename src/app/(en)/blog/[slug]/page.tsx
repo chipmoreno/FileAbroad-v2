@@ -236,9 +236,33 @@ export default async function BlogPostPage({ params }: Props) {
           {remainingContent && (
             <MarkdownContent source={remainingContent} />
           )}
-          <p className="not-prose mt-10 border-l-4 border-secondary bg-surface-elevated p-5 text-lg font-semibold leading-relaxed text-foreground">
-            Every expat tax situation is different. Book a consultation to get a written scope and next step.
-          </p>
+          <section className="not-prose my-12 border-t border-accent/20 bg-surface-elevated px-6 py-10">
+            <div className="mx-auto max-w-3xl">
+              <p className="text-xs font-bold uppercase tracking-[0.2em] text-accent">
+                Still unsure about your filing situation?
+              </p>
+              <h2 className="mt-4 font-sans text-2xl font-bold text-foreground md:text-3xl">
+                If this article raised more questions than it answered, that is normal.
+              </h2>
+              <p className="mt-4 leading-relaxed text-muted-foreground">
+                Tax rules depend on your exact facts: your country, your income, your accounts,
+                your filing history. I review every intake personally and reply within one business day.
+                If FileAbroad can accept the work, we schedule a paid consultation and you receive a
+                written scope before any preparation begins.
+              </p>
+              <div className="mt-6 flex flex-col gap-4 sm:flex-row">
+                <Link href="/intake" className="inline-flex items-center justify-center gap-2 rounded-lg bg-accent px-6 py-3 font-semibold text-accent-foreground hover:opacity-90">
+                  Reach Out About Your Filing
+                </Link>
+                <Link href="/consultation" className="inline-flex items-center justify-center gap-2 rounded-lg border border-accent px-6 py-3 font-semibold text-accent hover:bg-accent/5">
+                  See How Consultations Work
+                </Link>
+              </div>
+              <p className="mt-4 text-xs text-muted-foreground">
+                No tax documents here — just the broad facts.
+              </p>
+            </div>
+          </section>
         </div>
 
         {!post.reviewRequired && post.faqs?.length ? (
@@ -353,15 +377,17 @@ export default async function BlogPostPage({ params }: Props) {
                   <Link href="/about" className="text-secondary hover:underline">
                     Chip Moreno
                   </Link>
-                  {' '}helps Americans living abroad navigate U.S. tax obligations.
-                  Based in Ecuador, he understands the expat experience firsthand.
-                  Start with a{' '}
+                  {' '}is an American expat and PTIN holder based in Cuenca, Ecuador.
+                  He files his own FBAR and US return from Ecuador every year.
+                  Most expat tax firms are call centers in Ohio — Chip does the opposite:
+                  you work directly with him from first review to filing.
+                  Every engagement starts with a{' '}
                   <Link href="/consultation" className="text-secondary hover:underline">
-                    consultation
+                    paid consultation
                   </Link>
                   {' '}or{' '}
                   <Link href="/intake" className="text-secondary hover:underline">
-                    start your intake
+                    reach out here
                   </Link>
                   .
                 </p>

@@ -3,8 +3,8 @@ import EditorialServicePage from '@/components/services/EditorialServicePage';
 import { getDictionary } from '@/lib/i18n/utils';
 
 export const metadata: Metadata = {
-  title: 'Streamlined Foreign Offshore Tax Preparation',
-  description: 'Preparation for qualifying Streamlined Foreign Offshore submissions after a focused consultation and written scope review.',
+  title: 'Streamlined Filing for Expats Behind on US Taxes | Chip Moreno',
+  description: 'The IRS Streamlined program allows some expats to file past returns without certain penalties — but eligibility is strict. I review your facts in a paid consultation to see if you qualify before any preparation begins.',
   alternates: { canonical: 'https://fileabroad.com/services/streamlined-filing' },
 };
 

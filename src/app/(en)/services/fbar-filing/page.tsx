@@ -3,8 +3,8 @@ import EditorialServicePage from '@/components/services/EditorialServicePage';
 import { getDictionary } from '@/lib/i18n/utils';
 
 export const metadata: Metadata = {
-  title: 'FBAR Filing Service | Foreign Bank Account Reporting',
-  description: 'FBAR preparation for Americans abroad after a facts-and-scope review. Current-year and late filings are screened separately.',
+  title: 'FBAR Filing & Late FBAR Help for Americans Abroad | Chip Moreno',
+  description: 'Foreign accounts over $10,000? You likely must file FBAR. Late? The penalty starts at $10,000 per account. I review your account history and file correctly — from Ecuador. Paid consultation first. Written scope before work.',
   alternates: { canonical: 'https://fileabroad.com/services/fbar-filing' },
 };
 

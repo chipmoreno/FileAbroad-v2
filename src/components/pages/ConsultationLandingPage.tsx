@@ -71,7 +71,7 @@ export default function ConsultationLandingPage({ locale = 'en', pathway = 'gene
       <section className="border-y border-border bg-surface-elevated py-8 md:py-12">
         <div className="mx-auto grid max-w-6xl gap-10 px-6 lg:grid-cols-[1.1fr_0.9fr] lg:items-center">
           <div>
-            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-accent">{data.label} · paid consultation · written scope</p>
+            <p className="mb-4 text-xs font-bold uppercase tracking-[0.2em] text-accent">{data.label} · paid consultation · written scope · PTIN holder in Ecuador</p>
             <h1 className="max-w-4xl font-sans text-4xl font-bold leading-tight text-foreground md:text-6xl">{data.title}</h1>
             <p className="mt-6 max-w-3xl text-xl leading-relaxed text-muted-foreground">{data.description}</p>
             <div className="mt-8">
